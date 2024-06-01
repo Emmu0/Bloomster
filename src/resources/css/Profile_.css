@@ -1,0 +1,84 @@
+.RightbarPannel.p-0 .PannelContent {
+	height: auto;
+	overflow-y: hidden;
+	padding: 0 !important;
+}
+.profile_division {
+	border-radius: 0px;
+	margin: 0px 0px 0;
+}
+.heding-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #e36565;
+	padding: 5px 10px 5px;
+	border-radius: 0px 0px 0 0;
+	color: #fff;
+	border-bottom: 1px solid #bd2222;
+}
+.heding-title span {
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+.basicdetailsform .form-group.selectedField.collapsed::after {
+    transform: rotate(45deg);
+    top: 13px;
+	transition: all .5s;
+}
+/* .heding-title .fa-chevron-down.icon-show {
+	transform: rotate(180deg);
+	transition: 0.3s all;
+} */
+.panel-body {
+	margin-left: 0px;
+	margin-bottom: -2px;
+	margin-right: 0px;
+	position: relative;
+}
+.panel-collapse .panel-body:nth-child(1) {
+	margin-top: 10px;
+}
+.panel-body a {
+	color: #3b3b3b;
+}
+.panel-body a svg {
+	font-size: 15px;
+	color: #ccc;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.circlegreen {
+	/* display: inline-block !important; */
+	color: #48cfae !important;
+}
+.rightIcon {
+	display: none !important;
+}
+.circleIcon {
+	display: inline-block !important;
+}
+
+.active .rightIcon {
+	display: inline-block !important;
+}
+.active .circleIcon {
+	display: none !important;
+}
+.Progress-bar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: #fdd2d2;
+	padding-left: 31px;
+	padding: 7px 32px;
+	border-top: 1px solid #fdd2d2;
+}
+/* .child_profiles .heding-title {
+	background: #1a2d5a;
+	border-bottom: 1px solid #1a2d5a;
+} */
+.child_profiles .Progress-bar {
+	background: #c9d5f3;
+}

@@ -1,0 +1,460 @@
+import React,{useState, useEffect} from "react";
+import Home from "../Home";
+import { useSelector, useDispatch } from "react-redux";
+import {addResponse} from "../../redux/actions/ChatBoxAPIs";
+import * as image from "../../resources/images";
+const ChatBox = () => {
+	const dispatch = useDispatch();
+	const [chalja, setChalja] = useState();
+	const {
+	loggedInUser,
+	} = useSelector((state) => state.collections);
+	const {
+		loggedInChatbox,
+	} =  useSelector((state) => state.chatbox )
+	const sendClick = (loggedInUser) =>{
+		dispatch(addResponse(loggedInUser));
+	}
+	useEffect(() => {
+		setChalja(loggedInChatbox);
+	}, [loggedInChatbox]);
+	
+ 
+  return (
+  <div>
+	/*<Home> <button onClick={()=> sendClick(loggedInUser)}>Send</button></Home>-->*/
+	<Home>
+      <div className="d-flex w-100 VCharboard">
+        <div className="LeftbarPannel p-0" id="ChatBoard">
+          <div className="heading flex">
+            <h2>
+              <img src={image.message_color} className="mr-2" alt="" /> Messages{" "}
+            </h2>
+            <div className="VKprofile">
+              <div className="vkprofilename">
+                <a href="#">
+                  <i className="fa fa-user"></i>Sara Smith
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="chatingBoard">
+            <div className="chatProfile d-flex">
+              <div className="ChatProImg">
+                <div className="chatlist-ring">
+                  <img src={image.userProfile} alt="" />
+                </div>
+              </div>
+              <div className="chatbordProStrip flex">
+                <div className="ChatName">
+                  <h4 className="flex">Adam Markram</h4>
+                </div>
+                <div className="_1QVfy _3UaCz flex">
+                  <div className="searchtxtChat">
+                    <span className="">
+                      <i className="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                  </div>
+                  <div className="conversation-menu-button">
+                    <span>
+                      <i className="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="MessageChatList">
+              <div className="conversation-panel-messages">
+                <div className="qh5tioqs">
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>05/11/22</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Hi</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Hi</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>Yesturday</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>How are you</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>Today</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>i am good </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Whats going on </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>
+                          An online chat text message service allows you to
+                          receive and reply to text messages from customers. All
+                          a customer needs is their mobile phone
+                        </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>05/11/22</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Hi</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Hi</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                          <div className="l7jjieqr">
+                            <span>
+                              <img src={image.chatbox_blue_tick} alt="" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>Yesturday</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>How are you</span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="_1-FMR_15WYQ focusable-list-item">
+                    <div className="Dateitems">
+                      <span>Today</span>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>i am good </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                          <div className="l7jjieqr">
+                            <span>
+                              <img src={image.chatbox_grey_tick} alt="" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-in">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>Whats going on </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                        </div>
+                      </div>
+                      <div className="ListIcon">
+                        <span
+                          className="threeDots"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          id="navbardropdownAct2"
+                          data-toggle="dropdown"
+                        >
+                          <i className="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+
+                        <ul
+                          className="dropdown-menu dropdown-menu-end"
+                          aria-labelledby="navbardropdownAct2"
+                        >
+                          <li>
+                            {" "}
+                            <div className="ActivityCategory border-0">
+                              <h4 className="d-flex align-items-center p-0 border-0">
+                                <i className="fa-regular fa-comments mr-2"></i>
+                                Message Activity
+                              </h4>
+                            </div>
+                          </li>
+
+                          <li>
+                            <i className="fa-light fa-reply mr-2"></i>Reply
+                          </li>
+                          <li>
+                            <i className="fa-light fa-forward mr-2"></i>Forword
+                            Message
+                          </li>
+                          <li>
+                            <i className="fa-light fa-flag mr-2"></i>Report
+                          </li>
+                          <li>
+                            <i className="fa-light fa-trash-can mr-2"></i>Delete
+                            Message
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="focusable-list-item message-out">
+                    <div className="msg-container">
+                      <div className="copyable-text">
+                        <span>
+                          An online chat text message service allows you to
+                          receive and reply to text messages from customers. All
+                          a customer needs is their mobile phone
+                        </span>
+                        <div className="_1beEj">
+                          <span className="l7jjieqr">10:10</span>
+                          <div className="l7jjieqr">
+                            <span>
+                              <i className="fa-light fa-check"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="ListIcon">
+                        <span
+                          className="threeDots"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          id="navbardropdownAct1"
+                          data-toggle="dropdown"
+                        >
+                          <i className="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+
+                        <ul
+                          className="dropdown-menu dropdown-menu-end"
+                          aria-labelledby="navbardropdownAct1"
+                        >
+                          <li>
+                            {" "}
+                            <div className="ActivityCategory border-0">
+                              <h4 className="d-flex align-items-center p-0 border-0">
+                                <i className="fa-regular fa-comments mr-2"></i>
+                                Message Activity
+                              </h4>
+                            </div>
+                          </li>
+
+                          <li>
+                            <i className="fa-light fa-reply mr-2"></i>Reply
+                          </li>
+                          <li>
+                            <i className="fa-light fa-forward mr-2"></i>Forword
+                            Message
+                          </li>
+                          <li>
+                            <i className="fa-light fa-flag mr-2"></i>Report
+                          </li>
+                          <li>
+                            <i className="fa-light fa-trash-can mr-2"></i>Delete
+                            Message
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ChatFooter">
+              <div className="_2cYbV">
+                <div className="copyable-area flex">
+                  <div className="basicShareContent d-flex">
+                    <div className="emozi">
+                      <span>
+                        <i className="fa-regular fa-face-smile"></i>
+                      </span>
+                    </div>
+                    <div className="shareTypeContent">
+                      <span>
+                        <i className="fa-regular fa-paperclip"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="inputchatBoxWrap d-flex">
+                    <div className="inputChatbox">
+                      <div className="input-Group">
+                        <div className="input-form">
+                          <input
+                            type="text"
+                            placeholder="Type a Message"
+                            className="form-control"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="SendChatTxt flex">
+                      <span>
+                        <i className="fa-solid fa-paper-plane-top"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="RightbarPannel p-0">
+          <div className="heading">
+            <h2>
+              <img src={image.network_color} className="mr-2" alt="" /> My
+              Network
+            </h2>
+          </div>
+          <div className="tabgrid cbTabs m-0">
+            <ul>
+              <li className="tabs active-tabs">
+                <i className="fa-regular fa-messages"></i> Friends
+              </li>
+              <li className="tabs">
+                <i className="fa-regular fa-users"></i> Groups
+              </li>
+              <li className="tabs">
+                <i className="fa-regular fa-user"></i> Providers
+              </li>
+            </ul>
+          </div>
+          <div className="ProListingwrap">
+            <div className="SearchcHat">
+              <div className="input-group placeholderseach">
+                <div className="form-group">
+                  <span className="">
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                  </span>
+                  <input
+                    type="text"
+                    placeholder="search..."
+                    className="form-control"
+                  />
+                  <div className="searchIcon"></div>
+                </div>
+              </div>
+            </div>
+            <div className="chat-list">
+              <div className="chatProfile d-flex ActiveChat">
+                <div className="ChatProImg">
+                  <div className="chatlist-ring">
+                    <img src={image.userProfile} alt="" />
+                  </div>
+                </div>
+
+                <div className="ChatName">
+                  <h4 className="flex">
+                    Adam Markram <span>13:00</span>
+                  </h4>
+                  <p>
+                    <span>Sara: </span>Lorem ipsum dolor sit amet, consectetur
+                  </p>
+                </div>
+              </div>
+              <div className="chatProfile d-flex">
+                <div className="ChatProImg">
+                  <div className="chatlist-ring">
+                    <img src={image.CourseProviderThumb} alt="" />
+                  </div>
+                </div>
+
+                <div className="ChatName">
+                  <h4 className="flex">
+                    Britney Watson <span>13:00</span>
+                  </h4>
+                  <p>
+                    <span>Sara: </span>Lorem ipsum dolor sit amet, consectetur
+                  </p>
+                </div>
+              </div>
+              <div className="chatProfile d-flex">
+                <div className="ChatProImg">
+                  <div className="chatlist-ring">
+                    <img src={image.holisticJounrey} alt="" />
+                  </div>
+                </div>
+
+                <div className="ChatName">
+                  <h4 className="flex">
+                    Christina Martin <span>13:00</span>
+                  </h4>
+                  <p>
+                    <span>Sara: </span>Lorem ipsum dolor sit amet, consectetur
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Home>
+  </div>
+  )
+  
+};
+export default ChatBox;

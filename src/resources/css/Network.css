@@ -1,0 +1,134 @@
+.networkBoard {
+    width: 97%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 10px 12px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
+    border-radius: 7px;
+}
+div#NetworkBoard {
+    background: transparent;
+    box-shadow: none!important;
+    border: none!important;
+}
+#NetworkBoard .networkPost {
+    width: 100%;
+    /* border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 7px; */
+}
+h4.imageCircle {
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 2.2;
+}
+#NetworkBoard .networkPost .postField {
+    width: 94%;
+}
+
+#NetworkBoard .networkPost .postField input{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px 15px;
+    height: 49px;
+    align-content: baseline;  
+}
+.submitPost span{
+    font-size: 15px;
+    color: #5c5c5c;
+    cursor: pointer;
+}
+.postField h4 {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1;
+}
+.postField p {
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.postField p span{
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-top: 0;
+}
+.timelinePost p {
+    font-size: 14px;
+    line-height: 1.3;
+}
+.timelinePost p a{
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-top: 0;
+}
+.timelinePost p a.postHashtags{
+    color: #329fff;
+}
+.timelinePost p a:hover{
+    color: #329fff;
+    text-decoration: underline;
+}
+.timelineComment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 10px;
+}
+.timelineComment span a{
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-top: 0;
+    padding: 10px 20px;
+}
+.timelineComment span a:hover{
+    color: #329fff;
+    background: #eee;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.timelineComment span svg{
+    font-size: 18px;
+}
+.articleUpload{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18%;;
+}
+.sendBtn{
+    width: 49px!important;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 52px!important;
+    margin-left: 5px!important;
+    transform: rotate(45deg);
+    background: #329fff;
+    color: #fff;
+}
+span.mostRelevant{
+    font-size: 12px;
+    color: #5a5a5a;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.commentBox {
+    background: #f3f2f2;
+    padding: 10px;
+    width: 100%;
+}
+p.postComment {
+    color: #303030;
+    padding-top: 10px;
+    font-size: 14px;
+}

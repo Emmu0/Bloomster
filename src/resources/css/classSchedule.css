@@ -1,0 +1,51 @@
+#ClassSchedule .teachernameDiv,
+.classtimingDiv {
+    width: 50%;
+    float: left;
+}
+
+#ClassSchedule .teachernameDiv h5 span,
+.classtimingDiv h5 span,
+.classnameDiv h5 span {
+    font-weight: 500;
+}
+
+#ClassSchedule hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ClassSchedule table {
+    border-color: #877676;
+    width: 100%;
+}
+
+#ClassSchedule table th {
+    font-size: 16px;
+    background-color: #329fff;
+    color: white;
+}
+
+#ClassSchedule table .subheading {
+    background-color: rgb(231, 231, 231);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#ClassSchedule table .heading-th {
+    width: 200px;
+    max-width: 200px;
+}
+
+#ClassSchedule table td {
+    color: #232323;
+    font-size: 16px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#ClassSchedule table td span {
+    font-size: 13px;
+}

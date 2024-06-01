@@ -1,0 +1,93 @@
+#whyPlanPopup .modal-body{
+    padding:10px 10px 10px 10px !important;
+}
+#whyPlanPopup .flex-child{
+    flex: 1;
+}
+#whyPlanPopup .infopopup_txt p
+{
+    font-size: 20px !important;
+}
+#whyPlanPopup .Seocialaaproch.MindfulnessApproch {
+    background: #a769d9;
+    position: absolute;
+    top: 143px;
+    left: 243px;
+}
+#whyPlanPopup img.mindfulnessarrow{
+    position: relative;
+    top: 127px;
+    left: 200px;
+    transform: rotate(-130deg);
+    max-width: 20px;
+}
+
+#whyPlanPopup .Seocialaaproch.intellectualApproch {
+    background: #83b612;
+    position: absolute;
+    top: 0px;
+    left: 283px;
+}
+
+#whyPlanPopup img.intellectualarrow {
+    position: relative;
+    top: 50px;
+    left: 180px;
+    transform: rotate(150deg);
+    max-width: 20px;
+}
+
+#whyPlanPopup .Seocialaaproch.EmotioanlApproch {
+    background: #e46666;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+#whyPlanPopup .Straightarrow{
+    max-width: 60px;
+    height: 50px;
+}
+#whyPlanPopup .downArrow img {
+    max-width: 50px;
+    transform: rotate(0deg);
+    position: relative;
+    left: 176px;
+    bottom: 68px;
+}
+#whyPlanPopup .holisticnewappoch{
+    padding: 0px 0px 0px 10px;
+}
+#whyPlanPopup .holisticflowr {
+    text-align: center;
+    padding: 0px 0px 10px;
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+#whyPlanPopup .skilanddimensioncircle.Holisticgtflr {
+    border: 0;
+    background: none;
+    width: 185px;
+    height: 170px;
+    margin-top: 90px;
+}
+
+#whyPlanPopup  .Holosticcircle {
+    width: 155px;
+    height: 153px;
+    top: 55%;
+}
+
+#whyPlanPopup .dimensionapproch{
+    position: relative;
+    top: -20px;
+}
+#whyPlanPopup .centeralapproch {
+    position: relative;
+    top: 118px;
+}
+#whyPlanPopup .newEnrollCoursPopup .modal-content {
+    max-height: 97vh;
+    overflow-y: auto;
+}

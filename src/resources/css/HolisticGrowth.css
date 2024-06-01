@@ -1,0 +1,264 @@
+.WhyHolistic,
+.BlogList {
+  padding-top: 52px;
+}
+.bannerleft h5 a {
+  color: #329fff;
+  padding-right: 5px;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+.WhyHolistic .impoDesc p {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.AllDiemesionmerged p {
+  text-align: left;
+}
+.impoDesc p span {
+  color: red;
+}
+.WHDieList li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+  color: #555454;
+}
+/* .WHDieList li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: #ffcc00;
+} */
+.WhyHolistic p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555454;
+}
+.HGprocess h4 {
+  font-size: 20px;
+}
+.WHDieList li,
+.WHDieList li a {
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 7px;
+  list-style: decimal;
+}
+.WHDieList ul ul li,
+.WHDieList ul ul li a {
+  list-style: lower-alpha;
+}
+.WHDieList li ul {
+  padding: 10px 0px;
+}
+.WHDieList li ul li {
+  list-style: lower-alpha;
+}
+.WHDieList p {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  font-style: italic;
+  text-align: left;
+}
+.WHDieList img {
+  border: 3px solid #1ec0d8;
+  margin-bottom: 30px;
+}
+
+.WHDieList img.imgicon_styl {
+  max-width: 25px;
+  border: none;
+  padding: 0;
+  height: 25px;
+  margin-bottom: 0;
+}
+
+.WHDieList ul {
+  padding-left: 30px !important;
+}
+
+/* .WHDieList li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: #ffcc00;
+} */
+.HGprocess h4 {
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0px;
+  color: #011b38;
+}
+.Processaccordianlist {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  position: relative;
+}
+.Processaccordianlist h4 {
+  padding: 10px 35px 10px 15px;
+  border-bottom: 1px solid #c9d5e0;
+  background: #f5faff;
+  font-size: 21px;
+  text-align: left;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+}
+.Processaccordianlist h4 img {
+  max-width: 30px;
+}
+.ProcessStepDesc {
+  padding: 10px 15px;
+}
+span.AngleupDown {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  transition: all 0.3s;
+  font-size: 20px;
+  color: #212121;
+}
+.Processaccordianlist h4[aria-expanded="true"] .AngleupDown {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+.implwmentPlanibg {
+  background: url("../images/Bottombanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.implwmentPlanibg {
+  padding: 50px 0;
+  text-align: center;
+}
+.implwmentPlanibg h4 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.implwmentPlanibg p {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+section.wHbanner {
+  padding: 50px 0px 150px 0px;
+  background: #f0f2f8;
+  background-image: url("../images/providerbtm_back.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.implwmentPlanibg a {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid#fff;
+  font-size: 14px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.implwmentPlanibg a button {
+  color: #fff;
+}
+.ResponsiblityItems.mb-3 strong {
+  color: #329fff;
+}
+.providerF .menuList.landingpageMenu li,
+.providerF .menuList.landingpageMenu li a {
+  color: #232323;
+}
+
+.imagePart ul li {
+  font-size: 16px;
+  padding: 10px 10px;
+  border-bottom: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+.imagePart ul li:hover {
+  padding: 10px 20px;
+  transition: all ease 0.5s;
+  background: #eee;
+}
+.imagePart ul li.active {
+  transition: all ease 0.5s;
+  background: #eee;
+}
+.PannelContent h2 {
+  font-size: 28px;
+  color: #011b38;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.anything_succes {
+  padding: 40px 0px;
+}
+
+.anything_succes h2 {
+  font-size: 21px;
+  color: #85b812;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.anything_succes p {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* .PannelContent p {
+    font-size: 18px;
+    color: #575757;
+} */
+
+.WHDieList li strong.bluestyl {
+  color: #0070d2;
+  text-transform: capitalize;
+}
+.WHDieList li strong svg.plusstyle {
+  color: #48cfae;
+}
+
+/* Added By Alfaiz on 5-2-2024 */
+.text-lowercase {
+  text-transform: lowercase;
+}
+/* Added By Alfaiz on 6-2-2024 */
+.WHDieList li strong.bluestyl .add-icon-style {
+  color: #48cfae !important;
+}
+
+/* Added by alfaiz on 12-2-2024 for help page videos carousel  */
+#helpVideosCarousel .help-carousel-imgs {
+  cursor: pointer;
+}
+.owl-carousel .item {
+  text-align: center;
+}
+#helpVideosCarousel .fa-angle-left,
+#helpVideosCarousel .fa-angle-right {
+  color: #fff;
+  background: #4169e1 !important;
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: unset !important;
+}
+/* End by alfaiz on 12-2-2024 for help page videos carousel*/

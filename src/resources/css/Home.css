@@ -1,0 +1,703 @@
+@font-face {
+  font-family: 'BicycletteThin';
+  src: url('../fonts/Bicyclette-Thin.eot');
+  src: local('Bicyclette Thin'), local('Bicyclette-Thin'),
+      url('../fonts/Bicyclette-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Thin.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Thin.woff') format('woff'),
+      url('../fonts/Bicyclette-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BicycletteBold';
+  src: url('../fonts/Bicyclette-Bold.eot');
+  src: local('Bicyclette Bold'), local('Bicyclette-Bold'),
+      url('../fonts/Bicyclette-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Bold.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Bold.woff') format('woff'),
+      url('../fonts/Bicyclette-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BicycletteRegular';
+  src: url('../fonts/Bicyclette-Regular.eot');
+  src: local('Bicyclette Regular'), local('Bicyclette-Regular'),
+      url('../fonts/Bicyclette-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Regular.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Regular.woff') format('woff'),
+      url('../fonts/Bicyclette-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BicycletteUltra';
+  src: url('../fonts/Bicyclette-Ultra.eot');
+  src: local('Bicyclette Ultra'), local('Bicyclette-Ultra'),
+      url('../fonts/Bicyclette-Ultra.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Ultra.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Ultra.woff') format('woff'),
+      url('../fonts/Bicyclette-Ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BicycletteBlack';
+  src: url('../fonts/Bicyclette-Black.eot');
+  src: local('Bicyclette Black'), local('Bicyclette-Black'),
+      url('../fonts/Bicyclette-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Black.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Black.woff') format('woff'),
+      url('../fonts/Bicyclette-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BicycletteItalic';
+  src: url('../fonts/Bicyclette-Italic.eot');
+  src: local('Bicyclette Italic'), local('Bicyclette-Italic'),
+      url('../fonts/Bicyclette-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Italic.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Italic.woff') format('woff'),
+      url('../fonts/Bicyclette-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BicycletteLight';
+  src: url('../fonts/Bicyclette-Light.eot');
+  src: local('Bicyclette Light'), local('Bicyclette-Light'),
+      url('../fonts/Bicyclette-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bicyclette-Light.woff2') format('woff2'),
+      url('../fonts/Bicyclette-Light.woff') format('woff'),
+      url('../fonts/Bicyclette-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+
+
+.NHPreogressouter {
+  width: 180px;
+  height: 180px;
+  background: #e3e3e3;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  border: 4.5px solid #e3e3e3;
+  box-sizing: content-box;
+}
+
+.NHProgressinner {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -4.5px;
+  width: 65%;
+  height: 65%;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 50%;
+  background: #e8b62f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NHProgressinner p {
+  font-size: 16px;
+  /* color: #fff; */
+}
+.NhPageWrap {
+  padding: 10px 10px;
+}
+
+.NhPageWrap h3 {
+  padding: 0px 60px;
+}
+
+.NHProgreschartList.flex {
+  padding: 20px 0;
+  align-items: flex-start;
+}
+
+.NHProgresslistitem.NhHolisticProgress .NHPreogressouter,
+.NHProgresslistitem.NHProgresslistitem.simneskillcombo .NHPreogressouter {
+  width: 250px;
+  height: 250px;
+}
+.NHDimeProgName img {
+  max-width: 24px;
+  margin-right: 5px;
+}
+.NHDimeProgName img.chat_icon,
+.HolisticgrowthFlwr img.chat_icon,
+.skillsliitem h4 img.chat_icon {
+  max-width: 16px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.NHProgresslistitem {
+  width: 30%;
+  margin: 10px auto 0px;
+}
+.NHProgresslistitem:nth-child(3n + 2) {
+  width: 40%;
+}
+.NHProgresslistitem.SocialitemsNH .NHProgressinner {
+  background: #ff9900;
+}
+
+.allitemsNH .NHProgressinner {
+  background: royalblue;
+  transform: translate(-50%, 50%);
+  bottom: 50%;
+}
+.NHProgresslistitem.EmotionalitemsNH .NHProgressinner {
+  background: #dd6363;
+}
+.NHProgresslistitem.MindfulnessitemsNH .NHProgressinner {
+  background: #a769d9;
+}
+.NHProgresslistitem.PhysicalitemsNH .NHProgressinner {
+  background: #1ec1d9;
+}
+.NHProgresslistitem.IntellectualitemsNH .NHProgressinner {
+  background: #83b612;
+}
+.heading h2 img.chat_icon,
+.Home_two img.chat_icon {
+  max-width: 20px;
+}
+.Home_two .tabgrid:before {
+  border: 0;
+}
+.backpageStrip a {
+  font-size: 16px;
+}
+.backpageStrip {
+  padding: 10px 10px 0;
+}
+.skillsliitem .NHProgressinner {
+  background: #0096fe;
+}
+.NHProgresslistitem.simneskillcombo .NHProgressinner {
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+.HGmaincircle {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  position: relative;
+  border: 1px solid #ccc;
+  background: #e3e3e3;
+  border-radius: 50%;
+}
+.Dimen_Circle_inner p {
+  position: absolute;
+  left: -18px;
+  transform: translateY(-50%);
+  top: 35%;
+  font-weight: 600;
+}
+.Dimen_Circle_inner p.planetProgress {
+  left: -26px;
+}
+.Dimen_Circle_inner p.planetprog {
+  left: -28px;
+}
+.planetprog .HGInner_cirlce p {
+  font-weight: 600;
+}
+.HolinnerProgcircle.HGMindfulnesscrl .Dimen_Circle_inner p,
+.HolinnerProgcircle.HGIntellectualcrl .Dimen_Circle_inner p {
+  left: auto;
+  right: -18px;
+}
+.HGEmotionalcrl .Dimen_Circle_inner p.fullprogress {
+  left: -32px;
+}
+.HolinnerProgcircle.HGMindfulnesscrl .Dimen_Circle_inner p.fullprogress {
+  right: -32px;
+}
+.HolinnerProgcircle.HGPhysicalcrl .Dimen_Circle_inner p {
+  right: -18px;
+  top: 90%;
+}
+.HolinnerProgcircle.HGIntellectualcrl .Dimen_Circle_inner p {
+  right: -18px;
+  top: 90%;
+}
+.HolinnerProgcircle.HGMindfulnesscrl .Dimen_Circle_inner p.planetProgress {
+  right: -26px;
+}
+.HolinnerProgcircle.HGMindfulnesscrl .Dimen_Circle_inner p.planetprog {
+  right: -28px;
+}
+.HolinnerProgcircle.HGIntellectualcrl .Dimen_Circle_inner p.planetProgress,
+.HolinnerProgcircle.HGPhysicalcrl .Dimen_Circle_inner p.planetProgress {
+  right: -26px;
+}
+.HolinnerProgcircle.HGIntellectualcrl .Dimen_Circle_inner p.planetprog,
+.HolinnerProgcircle.HGPhysicalcrl .Dimen_Circle_inner p.planetprog {
+  right: -28px;
+}
+.HolinnerProgcircle.HGSocialcrl .Dimen_Circle_inner p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+}
+.HolisticgrowthFlwr {
+  padding: 100px 0 0;
+}
+
+.HolinnerProgcircle {
+  width: 150px;
+  height: 150px;
+  /* background: #ddd; */
+  position: absolute;
+  border-radius: 50%;
+}
+.HolinnerProgcircle.HGSocialcrl .Dimen_Circle_inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ff9900;
+}
+
+.HolinnerProgcircle.HGSocialcrl {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.HolinnerProgcircle.HGEmotionalcrl.flextwo {
+  top: 33%;
+  left: 2.8%;
+  transform: translate(-50%, -50%);
+}
+
+.HolinnerProgcircle.HGEmotionalcrl.flextwo .Dimen_Circle_inner {
+  width: 100%;
+  height: 100%;
+  background: #e46666;
+  border-radius: 50%;
+}
+
+.HolinnerProgcircle.HGMindfulnesscrl {
+  top: 33%;
+  left: 97.4%;
+  transform: translate(-50%, -50%);
+}
+.HolinnerProgcircle.HGMindfulnesscrl .Dimen_Circle_inner {
+  background: #a769d9;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.HolinnerProgcircle.HGPhysicalcrl {
+  top: 90%;
+  transform: translate(-50%, -50%);
+  left: 20%;
+}
+
+.HolinnerProgcircle.HGPhysicalcrl .Dimen_Circle_inner {
+  width: 100%;
+  height: 100%;
+  background: #1ec1d9;
+  border-radius: 50%;
+}
+.HGInner_cirlce {
+  min-width: 120%;
+  height: 120%;
+  background: royalblue;
+  border-radius: 50%;
+  z-index: 1;
+  flex-wrap: wrap;
+  border: 1px solid #fff;
+  align-content: center;
+}
+.HGInner_cirlce p,
+.HGInner_cirlce h3 {
+  color: #fff;
+}
+
+.HolinnerProgcircle.HGIntellectualcrl {
+  top: 90%;
+  transform: translate(-50%, -50%);
+  left: 80.5%;
+}
+
+.Dimen_Circle_inner {
+  border-radius: 50%;
+  background: #83b612;
+  width: 100%;
+  border: 1px solid #fff;
+  position: relative;
+  height: 100%;
+}
+.NHProgresslistitem:nth-child(3n + 2) {
+  margin-top: 95px;
+}
+.NHPreogressouter .NHProgressinner p {
+  position: absolute;
+  font-weight: 600;
+  left: 50%;
+  transform: translate(-50%);
+  top: -22px;
+}
+.NHProgresslistitem:nth-child(4),
+.NHProgresslistitem:nth-child(6) {
+  margin-top: -75px;
+}
+/* .Hometwowrap .NHProgresslistitem:nth-child(4),
+.Hometwowrap .NHProgresslistitem:nth-child(6) {
+  margin-top: -100px;
+} */
+.NHProgresslistitem:nth-child(5) {
+  margin-top: 67px;
+}
+.HomeProgresstilt {
+  padding: 10px 10px;
+  background: #f5f9fd;
+  border-bottom: 1px solid #c9c9c9;
+  cursor: pointer;
+  font-size: 17px;
+}
+.proficencyprog circle.rc-progress-circle-path {
+  stroke: #008aea !important;
+}
+.TimProgress circle.rc-progress-circle-path {
+  stroke: #ffb300 !important;
+}
+.progressHomes {
+  overflow: auto;
+  max-height: 78vh;
+}
+
+/* .NHProgresslistitem {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes example {
+    0%   { left:50%; bottom:50%;}
+    25%  { left:50%;bottom:0%}
+    50%  {left:50%; bottom:25%}
+    75%  {left:50%;bottom:25%}
+    100% { left:50%;bottom:0px}
+  } */
+
+.Socialclr {
+  color: #e9b72f;
+}
+.Emotinalclr {
+  color: #e46666;
+}
+.Mindfulnessclr {
+  color: #a86adb;
+}
+.Physicalclr {
+  color: #1ec1d9;
+}
+.Intellectualclr {
+  color: #85b812;
+}
+.NHProgresslistitem h4 img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+.NHProgresslistitem h4 .chat_icon {
+  max-width: 16px;
+  margin-left: 5px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+/* .NhPageWrap.FourCircle .NHProgresslistitem,.NhPageWrap.SevenCircle .NHProgresslistitem{
+    margin: 10px  0px;
+  } */
+.NhPageWrap.ThreeCircle .NHProgresslistitem.skillsliitem:nth-child(4),
+.NhPageWrap.SixCircle .NHProgresslistitem.skillsliitem:nth-child(7) {
+  margin-top: 67px;
+}
+.Hometwowrap .NHProgresslistitem:nth-child(4),
+.Hometwowrap .NHProgresslistitem:nth-child(6) {
+  margin-top: -67px;
+}
+.NhPageWrap.FourCircle .NHProgresslistitem:nth-child(4),
+.NhPageWrap.FourCircle .NHProgresslistitem:nth-child(5) {
+  margin: 0 0;
+  margin-top: -67px;
+  width: 30%;
+}
+/* .Hometwowrap .FourCircle.NhPageWrap .NHProgresslistitem:nth-child(4){
+     margin-top: 0;
+} */
+/* .NhPageWrap.SixCircle .NHProgresslistitem.skillsliitem:nth-child(7){
+    margin-top: 67px;
+} */
+.NHPreogressouter .NHProgressinner.flextwo p {
+  position: static;
+  transform: none;
+  z-index: 9;
+  color: #fff;
+  bottom: 36% !important;
+}
+.NHProgresslistitem.NhHolisticProgress.allitemsNH
+  .NHPreogressouter.pointer.flextwo
+  p {
+  margin-top: -44px;
+}
+.NhPageWrap .allitemsNH h3 {
+  font-size: 24px;
+  white-space: nowrap;
+}
+/* .madeYourownJourney.mb-3.mt-3 {
+  background: #329fff;
+  padding: 12px 0;
+  margin: 0 10px;
+  border-radius: 7px;
+} */
+.madeYourownJourney.mb-3.mt-3 a {
+  color: #329fff;
+}
+.pagescrollauto {
+  overflow: auto;
+  max-height: 78vh;
+}
+.percentage_sign {
+  font-size: 10px;
+}
+.skillprogrs span.percentage_sign {
+  width: auto;
+  font-size: 10px;
+  font-size: 12px;
+  padding: 0;
+  align-items: center;
+  padding: 0;
+  top: 2px;
+  background: transparent;
+}
+.skillprogrs span{
+  position: relative;
+}
+.ourcommitmentWrap {
+  margin: 11px -10px;
+  padding: 10px 10px;
+}
+.ourcommitmentWrap h4 {
+  background: #ededed;
+  padding: 10px 10px;
+  margin: 0px -10px 20px;
+}
+.progressstyl span.percenrSign {
+  font-size: 10px;
+}
+.OneCircle .NHProgresslistitem {
+  margin: 10px 0 0;
+}
+.OneCircle .NHProgresslistitem:nth-child(3n + 2) {
+  margin-top: 95px;
+}
+.OneCircle .NHProgreschartList.flex {
+  justify-content: left;
+}
+.AllSkillschart .skill_pnlcircle {
+  max-width: 150px;
+  width: 100px;
+  height: 100px;
+}
+.Homethree .Courseporogresspopup {
+  top: 99px;
+}
+.Homethree .Courseporogresspopup:after {
+  left: 69%;
+}
+.NhPageWrap h3 a {
+  font-size: 19px;
+}
+.NHProgresslistitem.SocialitemsNH.soicialitemsNH.simneskillcombo a{
+  font-size: 18px;
+}
+.Homethree .aboutProgdesc .Courseporogresspopup {
+  top: 30px;
+  width: 313px;
+  left: 0%;
+  transform: translateX(0%);
+}
+.Courseporogresspopup p {
+  text-align: left;
+  font-weight: 400;
+}
+.Homethree .CompltProgress .Courseporogresspopup {
+  top: 30px;
+  width: 313px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ScenecerelateddQuiz .Courseporogresspopup h4{
+  margin-bottom: 0px !important;
+}
+.Homethree .TimProgress .Courseporogresspopup {
+  top: 30px;
+  left: auto;
+  width: 313px;
+  transform: translateX(0%);
+  right: 0;
+}
+.Homethree .aboutProgdesc .Courseporogresspopup:after {
+  left: 20%;
+}
+.Homethree .CompltProgress .aboutProgdesc .Courseporogresspopup:after {
+  left: 50%;
+}
+.Homethree .TimProgress .aboutProgdesc .Courseporogresspopup:after {
+  left: 80%;
+}
+.devlopidea {
+  margin: 25px 0 10px;
+  color: #329fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.devlopidea img {
+  max-width: 30px;
+  margin-right: 5px;
+  /* vertical-align: text-top; */
+  vertical-align: bottom;
+}
+.devlopidea a {
+  font-weight: 600;
+}
+.NHProgresslistitem:nth-child(8){
+margin-top: 16px;
+}
+.NHProgresslistitem.EmotionalitemsNH.soicialitemsNH.simneskillcombo a{
+  font-size: 17px;
+}
+.popularcourse ul li img {
+  max-width: 42px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.popularcourse ul li  .btn-login {
+  padding: 5px 8px 5px 8px;
+}
+
+/* Start Added By Alfaiz on 23-02-2024 for Latest News Right-Panel Section*/
+#latestNews .section-headding {
+	margin: 0px -10px 10px -10px;
+	padding: 10px 0px;
+}
+
+#latestNews .section-headding h4 {
+	background: #ededed;
+	padding: 10px 10px;
+	margin: 0px 0px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+#latestNews span {
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 0px;
+	text-align: left;
+	font-weight: 600;
+	padding-right: 4px;
+}
+
+#latestNews .font-weight-400 {
+	font-weight: 400 !important;
+}
+
+#latestNews p {
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+#latestNews img {
+	max-width: 14px;
+}
+
+#latestNews .newest-course {
+	flex: 0 0 auto;
+}
+
+#latestNews .newest-course-text {
+	color: #329fff;
+	flex: 0 1 auto;
+}
+
+#latestNews .coming-course {
+	flex: 0 0 auto;
+}
+
+#latestNews .coming-course-text {
+	flex: 0 1 auto;
+}
+
+#latestNews .new-feature-img {
+	max-width: 20px;
+}
+
+#latestNews .new-feature-img1 {
+	max-width: 49%;
+}
+
+#latestNews .share-course {
+	margin: 20px 0 10px;
+	color: #329fff;
+}
+
+#latestNews .share-icon {
+	max-width: 18px;
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+/* 110% media query */
+@media only screen and (min-width: 1396px) and (max-width: 1405px) {
+	#latestNews span {
+		font-size: 13px;
+	}
+
+	#latestNews p {
+		font-size: 12px;
+	}
+}
+
+/* 125% media query */
+@media (min-width: 1201px) and (max-width: 1250px) {
+	#latestNews span {
+		font-size: 13px;
+	}
+
+	#latestNews p {
+		font-size: 12px;
+	}
+
+	#latestNews .section-headding h4 {
+		font-size: 15px;
+	}
+}
+
+/* End By Alfaiz on 23-02-2024 for Latest News Right-Panel Section*/

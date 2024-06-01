@@ -1,0 +1,559 @@
+.basicdetailsform .input-group,.SActivytForm .input-group,.AViewListitem {
+	width: 48%;
+    display: inline-block;
+}
+.basicdetailsform form.bg-white.content .input-group.full-Width-group {
+	width: 100%;
+	justify-content: space-between;
+	/* margin-top: 20px; */
+}
+.form-group label,
+.input-group label {
+	margin-bottom: 0.4rem !important;
+}
+.input-group label {
+	margin-top: 10px;
+}
+.basicdetailsform .wrapper.mx-auto .form-group {
+	display: block;
+}
+.form-control,
+.react-datepicker__input-container input {
+	position: relative;
+	padding: 0.375rem 0.75rem;
+	flex: 1 1;
+	min-width: 0;
+	margin-bottom: 0;
+	height: 32px;
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+}
+.LeftbarPannel.m-auto.p-0.resetPassword {
+    max-height: 80vh;
+}
+.basicdetailsform .wrapper.mx-auto .form-control {
+	border-radius: 5px;
+}
+.input-group.calender .clenderIcon {
+	position: absolute;
+	right: 6px;
+	width: 28px;
+	z-index: 1;
+	cursor: pointer;
+	pointer-events: none;
+	top: 37px;
+	color: #bf9fd9;
+}
+.basicdetailsform .wrapper.mx-auto .react-tel-input input.form-control {
+	width: 100%;
+	height: 38px;
+}
+.basicdetailsform .wrapper.mx-auto .react-tel-input {
+	width: 32%;
+	padding-right: 8px;
+}
+.selectedField:after {
+	position: absolute;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+	pointer-events: none;
+	border: 1px solid #8b8b8b;
+	border-bottom: 0;
+	border-right: 0;
+	content: '';
+	transform: rotate(-135deg);
+	top: 29px;
+	transition: all 0.5s;
+	z-index: 9;
+}
+.login-right .selectedField:after,
+.basicdetailsform .selectedField::after {
+	position: absolute;
+	right: 12px;
+	top: 7px;
+}
+.basicdetailsform form.bg-white.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+.form-title {
+	width: 100%;
+	margin: 0px 0 5px;
+}
+.profile_fild .form-control,
+.profile_fild .react-datepicker__input-container input {
+	line-height: 1;
+	border: 0;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0 !important;
+	padding-left: 0;
+}
+span.UserEditForm {
+	cursor: pointer;
+	color: #ccc;
+	position: absolute;
+	top: 36px;
+	right: 6px;
+	font-size: 14px;
+}
+.basicdetailsform .wrapper.mx-auto {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.CurriModule {
+    margin-bottom: 20px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+	flex-wrap: wrap;
+}
+.CurriModule svg.svg-inline--fa.fa-circle-plus {
+    font-size: 14px;
+    color: #48cfae;
+}
+.editcard.deletemodl {
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 30px;
+}
+.CurriculamWrap .editcard.deletemodl ,.qzQuestioncontent .allYtypeactivityList .editcard.deletemodl{
+    text-align: right;
+    background: #f4f4f4;
+    padding: 7px 28px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+.CurriModule .form-group.BDsubmitbutton {
+   margin-top: 0px; 
+}
+.CurriModule .BDsubmitbutton.Addchieldbtn ,.currilessionlistitem .BDsubmitbutton.Addchieldbtn{
+    text-align: right;
+    margin-top: 0;
+    justify-content: left;
+    align-items: center;
+    margin-right: 0;
+    padding-right: 0;
+}
+.curriculumCard {
+    border: 1px solid #ccc;
+    padding: 30px 30px 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.CurriculamWrap .form-group.BDsubmitbutton.d-flex,.AddCourseformWrap  .form-group.BDsubmitbutton.d-flex {
+    justify-content: end !important;
+	
+}
+.assessmentWrap  .BDsubmitbutton.Addchieldbtn{
+	margin-right: 0 !important;
+}
+span.licount {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    font-size: 14px;
+    color: gray;
+}
+.CurriModule .BDsubmitbutton button.btn-blue.btn-login.d-block.mb-5 {
+    width: 85%;
+    justify-content: center;
+}
+.basicdetailsform .CurriModule  .input-group,.basicdetailsform  .currilessionlistitem  .input-group{
+	width: 60%;
+}
+.QueOption{
+    width: 50%;
+}
+.basicdetailsform  .currilessionlistitem  .input-group{
+    padding: 0 0px 0 60px;
+}
+.currilessionlistitem.flex{
+    margin-bottom: 10px;
+    align-items:baseline;
+}
+.CurriModule .BDsubmitbutton.Addchieldbtn.addEnrichbtn strong {
+    color: #48cfae;
+    font-weight: 400;
+}
+.basicdetailsform  .currilessionlistitem  .input-group.input_button_group{
+	padding: 0;
+}
+.basicdetailsform .CurriModule  .input-group.input_button_group,.basicdetailsform .currilessionlistitem  .input-group.input_button_group{
+	width: 38%;
+}
+.CurriculamWrap {
+    margin: 15px;
+}
+.curriculumCard h3{
+	display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background: #fff;
+    padding: 0px 8px;
+}
+.flex{
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+}
+.curriModulelessionlist .BDsubmitbutton.Addchieldbtn {
+    text-align: right;
+    display: flex;
+    margin-top: 0px;
+    justify-content: right;
+    margin-right: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.PannelContent .qzQuestioncontent  h3 {
+    font-size: 17px;
+    color: #e36565;
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+.basicdetailsform .input-group.CourseSkills,
+.basicdetailsform .input-group.Questionlisting,.AViewListitem iframe,.ratingProgressbar svg{
+    width: 100%;
+}
+.AViewListitem iframe{
+	height: 100%;
+}
+.ratingProgressbar svg{
+	height: 16px;
+    border-radius: 5px;
+}
+.Aratinngstar ,.Aratingpercentage{
+    color: #329fff;;
+    max-width: 38px;
+    min-width: 38px;
+
+}
+.AssessMentresult {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    min-width: 280px;
+    border: 0;
+}
+.AddReviewBtn {
+    border-top: 1px solid #ccc;
+}
+.RatingPopupdiv.dropdown-menu::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: 66%;
+    width: 15px;
+    transform: rotate(45deg) translateY(-50%);
+    height: 15px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-bottom-color: #fff !important;
+}
+.basicdetailsform .qzQuestioncontent  .rangeFieldmsg .input-group{
+	width: 27%;
+}
+.CourseSchedule  .form-group,.ratingProgressbar{
+	width: 70%;
+}
+.basicdetailsform .CourseSchedule .input-group {
+    width: 31.33%;
+    margin-bottom: 16px;
+}
+.AssessmentQuizCard {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.AssessmentQuizCard h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+}
+.CourseSchedule{
+    padding: 20px 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.ActivityViewFormat {
+    padding: 10px 15px;
+}
+.subtitleHeadinhg h4 {
+    font-size: 18px;
+    color: #414141;
+}
+.AViewTitle h3 {
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: black;
+    font-weight: 600;
+}
+.AViewTitle p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.AViewTitle {
+    margin-bottom: 10px;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+.ExternalLink .videoDescription h3 {
+	font-size: 18px;
+	line-height: 1.4;
+}
+.videoDescription a svg{
+padding-right: 5px;
+vertical-align: middle;
+}
+.AViewListitem {
+    padding: 10px;
+}
+.deleteitem:hover{color: red;}
+.deleteitem{padding-right: 0px;
+    font-size: 16px;
+    cursor: pointer;
+color: #ccc;}
+.AViewListitem .LinkImage img{width: 100%;}
+.AViewTitle p span {
+    font-weight: 600;
+}
+.RatetousPopup svg.star-svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+.ShareYourActivity {
+    color: #949494;
+    font-size: 15px;
+    /* padding-right: 5px; */
+}
+span.Activitymenubar svg{color: #747474;}
+svg.svg-inline--fa.fa-lock {
+    color: #747474;
+}
+.ratingCount {
+    margin-top: 4px;
+    font-size: 12px;
+    margin-left: 0;
+}
+.RatingPopupdiv.dropdown-menu.show{
+	padding: 20px;
+}
+.modal-body.RatetousPopup {
+    padding: 10px 20px 20px;
+}
+.RatetousPopup h4 {
+    font-size: 16px;
+    color: #6e6e6e;
+}
+.RatetousPopup h2{
+    font-size: 45px !important;
+    color: #ffa41c;
+    font-weight: bold;
+    line-height: 1;
+}
+.Aratinglist {
+    padding: 10px 0;
+}
+.ActivitycrdTitle h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #006dcc;
+    text-overflow: ellipsis;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .MainContent.inactive .ActivitycrdTitle h3 {
+    
+    width: 200px;
+} */
+.RatingWrap svg {
+    font-size: 12px;
+    color: #ffa41c;
+}
+.RatingWrap1.flex span,.RatingWrap1.flex .fa-angle-down {
+	font-size: 12px;
+    color: #329fff;
+}
+.RatingWrap1.flex {
+    justify-content: left;
+    cursor: pointer;
+}
+
+.totleCalculatingValue.mt-3 h4 {
+    color: #ff7171;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tagaddedlist.selectedtaglist li span {
+    color: #e46767;
+    font-size: 12px;
+    font-weight: 600;
+}
+.totleCalculatingValue.mt-3 h4 span {
+    color: #85b812;
+}
+.TeachAssessmentPopup  .form-group label {
+    font-weight: normal;
+    width: 100%;
+}
+.AssessViewGrade {
+    padding-left: 50px;
+}
+.AsseaQuestionList {
+    padding-top: 30px;
+}
+.gradetext h3 {
+    font-size: 25px;
+    font-weight: normal;
+    color: #747474;
+}
+.Progressbarlisting {
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.Progresslistitem {
+    width: 100%;
+    height: 20px;
+    background: #e5e5e5;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.Progressbarlisting h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.diemensionalProgress {
+    height: 16px;
+    background: #0048ff;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+    border-radius: 8px !important;
+}
+.progressbar1{
+animation-name: progressbar1;
+animation-duration: .5s;
+animation-fill-mode: forwards;
+background-color: #85b812;
+
+}
+.progressbar2{
+    animation-name: progressbar2;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    background-color: #1ec1d9;
+    }
+    .progressbar3{
+        animation-name: progressbar3;
+        animation-duration: .5s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        background-color: #e9b72f;
+        }
+        .progressbar4{
+            animation-name: progressbar4;
+            animation-duration: .5s;
+            animation-fill-mode: forwards;
+            animation-delay: 1.5s;
+            background-color: #e46666;
+            }
+            .progressbar5{
+                animation-name: progressbar1;
+                animation-duration: .5s;
+                animation-fill-mode: forwards;
+                animation-delay: 2s;
+                background-color: #a86adb;;
+                }
+@keyframes progressbar1{
+    0%{left: 0px;
+        width: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    100%{
+        width:100%;
+        left: 0px;
+        border-radius: 0 0px 0px 0;
+    }
+}
+@keyframes progressbar2{
+    0%{left: 2px;
+        width: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    100%{
+        width: 99%;
+        left: 2px;
+        border-radius: 0 0px 0px 0;
+    }
+}
+@keyframes progressbar3{
+    0%{left: 2px;
+        width: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    100%{
+        width: 99%;
+        left: 2px;
+        border-radius: 0 0px 0px 0;
+    }
+}
+@keyframes progressbar4{
+    0%{left: 2px;
+        width: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    100%{
+        width: 99%;
+        left: 2px;
+        border-radius: 0 0px 0px 0;
+    }
+}
+@keyframes progressbar5{
+    0%{left: 2px;
+        width: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    100%{
+        width: 99%;
+        left: 2px;
+        border-radius: 0 0px 0px 0;
+    }
+}
+.Activity .RatingWrap1.flex {
+    justify-content: left;
+    margin-top: 0px;
+}
+.allYtypeactivityList  h4 svg{
+    font-size: 18px;
+}

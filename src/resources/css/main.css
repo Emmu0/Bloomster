@@ -1,0 +1,431 @@
+.LeftbarPannel {
+    width: calc(70% - 10px);
+    margin: 0px 10px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background: #fff;
+    padding: 20px;
+    /* scrollbar-width: thin;
+    scrollbar-color: #c9cdd1 #f9f9f9; */
+    min-height: 100vh;
+    border-radius: 0.4rem !important;
+}
+.SpecialLeftpanel .RightbarPannel.p-0.rightpannelSticky {
+    overflow: initial;
+}
+.RightbarPannel.p-0.rightpannelSticky {
+    min-height: 86vh;
+    max-height: 86vh;
+    margin-top: 0;
+    position: sticky;
+    top: 108px;
+    width: calc(30% + 0px);
+    margin-right: 0px !important;
+    overflow: auto;
+}
+.RightbarPannel {
+    width: 30%;
+    border: 1px solid #dcdcdc;
+    margin: 0;
+    padding: 0px !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background: #ffffff;
+    /* scrollbar-width: thin;
+    scrollbar-color: #c9cdd1 #f9f9f9; */
+    border-radius: 0.4rem !important;
+    min-height: 86vh;
+    z-index: 99;
+    overflow: auto;
+}
+
+.CourseCardWrapper.fullHeight100 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.CourseCardWrapper {
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 15%) !important;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    border-radius: 4px;
+    min-height: 86vh;
+}
+.gridSection.coursepagelist {
+    padding: 10px;
+}
+.heading {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 8px;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 91;
+    background: #f5faff;
+    border-radius: 4px 4px 0 0;
+}
+/* tabbing start */
+.tabgrid {
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 36px;
+}
+.tabgrid ul {
+    padding-left: 0 !important;
+    position: relative;
+}
+.tabgrid ul li {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    border-right: 1px solid #cccccc;
+    font-size: 17px;
+    font-weight: 600;
+    min-height: 36px;
+    color: #616161;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif !important;
+}
+.tabgrid ul li img {
+    padding-right: 5px;
+    width: 24px;
+}
+/* tabbing end */
+.heading h2 {
+    padding: 0 !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    font-family: "Poppins", sans-serif !important;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.MainContent {
+    padding-left: 40px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+    display: block;
+    transition: all 0.3s;
+}
+.MainContent.inactive {
+    padding-left: 180px;
+}
+/* breadCrum */
+.breadCrum {
+    width: calc(100% - 10px);
+    box-shadow: 0 0px 5px rgb(0 0 0 / 15%) !important;
+    border-radius: 4px;
+    margin: 10px 0px 10px 10px;
+    z-index: 9999;
+    position: relative;
+    border: 1px solid #dcdcdc;
+}
+.breadCrum ul {
+    min-width: 85%;
+    display: flex;
+}
+.breadCrum li.bActivepage {
+    color: #0070d2;
+}
+.breadCrum li svg {
+    margin-right: 5px;
+    color: #232323;
+}
+.breadCrum li span {
+    padding: 0 3px;
+}
+.bredcrumbuser {
+    min-width: 10%;
+}
+
+.VKprofile .vkprofilename {
+    font-size: 14px;
+    color: #212529 !important;
+    margin-right: 0;
+    text-transform: capitalize;
+}
+.VKprofile .vkprofilename {
+    font-size: 14px;
+    color: #ccc;
+    margin-right: 0;
+    cursor: pointer;
+}
+.VKprofile .vkprofilename span {
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.insceptionFilter {
+    position: relative;
+}
+.breadCrum li.Brumprofile {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.insceptionFilter .dropdown-menu {
+    transform: none !important;
+    top: 20px !important;
+    right: 0;
+    min-width: 250px;
+    left: auto !important;
+    overflow: auto;
+}
+.breadCrum .bredcrumbuser ul {
+    min-width: 100%;
+    display: inline-block;
+}
+.breadCrum li.Brumprofile ul li {
+    min-width: 100%;
+}
+
+.insceptionFilter .dropdown-menu ul li {
+    width: 100%;
+    border-right: none;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    min-width: 410px;
+    position: absolute;
+    background-color: #fff;
+    right: -5px;
+    z-index: 1000;
+    padding: 0 0 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    margin-top: 6px;
+}
+.ActivityTitle .videoDescription ul li, .GridCardTitleDesc .ListIcon ul li .courseInformation .heading h2 ul li, .menuList li ul.dropdown-menu li, .ListIcon ul li, .ProgressDetails ul li, .intrestlisting.dimpagetags ul.dropdown-menu li, .insceptionFilter .dropdown-menu ul li {
+    color: #747474;
+    border-bottom: 1px dashed #ccc;
+    cursor: pointer;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+.ActivityTitle .videoDescription ul, .GridCardTitleDesc .ListIcon ul, .courseInformation .heading h2 ul, .courseInformation .ListIcon ul, .menuList li ul.dropdown-menu, .intrestlisting.dimpagetags ul.dropdown-menu, .insceptionFilter .dropdown-menu, .ProgressDetails ul {
+    width: 203px;
+    min-width: 0;
+    padding: 5px !important;
+    max-height: 315px;
+}
+
+.videoDescription ul li:hover, .Activity .dropdownlistmodl.show ul li:hover, .courseInformation .heading h2 ul li:hover, li ul.dropdown-menu, .menuList li ul.dropdown-menu li:hover, .intrestlisting.dimpagetags ul.dropdown-menu li:hover, .coursecardnav.dropdownlistmodl ul li ul.dropdown-menu.dropdown-menu-end li:hover, .ListIcon ul li:hover, .insceptionFilter .dropdown-menu ul li:hover, .ProgressDetails ul li:hover {
+    background: #dcdfec;
+    padding: 10px 10px;
+    transition: all 0.3s;
+}
+.insceptionFilter .dropdown-menu ul li:hover {
+    padding: 10px 15px;
+}
+
+.breadCrum li.Brumprofile ul li {
+    min-width: 100%;
+}
+/* scrollbar */
+/* .LeftbarPannel, .RightbarPannel, .courseInformation .heading h2 ul, .SelectCourseLIst, #scrollableDiv, .prolistedvidoitem, .educationList, .AllSubgradetable, .modal-dialog.modal-lg, ul.dropdown-menu.dropdown-menu-end, .EvaluationScaletab::-webkit-scrollbar, .signinandSignup form[name="usersignup"] .HalfScActF, .menuList .dropdown-menu, .OtherChPPLstitm, .halfPagePOpup .modal, .halfPagePOpup.SchoolActivityPopup.modal, .RightbarPannel .ScenecerelateddQuiz, .DimensionDashboadcard, .NuggetPopupDesc, .panneloverflow, .RightbarPannel .intructionsBox.LessionDtlOverview, .signinandSignup form[name="selfsignup"], .SpecialLeftpanel .RightbarPannel.p-0.rightpannelSticky .personalityListing::-webkit-scrollbar, .signupType.rangetypeQuestion.textAreatypeQuestion, .LessionDtlOverview, .lSidebarcontentwrap, .SignupPopup, .OtherCProfile, .insceptionFilter .dropdown-menu {
+    scrollbar-width: thin !important;
+    scrollbar-color: #c9cdd1 #f9f9f9 !important;
+} */
+
+/* ribbon */
+.backicon {
+    right: 48px;
+    z-index: 100;
+    background: #0f1a34;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    padding: 1px 8px;
+    top: 46px;
+    border-radius: 0 0 10px 10px;
+    z-index: 99991;
+}
+.flipIcon:hover {
+    background: #355bb7;
+}
+.flipIcon {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    background: #0f1a34;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    color: #fff;
+    position: fixed;
+    margin-right: -9px;
+    right: 23px;
+    top: 46px;
+    z-index: 99991;
+    line-height: 1;
+}
+.diemensionCard {
+    margin-right: -5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin-left: -10px;
+    width: calc(100% + 20px);
+    z-index: 999;
+    background: #f4f4f4;
+    transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+}
+.cardrightpannel .Card.flex {
+    border-color: royalblue;
+    margin-left: 5px;
+    margin-right: 0;
+}
+.cardleftpannel {
+    width: calc(70% - 5px);
+}
+.diemensionCard .Card:nth-child(1) {
+    border: 1px solid #ff9900;
+    border-top: 8px solid #ff9900;
+    margin-left: 10px;
+}
+.diemensionCard .Card {
+    background: #ffffff;
+    width: 20%;
+    height: 125px;
+    padding: 5px 5px;
+    position: relative;
+    border: 1px solid #fff;
+    flex-wrap: wrap;
+    margin: 0px 5px 0px;
+    transition: all 0.3s;
+    box-shadow: 10px 7px 11px #b1b1b1;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.cardrightpannel .Card {
+    width: 100%;
+    margin: 0 5px 0 0px;
+}
+.diemensionCard.collapse:not(.show) {
+    display: flex;
+    overflow: hidden;
+    height: 8px !important;
+}
+.totlecout {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 7px;
+    font-size: 12px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.totleCourse {
+    padding: 3px 0px;
+    border-radius: 15px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.totleCourse svg.svg-inline--fa.fa-dash {
+    font-size: 8px;
+}
+.dicardrightside {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.Card .skillprogrs span {
+    font-size: 14px;
+    width: 35px;
+    font-weight: 600;
+    padding: 7px;
+    height: 35px;
+    background: #ff9900;
+}
+
+.skillprogrs span {
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.Card .skillprogrs span.percentage_sign {
+    font-size: 10px;
+    height: auto;
+    padding: 0;
+    top: 1px;
+    width: auto;
+}
+span.earnnoCoin, .GridCardTitle h3 span.earnnoCoin {
+    display: inline-block;
+    color: #141414;
+    width: 35px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif !important;
+    text-align: end;
+    border-radius: 50%;
+    height: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    line-height: 15px;
+    z-index: 1;
+    transition: all 1s;
+    margin-right: -5px;
+    position: relative;
+    top: -5px;
+}
+.diemensionCard .Card span img {
+    width: 24px;
+}
+.cardrightpannel {
+    width: 30%;
+}
+
+.diemensionCard .Card:nth-child(2) {
+    border: 1px solid #e46666;
+    border-top: 8px solid #e46666;
+  }
+  
+  .diemensionCard .Card:nth-child(3) {
+    border: 1px solid #a86adb;
+    border-top: 8px solid #a86adb;
+  }
+  
+  .diemensionCard .Card:nth-child(4) {
+    border: 1px solid #1ec1d9;
+    border-top: 8px solid #1ec1d9;
+  }
+  
+  .diemensionCard .Card:nth-child(5) {
+    border: 1px solid #85b812;
+    border-top: 8px solid #85b812;
+  }
+  .diemensionCard .Card:nth-child(1) .position-relative.round_progress {
+    background: #ff9900;
+    border-radius: 50%;
+  }
+  .diemensionCard .Card:nth-child(2) .position-relative.round_progress {
+    background: #e46666;
+    border-radius: 50%;
+  }
+  .diemensionCard .Card:nth-child(3) .position-relative.round_progress {
+    background: #a86adb;
+    border-radius: 50%;
+  }
+  .diemensionCard .Card:nth-child(4) .position-relative.round_progress {
+    background: #1ec1d9;
+    border-radius: 50%;
+  }
+  .diemensionCard .Card:nth-child(5) .position-relative.round_progress {
+    background: #85b812;
+    border-radius: 50%;
+  }

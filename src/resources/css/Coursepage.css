@@ -1,0 +1,574 @@
+.Course_filter img {
+  max-width: 20px;
+}
+.alltypeCourseFilter .QQtitle img {
+  max-width: 16px;
+  margin-left: 10px;
+}
+.Course_filter {
+  margin: 5px;
+}
+.coursepagelist span.crossmark {
+  color: #f00;
+  border-color: #f00;
+}
+.gridSection.coursepagelist {
+  padding: 10px;
+}
+.ScenecerelateddQuiz .dimensionshorting .signupType label span,
+.ScenecerelateddQuiz .filtersetAllcourse .signupType label span {
+  font-weight: 600;
+  font-family: "Lato", sans-serif !important;
+}
+.filtersetAllcourse {
+  /* border-bottom: 1px solid #ccc; */
+  margin: 0px 0 0px;
+  padding: 0 0 15px;
+}
+.allcourselj .filtersetAllcourse {
+  padding: 15px 5px;
+}
+.dimensionshorting {
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0 0px !important;
+}
+.dimensionshorting h3 {
+  font-size: 18px;
+  padding: 10px 10px 12px 3px;
+  border-bottom: 1px solid #ccc;
+  background: #f2fffe;
+  border-top: 1px solid #ccc;
+}
+.DiemensionArea .signupType label {
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.checkedfilter span.checkmark {
+  border-radius: 0;
+}
+.DiemensionArea .checkmark {
+  top: 4px;
+}
+.alltypeCourseFilter .checkmark {
+  border: 1px solid #ccc;
+  top: 3px;
+  left: 7px;
+}
+/*  */
+.dimensionshorting img {
+  max-width: 20px;
+  margin-right: 7px;
+}
+/* Diemension Page */
+.defaultmessagetitle {
+  text-align: center;
+  margin: 10px 0;
+  padding: 15px 15px 20px;
+  background: #e3f2fd;
+  border: 2px solid #ffcb5b;
+  border-radius: 4px;
+  position: absolute;
+  width: 60%;
+  margin: auto;
+  z-index: 9;
+  top: 75px;
+  left: 50%;
+  transform: translate(-40%, 0%);
+}
+.notenrolledanycrs .LessionDtlOverview p {
+  font-size: 20px !important;
+}
+.notenrolledanycrs .btn-login {
+  font-size: 16px;
+  padding: 8px 15px 8px 15px;
+}
+.defaultmessagetitle h3 {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.defaultmessagetitle img {
+  max-width: 350px;
+}
+/* .defaultmessagetitle button{
+    font-size: 18px;
+    padding: 10px 30px;
+} */
+.SeeMoreSkillst {
+  padding-left: 32px;
+  font-size: 16px;
+}
+/* .lernerjourrecumCourse label.Selcheckbox.ActiveQQst:nth-child(2n+1) {
+    padding: 25px 10px 25px 45px;
+    background: #eee;
+} */
+/* 
+.lernerjourrecumCourse label.Selcheckbox.ActiveQQst {
+    padding: 25px 10px 25px 45px;
+    margin: 0;
+    width: 100%;
+    min-height: 99px;
+} */
+.lernerjourrecumCourse label.Selcheckbox.ActiveQQst span.checkmark {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+}
+.lernerjourrecumCourse h3 {
+  margin-left: 16px;
+  line-height: 1.4;
+  border: 0;
+  padding: 0;
+}
+.dimensionshorting.border-0.p-0.lernerjourrecumCourse.whereYouleftwtrap {
+  padding: 0 !important;
+}
+.madeYourownJourney a {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.lernerjourrecumCourse label.Selcheckbox.ActiveQQst span.QQtitle {
+  font-size: 17px;
+  /* min-height: 51px; */
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.coursepagelist .instlistitem {
+  background: #329fff;
+  border-color: #329fff;
+}
+.coursepagelist .instlistitem h4 {
+  color: #fff;
+}
+.ScenecerelateddQuiz .dimensionshorting .filtetags {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1px 10px 4px 0px;
+  margin-right:10px;
+}
+.ScenecerelateddQuiz
+  .dimensionshorting
+  .filtetags
+  label.Selcheckbox.ActiveQQst
+  span.checkmark {
+  top: 4px;
+}
+.ScenecerelateddQuiz .dimensionshorting .signupType {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ScenecerelateddQuiz .dimensionshorting .disalbled.filtetags {
+  background: #eee;
+}
+.ScenecerelateddQuiz .dimensionshorting .disalbled.filtetags label {
+  opacity: 0.3;
+}
+.ScenecerelateddQuiz
+  .dimensionshorting
+  .disalbled.filtetags
+  label:hover
+  .checkmark {
+  background: #eee;
+}
+.Commingsoontaglist h4 {
+  color: #00b050;
+}
+.dimensionshorting img.chat_icon {
+  max-width: 16px;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+span.takenJourneytag {
+  min-width: 90px;
+  background: #4db6ac;
+  padding: 0px 2px;
+  border: 1px solid #26a69a;
+  text-align: center;
+  border-radius: 6px 0;
+  color: #fff;
+  font-size: 14px !important;
+  position: absolute;
+  right:2px;
+  top: 2px;
+}
+label.Selcheckbox.ActiveQQst.EnroledJournyCourse span.QQtitle {
+  padding-top: 17px;
+}
+.content-tabs.gridBody {
+  padding-bottom: 10px;
+}
+
+.skillSeltaglist .Course_filter img {
+  max-width: 30px;
+}
+.Applyfilterlink {
+  color: #329fff;
+}
+.ScenecerelateddQuiz
+  .input-group.searchInputs.searchinrest
+  svg.svg-inline--fa.fa-magnifying-glass {
+  top: 14px;
+}
+.ScenecerelateddQuiz .searchinrest .searchInputs input.form-control {
+  padding: 0 30px 0 15px;
+  border-radius: 12px !important;
+}
+.intrestlisting.dimpagetags .svg-inline--fa.fa-pencil,
+.intrestlisting.dimpagetags .svg-inline--fa.fa-bars {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+}
+span.ml-2.edit_pencil {
+  line-height: 0;
+  padding-left: 10px;
+}
+.intrestlisting.dimpagetags .Selcheckbox {
+  padding-left: 23px;
+}
+.newenrollepopup .heghlightedstar {
+  padding: 0px 5px 2px;
+  border: 3px solid #0d6efd;
+}
+.coursepagelist .dimpagetags .instlistitem {
+  padding: 6px 0;
+  border: 0;
+}
+.dimpagetags label.Selcheckbox.ActiveQQst.m-0 span.checkmark {
+  top: -2px;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion label.Selcheckbox:hover .aboutProgdesc .Courseporogresspopup {
+  display: block;
+  left: 50%;
+  width: 320px;
+  top: 35px;
+  padding: 6px 10px;
+  position: absolute;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion .Courseporogresspopup p{
+  font-weight: 600;
+  color: #fff;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion .Courseporogresspopup:after {
+  content: "";
+  border-bottom: 15px solid #666666;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -10px;
+  position: absolute;
+  left: 0;
+  transform: none;
+}
+/* .dimpagetags .Selcheckbox {
+    padding-left: 0;
+    padding-right: 30px;
+} */
+.skillSeltaglist.coursepagelist {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.newcoursecardpanel .ScenecerelateddQuiz {
+  min-height: 74vh;
+}
+.ScenecerelateddQuiz
+  .dimensionshorting
+  .filtetags
+  label.Selcheckbox.ActiveQQst
+  span.checkmark {
+  top: 4px;
+  border-radius: 5px;
+}
+.ScenecerelateddQuiz
+  .dimensionshorting
+  h3
+  label.Selcheckbox.ActiveQQst
+  span.checkmark {
+  border-radius: 5px;
+  top: 2px;
+}
+.newcoursecardpanel
+  .ScenecerelateddQuiz
+  .dimensionshorting
+  .signupType
+  label
+  span.dimtagHead {
+  font-size: 18px;
+}
+
+.notenrollednanycourses.flex {
+  padding: 20px 24px 20px;
+  /* background: #edf6ff; */
+}
+.notenrolldimimg img{
+  opacity: .7;
+}
+.notenrolldimimg {
+  /* background: #eeeff3;
+  border-radius: 50% 0 0 50%;
+  padding: 83px 25px; */
+  /* text-align: center; */
+  /* border: 2px solid #d1cece; */
+}
+.notenrolldimtxt h3,
+.notenrolldimtxt h3 a {
+  line-height: 1.8;
+  font-size: 24px !important;
+}
+.notenrolldimtxt {
+  padding: 20px;
+}
+.notenrolldimtxt.LessionDtlOverview {
+  padding: 50px;
+  min-height: 68vh;
+}
+.notenrolledskill {
+  background: #fff;
+  padding: 15px 16px;
+  margin: 15px 0 0;
+  border-radius: 0px;
+  border: 1px solid #9c9a9a;
+  /* box-shadow: 2px 2px 5px #9c9a9a; */
+}
+
+.notenrolledskill ul li img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.notenrolledskill li {
+  font-size: 16px;
+  margin: 0px 0 10px;
+  background: #e3f2fd;
+  padding: 0px 15px 3px;
+  border-radius: 35px;
+  /* width: 32%; */
+  cursor: pointer;
+  margin-right: 2%;
+  border: 1px solid #9c9a9a;
+}
+.notenrolledskill li:hover {
+  background: #329fff;
+  color: #fff;
+  border-color: #329fff;
+}
+/* .notenrolledskill li:nth-child(3n){
+    margin-right: 0;
+} */
+.notenrolledskill a {
+  font-size: 17px;
+}
+.dimpagetags label.Selcheckbox input:checked ~ .checkmark {
+  background: #fff;
+}
+.dimpagetags label.Selcheckbox input:checked ~ .checkmark::after {
+    border-color: #00b050;
+    top: 3px;
+    left: 5px;
+}
+.input-group.searchInputs.searchinrest .ant-select-selector {
+  border-radius: 10px !important;
+}
+/* span.ant-select-arrow{
+    display: none !important;
+} */
+/* span.ant-select-arrow span.anticon.anticon-down.ant-select-suffix {
+  display: none !important;
+} */
+.intrestlisting.dimpagetags {
+  position: relative;
+  padding-left: 40px;
+}
+.intrestlisting.coursecalalogtagtaglist span.crossmark.ml-3 svg{
+  font-size: 15px !important;
+}
+.intrestlisting.dimpagetags .Course_filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 0;
+}
+.skill_imageicon_ img {
+  max-width: 30px;
+  margin-top: -4px;
+}
+.input-group.searchInputs.searchinrest span.closeicon {
+  position: absolute;
+  right: -8px;
+  top: 11px;
+}
+.alltypeCourseFilter .input-group.searchInputs.searchinrest span.closeicon,.alltypeCourseFilter .common_search  .spinner {
+  top: 11px;
+  right: 10px;
+}
+.intrestlisting.coursecalalogtagtaglist {
+  flex-wrap: initial;
+}
+.notenrolledskill a:hover {
+  border-bottom: 1px solid #1675e0;
+}
+.instlistitem.Social_dim_tag {
+  background: #ff9900;
+  border-color: #ff9900;
+}
+.instlistitem.Emotional_dim_tag {
+  background: #e46666;
+  border-color: #e46666;
+}
+
+.instlistitem.Mindfulness_dim_tag {
+  background: #a86adb;
+  border-color: #a86adb;
+}
+.instlistitem.Physical_dim_tag {
+  background: #1ec1d9;
+  border-color: #1ec1d9;
+}
+.instlistitem.Intellectual_dim_tag {
+  background: #85b812;
+  border-color: #85b812;
+}
+.nocoursefoundsrch {
+  padding: 50px;
+  text-align: center;
+  background: #ccc;
+  margin: 40px;
+  border: 1px solid yellow;
+  background: #f5faff;
+  margin-bottom: 18px;
+  /* padding: 20px; */
+  border: 1px solid #f9ca5c;
+  cursor: pointer;
+  border-left: 10px solid #f5b936;
+  border-radius: 0px 5px 5px 0px;
+}
+.nocoursefoundsrch span{
+  font-size: 21px;
+  color: #006dcc;
+}
+.intructionsBox.ScenecerelateddQuiz.Analysistxt.seneriotext p a {
+  font-size: 16px;
+}
+.Searchtagspacing {
+  padding: 0 10px;
+}
+.SeeMoreTxt {
+  text-align: right;
+  padding-bottom: 10px;
+  color: #328fff;
+
+  padding-right: 10px;
+}
+
+.SeeMoreTxt p {
+  color: #006dcc;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+}
+.allcourselj.searchtxtui .filtersetAllcourse {
+  padding: 15px 5px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+p.video_viewedicon {
+  padding: 1px 1px 4px;
+}
+/* .ScenecerelateddQuiz.searchtxtui .dimensionshorting.checkedtagislist .signupType {
+  padding: 0 10px;
+}
+.ScenecerelateddQuiz.searchtxtui .dimensionshorting.checkedtagislist h3 .signupType {
+  padding: 0 0px;
+} */
+p.senstivenote span.pointer.linkblue {
+    color: #006dcc;
+}
+.RCuserimage {
+  max-width: 50px;
+  margin-right: 12px;
+  border: 1px solid #eee;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  /* line-height: 50px; */
+  border-radius: 50%;
+  justify-content: center;
+  height: 50px;
+  background: #eee;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.RCuserimage img {
+  border-radius: 50%;
+  width: 50px;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+.RCrating {
+  padding: 6px 0 0;
+}
+.RCcommenttxt p.RCDate {
+  font-size: 14px;
+  color: #b1b1b1;
+  padding: 0;
+}
+
+.RCcommenttxt p {
+  color: #3e3e3e;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.ReviewComment {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.RCrating h4{
+  line-height: 1;
+}
+.ScenecerelateddQuiz .dimensionshorting .signupType .flexone.mb-3.filtetags {
+  margin-bottom: 10px !important;
+}
+.AllNuggQuestionList ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AllNuggQuestionList ul li.QAttemptAct:before {
+  content: "";
+  background: #cad7ff;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  z-index: -1;
+  left: -3px;
+  border: 1px solid #329fff;
+  top: -3px;
+}
+.AllNuggQuestionList svg.svg-inline--fa.fa-angle-left, .AllNuggQuestionList svg.svg-inline--fa.fa-angle-right {
+  font-size: 22px;
+}
+.checkIconnuggmsg {
+  padding: 0px 10px;
+  line-height: 1;
+}
+.checkIconnuggmsg p{
+  color: green;
+}
+.welcome_new_poup h3{
+  font-size: 24px;
+}
+.welcome_new_poup h3{
+  font-size: 24px;
+}
+.welcome_new_poup .areyousurenewpopup p {
+  font-size: 20px;
+}
+.sharepopup.welcome_new_poup  .modal.fade .modal-dialog {
+  max-width: 500px;
+}

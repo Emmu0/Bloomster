@@ -1,0 +1,157 @@
+
+#GrowthSurvey .topHeading span{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+}
+#GrowthSurvey .topHeading h3{
+    font-size: 22px;
+}
+#GrowthSurvey .topHeading span img{
+    max-width:32px;
+    width: 32px;
+    margin-top: -4px;
+}
+#GrowthSurvey .topHeading span svg{
+    font-size: 28px;
+}
+
+#GrowthSurvey .introContent p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+#GrowthSurvey .disabled{
+    color: #ccc;
+}
+#GrowthSurvey .smqzQueslist{
+    padding-left: 11.5% !important;
+}
+#GrowthSurvey .smqzQueslist label.Selcheckbox {
+    margin: 0px 0;
+    padding: 20px 20px 20px 45px;
+    font-size: 20px !important;
+    font-weight: 400;
+    color: #313131;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+#GrowthSurvey .smqzQueslist label.Selcheckbox:hover {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+#GrowthSurvey .quizblok{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#GrowthSurvey .quizblok .Progresslistitem {
+    width: 75% !important;
+    margin: 10px 10px !important;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #00b050;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+#GrowthSurvey .topHeading img{
+    width: 30px;
+}
+#GrowthSurvey  .growthsurveytextAreatypeQuestion .textareabox textarea{
+    height: 160px;
+    border: 2px solid #501c1c5e;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    width: 99% !important;
+    margin-bottom: 15px;
+}
+
+.growthsurveyPreview .question{
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.growthsurveyPreview .answer{
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.growthsurveyPreview .answer img{
+    width: 20px;
+}
+.growthsurveyPreview .question svg, .answer svg{
+    color: grey;
+}
+.growthsurveyPreview .growthSurveyCollapse{
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0 0px !important;
+}
+.growthsurveyPreview .growthSurveyCollapse{
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0 0px !important;
+}
+.growthsurveyPreview .growthSurveyCollapse h3{
+    font-size: 18px;
+    padding: 10px 10px 12px 3px;
+    border-bottom: 1px solid #ccc;
+    background: #f2fffe;
+    border-top: 1px solid #ccc;
+}
+.growthsurveyPreview .collapse-title{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.growthsurveyData .levelNames{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.growthsurveyData .levelNames p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px !important;
+}
+.growthsurveyData .placementname{
+    display: flex;
+    align-items: center;
+}
+.growthsurveyData .placementname span{
+    font-size: 14px;
+}   
+.growthsurveyData .gradientBox{
+    background-image: linear-gradient(180deg, rgba(4,187,111,1) 10%, rgba(48,160,248,1) 52%, rgba(255,0,0,1) 100%); 
+    height: 300px; width: 500px;
+    position: relative;
+}
+.growthsurveyData .gradientBox .gradientStar{
+    width:38px;
+    position:absolute;
+    top:44%;
+    left: 45%;
+}
+.growthsurveyData .gradientBox .gradientCircle{
+    width:38px;
+    position:absolute;
+    bottom:5%;
+    left: 5%;
+}

@@ -1,0 +1,555 @@
+.LearningJourney{
+    padding-top: 52px;
+}
+
+.LJbanner h4,.leftSide h4{
+    font-size: 42px;
+    color: #329fff;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.bannerleft h2{
+    color: #011b38;
+    font-size: 42px;
+}
+.bannerleft h2 span, .leftSide h4 span{
+    color: #e46666;
+}
+.bannerleft h5{
+    font-size: 26px;
+    color: #011b38;
+    line-height: 1.3;
+}
+.bannerleft p{
+    font-size: 21px;
+    line-height: 1.5;
+}
+.aboutdarkback .bannerleft p{
+    color: #fff;
+}
+.aboutdarkback .bannerleft h2{
+    color: #fff;
+    font-size: 68px;
+    line-height: 1;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300;
+}
+.aboutdarkback .bannerleft h2 span{
+    font-weight: 600;
+    color: #fff;
+}
+.whyholosticbaaner {
+    width: 100%;
+    text-align: left;
+}
+.whyholosticbaaner img {
+    padding: 4px;
+}
+.leftSide h4{
+    color: #011b38;
+}
+.leftSide p{
+    color: #3b3b3b;
+    font-size: 21px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    padding-right: 55px;
+}
+.providerFlochrtimg h2 {
+    font-size: 42px;
+    color: #011b38;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.providerFlochrtimg h2 span{
+    color: #e46666;
+}
+.LJbanner p{
+    font-size: 21px;
+    line-height: 1.5;
+    color: #3b3b3b;
+}
+.learningintellctual .LjimageSec img,.learningSocial .LjimageSec img,.learningspritual .LjimageSec img{
+    border-radius: 50%;
+}
+.sectionpadding{
+    padding: 30px 0 0px 0;
+}
+.learningPhysical{
+    background: #01343b;
+}
+.learningSocial{
+    background: #e9b72f;
+}
+.learningintellctual {
+    background: #85b812;
+}
+.learningemotional{
+    background: #e46666;
+}
+.learningspritual{
+    background: #9a55d3;
+}
+
+.ResponsiblityItems {
+    /* border: 1px solid #cbcbcb; */
+    text-align: center;
+    min-height: 300px;
+}
+.ResponsiblityItems img{
+    max-width: 70px;
+    padding: 10px 0px;
+}
+.ResponsiblityItems:hover {
+    box-shadow: 10px 10px 10px #d5d5d5;
+    transition: all ease 0.7s;
+    background: #fff;
+}
+.ResponsiblityItems h4{
+    font-size: 21px;
+}
+.ResponsiblityItems p{
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.ResponsiblityItems h4 img {
+    max-width: 45px;
+    vertical-align: middle;
+}
+
+section.aboutdarkback {
+    background: radial-gradient( circle, rgba(37, 88, 133, 1) 0%, rgba(14, 51, 87, 1) 100% );
+    padding: 0px 0px 40px 0px;
+}
+
+.termscondition h4{
+    font-size: 42px;
+    color: #011b38;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.termscondition h4 span{
+    color: #e46666;
+}
+.termscondition p {
+    color: #3b3b3b;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+.termscondition ul li {
+    color: #3b3b3b;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.termscondition ul li ul{
+    padding-left: 50px !important;
+    padding-top: 10px;
+}
+.termscondition p a, .termscondition ul li a {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+.termscondition, .privacypolicyweb {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.leanerjstament img{
+    max-width: 32px;
+}
+
+
+
+/* .lernerjourrecumCourse .Selcheckbox.ActiveQQst.EnroledJournyCourse:first-child{
+    border-top: 1px solid #ccc;
+} */
+.madeYourownJourney {
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0 25px;
+    background: #f2fffe;
+}
+.pathways_back_button h5 {
+    color: #006dcc;
+}
+.selctedpathwaytitle img{
+    max-width: 32px;
+    margin-right: 10px !important;
+}
+.selctedpathwaytitle h4{
+    font-size: 18px;
+}
+.svg-inline--fa .fa-secondary{
+opacity: 1 !important;
+}
+.CDimenCircle {
+ border-radius: 50%;
+ padding: 5px 5px 0;
+ margin-bottom: 5px;
+ text-align: center;
+ margin:auto;
+}
+.EnroledJournyCourse ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    width: 83px;
+}
+
+.EnroledJournyCourse .CDimenCircle img {
+    max-width: 30px;
+    margin-right: 0;
+}
+.alltypeCourseFilter .EnroledJournyCourse .QQtitle img {
+    max-width: 22px;
+    margin-left: 0;
+}
+.lernerjourrecumCourse .Selcheckbox.EnroledJournyCourse {
+    background: #fff !important;
+    border: 1px solid #ccc;
+    padding: 5px 10px 5px !important;
+    margin-bottom: 0;
+    border:0;
+    border-bottom: 1px solid #ccc;
+}
+.lernerjourrecumCourse .Selcheckbox.EnroledJournyCourse:hover{
+    background: #e3f2fd !important;
+}
+.lernerjourrecumCourse .Selcheckbox.ActiveQQst.EnroledJournyCourse:hover{
+    background: #BBDEFB !important;
+}
+/* .skillSeltaglist.coursepagelist{
+background: #e3f2fd;
+padding: 1px 20px;
+border-radius: 30px 0 30px 0px;
+box-shadow: 0px 0px 14px #a3a3a3c7;
+margin: 10px 0 20px;
+border: 1px solid #29B6F6;
+} */
+.Socialdimpathway .CDimenCircle{
+    border-color: #ff9900;
+}
+.Physicaldimpathway .CDimenCircle{
+    border-color: #1ec1d9;
+}
+.courselevel5pathway .CDimenCircle{
+    border-color: #a86adb;
+}
+.Emotionaldimpathway .CDimenCircle{
+    border-color: #e46666;
+}
+.Intellectualdimpathway .CDimenCircle{
+    border-color: #85b812;
+}
+.pathwatdestxt{
+    font-size: 16px;
+    color: #000;
+}
+.welcomscreenContent.patwaysbulleys ul {
+    padding: 5px 0px 0px 20px !important;
+}
+.welcomscreenContent.patwaysbulleys ul li {
+    padding-bottom: 5px !important;
+    font-weight: 400;
+}
+.EnroledJournyCourse ul li p{
+    margin-bottom: 0!important;
+}
+label.Selcheckbox.ActiveQQst.EnroledJournyCourse {
+    background: #BBDEFB !important;
+}
+.EnroledJournyCourse ul li:first-child{
+    margin-left: 30px !important;
+}
+.lernerjourrecumCourse .Selcheckbox.EnroledJournyCourse span.QQtitle {
+    display: flex;
+    margin-bottom: 0px;
+    align-items: flex-start;
+}
+.learnerpathwaybar .pathwaybar1 {
+    background: #4169e1;
+    height: 10px;
+    width: 16.5%;
+}
+.learnerpathwaybar .pathwaybar2 {
+    background: #ff9900;
+    height: 10px;
+    width: 16.5%;
+}
+.learnerpathwaybar .pathwaybar3 {
+    background: #e46666;
+    height: 10px;
+    width: 16.5%;
+}
+.learnerpathwaybar .pathwaybar4 {
+    background: #a86adb;
+    height: 10px;
+    width: 16.5%;
+}
+.learnerpathwaybar .pathwaybar5 {
+    background: #1ec1d9;
+    height: 10px;
+    width: 16.5%;
+}
+.learnerpathwaybar .pathwaybar6 {
+    background: #85b812;
+    height: 10px;
+    width: 16.5%;
+}
+
+.learnerpathwaybar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10px;
+    flex-direction: row;
+}
+
+.learnerpathwaysec {
+    width: 100%;
+    padding: 15px 15px 0;
+}
+
+.learnerpathwaysec h2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.learnerpathwaysec h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    color: #2b2a2a;
+}
+.learnerpathwaysec h4 a {
+    font-size: 28px;
+    line-height: 1.5;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.learnerpathwaysec span.pathway_root h4{
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: left;
+    color: #2b2a2a;
+}
+.learnerpathwaysec img {
+    max-width: 160px;
+    margin-right: 0px;
+}
+.learnerpathwaysec img.iconstyle {
+    max-width: 75px;
+    border-radius: 50%;
+    height: 75px;
+}
+.learnerpathwaysec img.pathwaybanner {
+    max-width: 240px;
+    background: #eaf3f4;
+    padding: 20px;
+    border: 5px solid #cee0e2;
+}
+
+.pathwayslistitm {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pathwayslistitm li {
+    font-size: 18px;
+    line-height: 2.3;
+    display: flex;
+    align-items: center;
+}
+
+.pathwayslistitm ul li img{
+    max-width: 12px;
+}
+.pathwaysarrow span.colorbox1 {
+    background: #4169e1;
+    height: 60px;
+    width: 15%;
+    position: absolute;
+}
+.pathwaysarrow span.colorbox1::after{
+    content: " ";
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    border-top: 30px solid transparent;
+    border-right: none;
+    border-left: 30px solid #4169e1;
+    border-bottom: 30px solid transparent;
+}
+.pathwaysarrow span.colorbox2 {
+    background: #e9b72f;
+    height: 60px;
+    width: 15%;
+    position: absolute;
+}
+.pathwaysarrow span.colorbox2::after{
+    content: " ";
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    border-top: 30px solid transparent;
+    border-right: none;
+    border-left: 30px solid #e9b72f;
+    border-bottom: 30px solid transparent;
+}
+.pathwaysarrow span.colorbox2 {
+    background: #e46666;
+    height: 60px;
+    width: 15%;
+    position: absolute;
+}
+.pathwaysarrow span.colorbox2::after{
+    content: " ";
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    border-top: 30px solid transparent;
+    border-right: none;
+    border-left: 30px solid #e46666;
+    border-bottom: 30px solid transparent;
+}
+
+.pathwaysarrow ul {
+    display: flex;
+}
+
+.learnerpathwaysec span.pathway_root {
+    background: #f5fcfc;
+    border-radius: 90px;
+    padding: 5px 8px;
+    margin: 20px 0px 0;
+    border: 2px solid #ddf0f0;
+}
+
+label.Selcheckbox.selectedpw.EnroledJournyCourse.flex-wrap.p-0 {
+    background: #e3f2fd !important;
+}
+.ljpopups h2.mt-3.mb-3 {
+    text-align: center;
+    font-size: 20px;
+}
+.notenrollednanycourses .learnerpathwaysec .mypathwytb {
+    background: #f5faff;
+    margin-bottom: 18px;
+    padding: 30px !important;
+    border: 1px solid #f9ca5c;
+    border-left: 10px solid #f5b936;
+    border-radius: 0 5px 5px 0;
+}
+.pathwat_desc_icon img{
+    position: absolute;
+    left: 0;
+}
+span.m-0.pathway_htm_desc {
+    padding-left: 30px;
+}
+span.m-0.pathway_htm_desc ul{
+    padding-left: 0 !important;
+}
+span.m-0.pathway_htm_desc ul svg.svg-inline--fa.fa-play {
+    font-size: 16px !important;
+    position: absolute;
+    left: 0;
+}
+span.m-0.pathway_htm_desc p#textheight {
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.notenrollednanycourses .learnerpathwaysec  img {
+    max-width: 280px;
+}
+.learnerpathwaysec h4 span{
+    color: #006dcc;
+}
+.speakerspeek span.speaker_effect span{
+    width: 7px;
+    height: 1px;
+    background: #329fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+    margin-bottom: 10px;
+}
+.speakerspeek span.speaker_effect {
+    top: 10px;
+    position: absolute;
+    right: 37px;
+    max-width: 5px;
+    animation-name: poly_speaker_effect;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes poly_speaker_effect {
+    0%   { width: 0;}
+    100% { width: 100%;}
+}
+.speakerspeek span.speaker_effect span:nth-child(2){
+    top: 5px;
+    left: -3px;
+    transform: rotate(0deg);
+}
+.speakerspeek span.speaker_effect span:nth-child(3){
+    top: 10px;
+    transform: rotate(-45deg);
+}
+.welcomscreenContent.patwaysbulleys ul li{
+    position: relative;
+}
+.welcomscreenContent.patwaysbulleys ul li::before{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 5px;
+    background: url("../images/Capturevdfhfveh.png");
+    max-width: 15px;
+    height: 14px;
+    background-size: contain;
+    width: 13px;
+    background-repeat: no-repeat;
+}
+.welcomscreenContent.patwaysbulleys ul li{
+    padding-left: 20px !important;
+}
+.halfPagePOpup.SchoolActivityPopup.ljpopups .Skill_popup_half .modal-dialog.modal-lg {
+    transform: translate(-50%,-50%);
+    margin: auto !important;
+    top: 35%;
+    left: 50%;
+    max-width: 1000px;
+    width: 1000px;
+    height: auto;
+}
+
+.Skill_popup_half .modal-dialog.modal-lg .modal-body.pb-1 {
+    min-height: 7vh;
+}
+
+.Skill_popup_half div#schoolactivity39 {
+    overflow: hidden;
+    height: 689px;
+}
+.halfPagePOpup.SchoolActivityPopup.ljpopups.PathwaySelLit div#learnerEnrollCourse {
+    overflow: hidden;
+    max-height: 100vh;
+}

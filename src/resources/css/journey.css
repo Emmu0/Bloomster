@@ -1,0 +1,321 @@
+.ljdimension {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    background: #e8e8e8;
+    border: 1px solid #d7d7d7;
+    border-radius: 50%;
+    box-sizing: content-box;
+    position: relative;
+    z-index: 2;
+}
+
+.ljourneyitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: 20px auto;
+}
+div#dimensionSkillModel .ljourneyitems {
+    max-width: 60%;
+}
+.tracks {
+    position: absolute;
+    width: 130px;
+    height: 6px;
+    background: #d7d7d7;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.ljdimension.ljphyusical {
+    background: #1ec1d9;
+    color: #fff;
+    border-color: #1ec1d9;
+}
+.ljdimension.ljphyusical span.tracks {
+    background: #1ec1d9;
+}
+
+.ljdimension.ljsocial {
+    background: #ff9900;
+    color: #fff;
+    border-color: #ff9900;
+}
+.ljdimension.ljsocial .tracks {
+    background: #ff9900;
+}
+
+.ljdimension.jemotional {
+    background: #e46666;
+    color: #fff;
+    border-color: #e46666;
+}
+.ljdimension.jemotional .tracks {
+    background: #e46666;
+}
+
+.ljdimension.ljmindfulness {
+    background: #a86adb;
+    color: #fff;
+    border-color: #a86adb;
+}
+.ljdimension.ljmindfulness .tracks {
+    background: #a86adb;
+}
+
+.ljdimension.ljintellectual{
+    background:  #85b812;
+    color: #fff;
+    border-color:  #85b812;
+}
+.ljdimension.ljintellectual .tracks {
+    background: #85b812;
+}
+.Addrewardform.ljpopups .modal-dialog.modal-lg {
+    max-width: 800px;
+    width: 800px;
+    margin: 10px auto;
+}
+.ljpopups .ScenecerelateddQuiz h4 {
+    font-size: 22px;
+}
+.ljpopups .ScenecerelateddQuiz .signupType label span {
+    /* font-family: "Comic Neue", cursive !important; */
+    font-size: 21px !important;
+}
+.ljpopups  .checkmark{
+    top: 5px;
+    height: 22px;
+    width: 22px;
+}
+.ljpopups .Selcheckbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 8px;
+    height: 14px;
+    border-width: 0 4px 4px 0;
+}
+.ljpopups .ScenecerelateddQuiz {
+    padding: 40px 26px;
+}
+.ljourney h3{
+    font-size: 24px;
+    margin: 10px 0 30px;
+}
+.ljuserlistitemimg {
+    width: 85px;
+    z-index: 1;
+    padding: 2px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.ljuserlistitemDesc {  
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-left: -50px;
+    padding-left: 45px;
+    border-radius: 0px 0px;
+    background: #f1f1f1;
+}
+.ljuserviewed h2 ,.ljpopups h2{
+    font-size: 22px;
+}
+.ljourney .QQtitle img {
+    max-width: 16px;
+}
+.ljuserlistitems {
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px 12px 10px 10px;
+    border-radius: 63px 6px 6px 63px;
+    border: 1px solid #c9c9c9;
+    box-shadow: 1px 1px 20px 0px #cac9c9;
+}
+.ljuserlistitems:last-child{
+    margin-bottom: 0;
+}
+.ljuserlistitemDesc h3 {
+    font-size: 16px;
+}
+.ljuseraddedlist {
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+}
+.ljuserlistitemAsset {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+.alreadytakenjouney .ljuserviewed h2 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.Addrewardform.ljpopups.alreadytakenjouney .modal-dialog.modal-lg {
+    top: 30px;
+    max-width: 800px;
+    width: 800px;
+    transform: none; 
+}
+.ljuserlistitemAsset img{
+    max-width: 22px;
+    vertical-align: sub;
+}
+.ljuserlistitemimg img {
+    border-radius: 50%;
+}
+.phyitem .ljuserlistitemimg {
+    background: #1ec1d9;
+}
+
+.sociitem .ljuserlistitemimg {
+    background: #e9b72f;
+}
+.emotitem .ljuserlistitemimg {
+    background: #e46666;
+}
+.sprotitem .ljuserlistitemimg {
+    background: #a86adb;
+}
+.phyitem .ljuserlistitemDesc{
+    border-color: #1ec1d9
+}
+.sociitem .ljuserlistitemDesc{
+    border-color: #e9b72f;
+}
+.emotitem .ljuserlistitemDesc{
+    border-color: #e46666;
+}
+.sprotitem .ljuserlistitemDesc{
+    border-color: #a86adb;
+}
+.ljpopups .ScenecerelateddQuiz h4 img,.ljuserlistitemDesc h3 img,img.ml-2.ichat_icon{
+    max-width: 16px;
+    vertical-align:middle;
+    margin-top: -3px;
+}
+.skill_book_icon{
+    max-width: 20px !important;
+}
+.whereYouleftwtrap.newwhrulft {
+    background: #E3F2FD;
+    border: 2px solid #2196f3;
+    border-radius: 4px;
+    /* box-shadow: 0 0 50px 1px #c6e5fb; */
+}
+.JnrEnrCrsCard {
+    color: #00b050;
+}
+.jinfoicon {
+    margin-top: -3px;
+}
+.coveredDimensionpathway img{
+    max-width: 32px;
+    margin-bottom: 8px;
+}
+.skillSeltaglist .welcomscreenContent ul li h4 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+}
+.skillSeltaglist  .welcomscreenContent ul li svg {
+    margin-top: 6px !important;
+}
+.custom_pathways span.checkmark {
+    border-radius: 0;
+}
+.SkillCounter strong {
+    padding: 2px 5px;
+    border: 1px solid #578fc0;
+    color: #578fc0;
+    background-color: #e1f0ff;
+    font-size: 14px;
+}
+.multipleSkillssel p {
+    font-size: 20px;
+    color: #545454;
+    margin: 27px 0;
+}
+
+.flex.multipleSkillssel.mb-3 {
+    background: #eef7ff;
+    padding: 15px;
+}
+
+.multipleSkillssel.mb-3 {
+    padding: 15px 21px;
+    background: #f3faff;
+    border: 1px solid #FFB300;
+    border-radius: 6px;
+    border-left: 6px solid #FFB300;
+    position: absolute;
+    right: 8%;
+    top: 97px;
+    width: 400px
+}
+.custom_pathways.ScenecerelateddQuiz .signupType label:hover .aboutProgdesc .Courseporogresspopup {
+    display: block;
+    transform: none;
+    top: 42px;
+    left: -13px;
+}
+.custom_pathways .Courseporogresspopup:after {
+    top: -14px;
+    left: 7%;
+}
+.input-group.patways_name_ent .form-group  label {
+    color: #606060;
+    font-size: 16px;
+    margin: 0 !important;
+    margin-right: 10px !important;
+}
+.patways_name_ent .invalid-feedback {
+    padding-left: 124px;
+}
+.input-group.patways_name_ent input{
+    max-width: 27%;
+    width: 20%;
+}
+.modal-body.paymentinfo.pt-0 {
+    padding-bottom: 30px !important;
+}
+.settingtable .pagination ,.teacherdetailhalfsc .pagination {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+}
+.create_customp p{
+    font-size: 16px;
+}
+.ScenecerelateddQuiz .signupType .flexone.mb-3:last-child {
+    margin-bottom: 0 !important;
+}
+/*Start Added By Alfaiz on 21-2-2024 */
+#multipleSkillssel p {
+    margin: 0px 0;
+    font-weight: 600;
+}
+
+#multipleSkillssel {
+    position: unset !important;
+    width: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ScenecerelateddQuiz {
+    padding: 20px 26px !important;
+}
+
+.SkillCounter strong {
+    font-size: 20px !important;
+}
+
+/*End Added By Alfaiz on 21-2-2024 */

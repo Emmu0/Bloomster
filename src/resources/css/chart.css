@@ -1,0 +1,834 @@
+.DchartContnr {
+  background: #fff;
+  margin-left: auto;
+  position: relative;
+  width: 100%;
+  min-width: 250px;
+  height: 350px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: url("../images/Intellectual_back.png");
+  background-size: cover;
+  background-position: top center;
+}
+.AllDiemensionChart .DchartContnr {
+  min-width: 250px;
+  height: 250px;
+}
+.MainContent.inactive .DchartContnr {
+  height: 300px;
+}
+.DcverticleParameter {
+  position: absolute;
+  left: -22px;
+  bottom: 0;
+  top: 0;
+}
+.DChartWrap .dropdown-menu::after {
+  border-bottom-color: #ccc !important;
+  left: 28px;
+  right: auto;
+  top: -14px;
+  border: 7px solid transparent;
+}
+.DChartWrap {
+  margin: 20px 5px 20px 20px;
+}
+.HolisticProgress .DChartWrap {
+  margin: 30px 10px 20px 70px;
+  min-height: 508px;
+}
+.holisticmodal div#common-modal {
+  max-width: 1010px;
+}
+.holisticmodal.AddChildPopup .modal-content{
+  max-width: 100%;
+}
+.holisticmodal .DChartWrap {
+  margin: 15px 5px 60px 40px;
+}
+.DcverticleParameter span {
+  position: absolute;
+  left: -116px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  letter-spacing: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #329fff;
+  font-weight: 800;
+}
+.HolisticProgress .DcverticleParameter span {
+  position: absolute;
+  left: -106px;
+}
+span.HIPCharted {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+  left: -5px;
+  font-weight: 600;
+  color: #414141;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.DcverticleParameter ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+  font-size: 10px;
+  width: 17px;
+}
+.HolisticProgress .DcverticleParameter ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(2) {
+  top: 10%;
+  transform: translateY(-10%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(3) {
+  top: 20%;
+  transform: translateY(-20%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(4) {
+  top: 30%;
+  transform: translateY(-30%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(5) {
+  top: 40%;
+  transform: translateY(-40%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(6) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(7) {
+  top: 60%;
+  transform: translateY(-60%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(8) {
+  top: 70%;
+  transform: translateY(-70%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(9) {
+  top: 80%;
+  transform: translateY(-80%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(10) {
+  top: 90%;
+  transform: translateY(-90%);
+}
+.HolisticProgress .DcverticleParameter ul li:nth-child(11) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+.DcverticleParameter ul li:nth-child(2) {
+  top: 25%;
+  transform: translateY(-25%);
+}
+
+.DcverticleParameter ul li:nth-child(3) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.DcverticleParameter ul li:nth-child(4) {
+  top: 75%;
+  transform: translateY(-75%);
+}
+
+.DcverticleParameter ul li:nth-child(5) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.DcHorizontalParameter {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+}
+.DcHorizontalParameter span {
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 7px;
+  font-size: 10px;
+  color: #329fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.DcHorizontalParameter span.HSESCharted {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 7px;
+  font-size: 12px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  color: #404040;
+  text-transform: uppercase;
+}
+.DcHorizontalParameter ul li {
+  display: inline-block;
+  position: absolute;
+  left: 0; 
+  font-size: 10px;
+  bottom: -10px;
+}
+.chartWrappannel .DChartWrap.HolisticProgress {
+  margin: 30px 5px 70px 65px;
+}
+.MainContent.inactive span.HIPCharted { 
+  left: -75px;
+}
+.chartWrappannel .DcHorizontalParameter span.HSESCharted {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+}
+.chartWrappannel .DChartWrap {
+  margin: 25px 5px 50px 50px;
+}
+.DcHorizontalParameter ul li:nth-child(3) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.DcHorizontalParameter ul li:nth-child(2) {
+  left: 25%;
+  transform: translateX(-25%);
+}
+
+.DcHorizontalParameter ul li:nth-child(4) {
+  left: 75%;
+  transform: translateX(-75%);
+}
+
+.DcHorizontalParameter ul li:nth-child(5) {
+  left: 100%;
+  transform: translateX(-100%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(2) {
+  left: 10%;
+  transform: translateX(-10%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(3) {
+  left: 20%;
+  transform: translateX(-20%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(4) {
+  left: 30%;
+  transform: translateX(-30%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(5) {
+  left: 40%;
+  transform: translateX(-40%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(6) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(7) {
+  left: 60%;
+  transform: translateX(-60%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(8) {
+  left: 70%;
+  transform: translateX(-70%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(9) {
+  left: 80%;
+  transform: translateX(-80%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(10) {
+  left: 90%;
+  transform: translateX(-90%);
+}
+.HolisticProgress .DcHorizontalParameter ul li:nth-child(11) {
+  left: 100%;
+  transform: translateX(-100%);
+}
+.starttoendpoint span {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  color: rgb(0 0 0 / 70%);
+  font-weight: 600;
+  left: 5px;
+}
+.starttoendpoint span:nth-child(2) {
+  top: 0;
+  left: auto;
+  right: 5px;
+}
+.starttoendpoint span:nth-child(3) {
+  top: 0;
+  left: 5px;
+}
+.starttoendpoint span:nth-child(4) {
+  bottom: 0;
+  left: auto;
+  right: 5px;
+}
+.ProgressDot {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  cursor: pointer;
+  z-index: 1;
+  transform: translate(-50%, 50%);
+  width: 25px;
+  height: 25px;
+  border: 0px solid #ffffff;
+  display: block;
+  border-radius: 50%;
+  /* background: #7e7e7e;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) -100%,
+    #0d6efd 100%
+  );
+  box-shadow: 2px 2px 4px #5173a5; */
+}
+#Holisticgrowthchart .ProgressDot {
+  width: 24px;
+  height: 24px;
+}
+.ProgressDot img {
+  vertical-align: baseline;
+}
+#Holisticgrowthchart .ProgressDot img {
+  max-width: 24px;
+  vertical-align: baseline;
+}
+.ProgressDot span {
+  width: 16px;
+  height: 16px;
+  border: 0px solid #ffffff;
+  display: block;
+  border-radius: 50%;
+  /* box-shadow: 0 0 3px #7e7e7e; */
+  background: #7e7e7e;
+  margin: auto;
+  line-height: 15px;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) -100%,
+    #0d6efd 100%
+  );
+  box-shadow: 2px 2px 4px #5173a5;
+}
+/* .ProgressDot img {
+    position: absolute;
+    width: auto;
+    top: -10px;
+    left: 10px;
+    z-index: 1;
+    width: 15px;
+} */
+.HolisticProgress .DchartContnr {
+  height: 450px;
+  width: 100%;
+  background:url('../images/holisticviewback.png') center center no-repeat;
+  background-size: cover;
+}
+.HolisticProgress .DchartContnr::after {
+  content: "";
+  width: .1px;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.HolisticProgress .DchartContnr::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.chartlistprogrss .DchartContnr.donatchartIntellectual {
+   background: url("../images/Intellectual_back.png"); 
+  background-size: cover;
+  background-position: center;
+}
+.chartlistprogrss .DchartContnr.donatchartPhysical {
+  background: url("../images/physical_back.png");
+  background-size: cover;
+  background-position: center;
+}
+ .chartlistprogrss .DchartContnr.donatchartSocial {
+  background: url("../images/social_back.png");
+  background-size: cover;
+  background-position: center;
+}
+.chartlistprogrss .DchartContnr.donatchartEmotional {
+  background: url("../images/emotional_back.png");
+  background-size: cover;
+  background-position: center;
+}
+.chartlistprogrss .DchartContnr.donatchartSpiritual {
+  background: url("../images/spiritual_back.png");
+  background-size: cover;
+  background-position: center;
+} 
+.AllDiemensionChart .DChartWrap {
+  margin: 20px 20px 20px 60px;
+  padding-bottom: 50px;
+}
+.DChartWrap h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.DiemensionPiechart {
+  margin: auto;
+  padding: 0 20px 0px 0px;
+  margin: 20px auto;
+  position: absolute;
+  right: 32px;
+  top: 103px;
+  z-index: 9;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.DiemensionPiechart .icAvXI .canvas_chart {
+  margin-block: 0;
+  height: 200px;
+  width: 200px;
+}
+.DiemensionPiechart.dropdown-menu.show {
+  transform: none !important;
+  width: 270px;
+  top: 26px !important;
+}
+.DiemensionPiechart .icAvXI {
+  gap: 0px;
+  justify-content: space-between;
+  padding-right: 16px;
+}
+.DiemensionPiechart.dropdown-menu::after {
+  content: "";
+  position: absolute;
+  top: -19px;
+  left: 20%;
+  right: auto;
+  border: 9px solid transparent;
+  border-bottom-color: transparent;
+  border-bottom-color: #d5d5d5 !important;
+}
+.icAvXI .chart_keys {
+  margin-block: auto;
+  width: 140px;
+}
+.DiemensionPiechart .icAvXI .chart_dot {
+  margin-top: -6px;
+}
+.DiemensionPiechart .icAvXI .chart_text {
+  line-height: 26px;
+}
+.gUOCOV {
+  gap: 10px !important;
+}
+.startsEnrolling.pointer{
+  margin: auto;
+}
+.chartprofilemenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -49.5%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.chartWrappannel div {
+  text-align: center;
+}
+.fusionchart.position-relative,.startsEnrolling.pointer{
+  margin: auto;
+}
+g.raphael-group-kKPPMobP {
+  display: none;
+}
+.chartprofilemenu img {
+  border-radius: 50%;
+}
+.HolisticProgress .heading img {
+  max-width:initial;
+}
+.text-dark.bg-secondary.fw-bold.chartprofilemenu {
+  font-size: 36px;
+  font-weight: 600 !IMPORTANT;
+  line-height: 3;
+  color: #fff !IMPORTANT;
+  letter-spacing: -2px;
+}
+.chart-container canvas{
+    min-width: 375px !important;
+    height: 375px !important;
+}
+.Rpprogresbar .DChartWrap {
+  margin:10px 15px 20px 15px;
+}
+.Rpprogresbar .DcverticleParameter span {
+  left: -56px;
+  letter-spacing: 14px;
+  font-size: 12px;
+}
+.Rpprogresbar .courseProgresschart ul.Cprogreslisting{
+  width: 100% !important;
+  padding: 0 !important;
+  max-height: initial;
+}
+.Rpprogresbar .chartlistprogrss .DchartContnr.donatchartEmotional {
+  background-position: center;
+  background: none !important;
+  display: flex;
+  width: 100%;
+  align-items: end;
+  height: auto;
+  border-top: 0;
+}
+.Rpprogresbar .ProgressDetails ul.Cprogreslisting li {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #232323;
+  margin: 10px 0;
+  font-weight: 600;
+  /* background: red; */
+  border: 0;
+  position: relative;
+}
+h4.skillscharttitle {
+  padding: 2px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #ccc;
+  border-radius: 2px;
+  text-align: center;
+  letter-spacing: 0;
+  border: 1px solid #434343;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+span.TotleCProg {
+  position: absolute;
+  background:#ade52f;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+span.TotleCProgCOMMING {
+  position: absolute;
+  background: rgb(87, 86, 86);
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+.Rpprogresbar .chart-container canvas{
+  max-width: 300px !important;
+  width: 300px !important;
+  min-width: 300px !important;
+  margin: auto;
+  height: 300px !important;
+}
+.Rpprogresbar .ProgressDetails ul.Cprogreslisting li:hover{
+  background: none;
+  cursor: auto;
+}
+.Rpprogresbar {
+  overflow: auto;
+  height: 75vh;
+}
+.Rpprogresbar .chartprofilemenu {
+  width: 90px;
+  height: 90px;
+}
+
+.Rpprogresbar .text-dark.bg-secondary.fw-bold.chartprofilemenu {
+  line-height: 2.5;
+  z-index: -1;
+}
+.Rpprogresbar  .DcHorizontalParameter ul li {
+  font-size: 12px;
+  bottom: -14px;
+}
+.Rpprogresbar  .DcHorizontalParameter span {
+  bottom: -40px;
+  letter-spacing: 14px;
+  font-size: 12px;
+}
+.leftexpendgraph {
+  position: absolute;
+  left: -23px;
+}
+.leftexpendgraph .expendgraphicon img {
+  max-width: 16px;
+  transform: rotate(45deg);
+}
+.leftexpendgraph .expendgraphicon.inficononchart img{
+  transform: rotate(0);
+}
+.rightexpendgraph {
+  position: absolute;
+  right: -24px;
+}
+.progresssignals {
+  display: flex;
+  align-items: baseline;
+}
+.prosignal1,.prosignal2,.prosignal3,.prosignal4,.prosignal5 {
+  width: 3px;
+  height: 5px;
+  display: inline-block;
+  margin-right: 1px;
+  background: #cccccc;
+}
+.prosignal2{
+  height: 9px;
+}
+.prosignal3{
+  height: 13px;
+}
+.prosignal4{
+  height: 17px;
+}
+.prosignal5{
+  height: 21px;
+}
+.prosignal1.ActProSignl,.prosignal2.ActProSignl ,.prosignal3.ActProSignl ,.prosignal4.ActProSignl ,.prosignal5.ActProSignl  {
+  background: #3ec093;
+}
+.skillsgraphtitle img {
+  max-width: 32px;
+}
+.skillsgraphtitle {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.skillsgraphtitle h3 span{
+  font-size: 16px;
+}
+.graphbatteryprogress {
+  width: 50px;
+  height: 100px;
+  box-sizing: inherit;
+  box-sizing: border-box;
+  position: relative;
+  background: #e3e3e3;
+  margin: 20px;
+  min-width: 50px;
+}
+
+/* .graphbatteryprogress:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  top: -5px;
+  background: #b2b2b2;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+span.batterycells {
+  width: 50px;
+  height: 78%;
+  display: table;
+  background: #329fff;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* span.batterycells:nth-child(2) {
+  bottom: 7px;
+} */
+span.batterycells:nth-child(3) {
+  bottom: 11px;
+}
+span.batterycells:nth-child(4) {
+  bottom: 15px;
+}
+.Rpprogresbar .ProgressDetails ul.Cprogreslisting li span {
+  font-size: 12px;
+  padding-left: 3px;
+}
+.AllSkillschart .skill_pnlcircle{
+  background: none;
+}
+.AllSkillschart .Skill_innercircle{
+  width: 50%;
+  height: 50%;
+  background: #0096fe;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid #fff;
+}
+.AllSkillschart .Skill_innercircle p{
+  position: absolute;
+  color: #414141;
+  left: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.AllSkillschart .Skill_innercircle p.SkillPlanatryprog {
+  left: -26px;
+}
+.AllSkillschart .Skill_innercircle p.SkillPlantry{
+  left: -28px;
+}
+.AllSkillschart .Skill_innercircle p.skiilsfullycomp {
+  left: -35px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(1) p.SkillPlanatryprog,
+.AllSkillschart .skill_pnlcircle:nth-child(5) p.SkillPlanatryprog{
+left: -35px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(2) p,
+.AllSkillschart .skill_pnlcircle:nth-child(6) p,
+.AllSkillschart .skill_pnlcircle:nth-child(8) p,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p{
+left: auto;
+right: -18px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(2) p.SkillPlantry,
+.AllSkillschart .skill_pnlcircle:nth-child(6) p.SkillPlantry,
+.AllSkillschart .skill_pnlcircle:nth-child(8) p.SkillPlantry,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p.SkillPlantry
+{
+left: auto;
+right: -28px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(2) p.SkillPlanatryprog,
+.AllSkillschart .skill_pnlcircle:nth-child(6) p.SkillPlanatryprog,
+.AllSkillschart .skill_pnlcircle:nth-child(8) p.SkillPlanatryprog,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p.SkillPlanatryprog
+{
+left: auto;
+right: -26px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(2) p.skiilsfullycomp,
+.AllSkillschart .skill_pnlcircle:nth-child(6) p.skiilsfullycomp,
+.AllSkillschart .skill_pnlcircle:nth-child(8) p.skiilsfullycomp,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p.skiilsfullycomp
+{
+left: auto;
+right: -35px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(6) p.SkillPlanatryprog{
+  left: auto;
+  right: -32px;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(3) p.SkillPlanatryprog,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p.SkillPlanatryprog,
+  .AllSkillschart .skill_pnlcircle:nth-child(3) p.skiilsfullycomp,
+.AllSkillschart .skill_pnlcircle:nth-child(4) p.skiilsfullycomp{
+  left: 50%;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(4) p{
+  top: 50%;
+}
+.holisticflowr.dimension_skilflow.rghtpnl_Skill {
+  padding: 77px;
+}
+.notenrolledanycrs .LessionDtlOverview.p-3 {
+  min-height: 0;
+}
+.notenrolledanycrs .LessionDtlOverview.p-3 a{
+  word-break: normal;
+  font-size: 20px !important;
+}
+.AllSkillschart .skill_pnlcircle:nth-child(3) p{
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+.AllSkillschart .skill_pnlcircle:nth-child(4) p{
+  left: 50%;
+  top: auto;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+span.skils_list {
+  color: #fff;
+}
+.notenrolledanycrs .LessionDtlOverview.p-3 {
+  min-height: 0;
+}
+span.skils_list {
+  color: #fff;
+}
+.Skillslegent {
+  padding: 0 10px 10px;
+}
+.Skillslegent ul li {
+  font-size: 15px;
+  padding: 7px 10px;
+  width: 50%;
+  max-width: 198px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* span.skillCountlegend {
+  position: absolute;
+  background: #fff;
+  top: -3px;
+  right: 0;
+  width: 22px;
+}
+.Skillslegent ul li span.position-relative {
+  padding-right: 23px;
+} */
+/* .Skillslegent ul {
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+} */
+.Skillslegent ul li strong {
+  border: 1px solid #0096fe;
+  background: #0096fe;
+  border-radius: 50%;
+  width: 20px;
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  line-height: 19px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.dimensionskills p {
+  color: #fff;
+}
+.AllSkillschart .Skill_innercircle p.skiilsfullycomp {
+  left: -35px;
+}

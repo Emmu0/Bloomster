@@ -1,0 +1,296 @@
+.TopicTitle h3 {
+    font-size: 15px;
+    color: #212121;
+}
+.TopicTitle h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+    line-height: 1.2;
+}
+.Topicomage {
+    text-align: center;
+    margin-left: 10px;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    font-size: 28px;
+    color: #858585;
+}
+.resourseCatdTitle {
+    background: #ececec;
+}
+.Resorctitledtl{
+    width: 100%;
+    padding: 0 10px 0px 0px;
+}
+.resoucecardTopic h4{color: #212121; font-size: 16px;}
+.ResrcCrdDropdwn span {
+    padding: 13px 22px;
+    display: block;
+    font-size: 16px;
+}
+.ResrcCrdDropdwn.text-center {
+    margin-left: 20px;
+    border-left: 1px solid #fff;
+}
+.CuratedBy{
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #329fff;
+    width: 30px;
+    margin-right: 5px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.CuratedBy .fa-user{color: #329fff;
+    margin-right: 0;}
+/*  */
+
+.ReourcecrdLeftbar li p.RconDropdwn{
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+    padding: 10px 23px 11px 10px;
+    font-weight: 600;
+}
+.Topicomage svg.fa-file-lines{font-size: 28px !important;}
+.prolistedvidoitem.rescrdVidContent{
+    max-height: 187px;
+    padding: 0 10px;
+}
+.ReourcecrdLeftbar .submoduleList li {
+    padding: 0 18px 10px 24px;
+    cursor: auto;
+}
+.resourseCard {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    position: relative;
+    background: #ececec;
+}
+.resorcardfooter {
+    padding: 0px 10px 5px;
+    color: #329fff;
+    text-align: right;cursor: pointer;
+}
+/*quiz  */
+svg.svg-inline--fa.fa-lock.ml-2 ,.coursecardnav svg.svg-inline--fa.fa-key{
+    color: #747474;
+}
+.Rquizlistitem li {
+    font-size: 14px;
+    padding: 10px 0px 10px 50px;
+    position: relative;
+}
+.Rquizlistitem li span {
+    text-align: left;
+    position: absolute;
+    left: 13px;
+    width: 30px;
+    line-height: 28px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: block;
+    text-align: center;
+    top: 7px;
+    border-radius: 50%;
+}
+.RQuizlist.prolistedvidoitem.rescrdVidContent{
+    max-height: 100%;
+}
+.Rquizlistitem li.SelectOption{
+    background: #d3e9ff;
+    border: 1px solid #329fff;
+}
+.Rquizlistitem li:hover span{
+border-color: #329fff;
+}
+.Rquizlistitem li.SelectOption span{
+    border-color: #329fff;
+    background: #1ec1d9;
+    color: #fff;
+}
+.rQuizName h5 {
+    padding-left: 50px;
+    position: relative;
+}
+.rQuizName h5 span {
+    position: absolute;
+    left: 22px;
+}
+.Rquizlistitem li.CorrectOption {
+    background: #d6ffdd;
+}
+.Rquizlistitem li.CorrectOption svg,.Rquizlistitem li.WrongOption svg  {
+    color: #fff;
+}
+
+.Rquizlistitem li.WrongOption {
+    background: #ffe0de;
+}
+
+.Rquizlistitem li.WrongOption span.WrongQIcon {
+    background: #f44336;
+    border-color:#f44336;
+}
+.Rquizlistitem li.CorrectOption span.CorrectIcon {
+    background: #4bae4f;
+    border-color:#4bae4f;
+}
+.RquizTitle.flex.mb-3 {
+    border-bottom: 1px solid #ccc;
+}
+.RquizTitle span {
+    color: #057e09;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Rquizlistitem {
+    margin-bottom: 15px;
+}
+.RquizTitle {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* box-shadow: 0px 2px 3px #ccc; */
+    border-top: 1px solid #ccc;
+}
+.SelectLessonBox .rs-picker-toggle.rs-btn .rs-picker-toggle-caret {
+    right: 20px !important;
+    font-size: 16px;
+    color: #212121;
+}
+span.rs-picker-select-menu-item {
+    font-size: 14px !important;
+    border-bottom: 1px solid #eee !important;
+    padding: 10px 38px;
+}
+.rs-picker-menu-group-title{
+    border-bottom: 1px solid #ccc;
+}
+.rs-picker-menu-group-title span{
+font-weight: 600;
+font-size: 16px;
+}
+.rs-picker-select-menu-items .rs-picker-menu-group:not(:first-child) {
+    margin-top: 0;
+}
+.Rquizlistitem li:hover {
+    background: #d3e9ff;
+}
+.ProbvidListItem.checkoutVideo .VideoThumbimg {
+    width: 92px;
+    height: 92px;
+}
+/* .RatingWrap1.flex {
+    line-height: 1;
+} */
+.TernOffNotification {
+    padding: 5px 20px;
+}
+.ReourcecrdLeftbar li p.RconDropdwn[aria-expanded="true"] svg.svg-inline--fa.fa-angle-down{
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+.ReourcecrdLeftbar li p.RconDropdwn[aria-expanded="false"] svg.svg-inline--fa.fa-angle-down{
+    transition: all .3s;
+}
+
+.ExploreCard h5{
+    font-size: 14px;
+    letter-spacing: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -176px;
+    top: 58%;
+    transform: translateX(-50%) rotate(90deg);
+}
+.ExploreCard svg{
+    margin-left: 0px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    transform: rotate(-90deg);
+}
+.rsCard {
+    width: calc(100% - 25px);
+    border-right: 1px solid #ccc;
+    background: #fff;
+}
+.rsCard svg.svg-inline--fa.fa-check.mr-3 {
+    color: green;
+    font-size: 17px;
+}
+span.closeback {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 65%;
+    background: #1e79c9;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+span.backHalscreen {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.rsCard svg.svg-inline--fa.fa-lock.mr-3 {
+    color: #747474;
+}
+.ProCourseCrd {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    max-width: 90%;
+    border-radius: 0px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.ProCourseCrdTitl.flex {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.ProCourseCrdTitl h3 {
+    font-size: 18px;
+    color: #3c3c3c;
+}
+.ProCourseCrdTitl h5 {
+    font-size: 16px;
+    color: #636363;
+}
+.AddCusomCourse {
+    text-align: center;
+    color: #1e83d3;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    cursor: pointer;
+}
+.CrsCrd.flex {
+    background: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddCusomCourse svg.svg-inline--fa.fa-circle-plus {
+    color: #1ec1d9;
+}
+.ReourcecrdLeftbar li p.RconDropdwn img{
+    max-width: 24px;
+}
+#resourceInnerModal .tabgrid ul li span.resoQuizscore img {
+    max-width: 31px;
+}
+#resourceInnerModal .tabgrid ul li span.resoQuizscore {
+    font-size: 12px;
+    color: #232323;
+    display: inline-block;
+    max-height: 15px;
+}

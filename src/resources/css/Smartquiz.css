@@ -1,0 +1,651 @@
+.knowyouselfcard {
+    padding: 0px;
+    text-align: center;
+    border: 2px solid #1976D2;
+    border-radius: 12px;
+    background: #d97732;
+    width: calc(50% - 15px);
+}
+
+.knowyouselfcard:first-child {
+    margin-right: 30px;
+}
+
+.knowyouselfcard img {
+    border-radius: 10px 10px 0 0;
+    height: 340px;
+    width: 100%;
+}
+
+.knowyouselfcard h2 {
+    font-size: 22px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.knowsyourself.halfPagePOpup .modal.fade.show .modal-dialog.modal-lg {
+    right: auto;
+    left: 0;
+    max-width: 100%;
+}
+
+.knowsyourself.halfPagePOpup .modal.fade .modal-dialog.modal-lg {
+    right: auto;
+    left: -50%;
+}
+
+.knowsyourself.halfPagePOpup .modal-dialog.modal-lg {
+    max-width: calc(100% - 50px);
+    animation-name: multiplescreen;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes multiplescreen {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 50px;
+    }
+}
+
+.halfPagePOpup.knowsyourself .modal {
+    z-index: 99999;
+    background: none;
+    backdrop-filter: blur(0px);
+}
+
+.halfPagePOpup.knowsyourself .modal-body {
+    background: #E1F5FE;
+    max-width: 66%;
+    align-items: baseline !important;
+    margin: auto;
+    align-content: baseline !important;
+}
+
+.halfPagePOpup.knowsyourself .modal-content {
+
+    background: #e1f5fe;
+}
+
+.selectionofquiztxt {
+    margin: 0px 0px 20px !important;
+}
+
+.smartquizwrapper {
+    padding: 10px 50px;
+    order: 1;
+}
+
+.smqzQueslist .signupType {
+    display: inline-block;
+    width: 100%;
+}
+
+.smqzQueslist label.Selcheckbox {
+    margin: 20px 0;
+    padding: 20px 20px 20px 45px;
+    font-size: 17px !important;
+    font-weight: 400;
+    color: #313131;
+    width: 100%;
+    box-shadow: 1px 1px 5px #878585;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.smqzQueslist label.Selcheckbox span.checkmark {
+    top: 17px;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.smqzQueslist h3,
+.smartquizwrapper h3 {
+    font-size: 26px;
+}
+
+.smqzQueslist label.Selcheckbox:hover {
+    background: #cfeedd;
+    border: 2px solid #00b050;
+    box-shadow: none;
+}
+
+.smqzQueslist label.Selcheckbox.selActivelabel {
+    background: #cfeedd;
+    border: 2px solid #00b050;
+    box-shadow: none;
+}
+
+.smqzQueslist .Selcheckbox .checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 10px;
+    height: 18px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
+}
+
+.quizblok {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.quizblok .Progresslistitem {
+    width: 96% !important;
+    margin: 10px auto !important;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #00b050;
+}
+
+.quizblok .Progresslistitem .diemensionalProgress.progressbar1 {
+    background-image: none;
+    background-color: #00b050;
+    top: -1px;
+    height: 18px;
+    left: 0;
+    max-width: 61%;
+    border-radius: 10px !important;
+}
+
+.procompt {
+    color: #000000;
+    margin-top: 0px;
+    display: block;
+    z-index: 1;
+    position: relative;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 11px;
+}
+
+
+.inequeresultwrap .intellegencename {
+    width: 36%;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 600;
+    color: #1976D2;
+    padding-right: 10px;
+}
+
+.inequeresultwrap .procompt {
+    width: 10%;
+    padding-left: 10px;
+    position: static;
+    transform: none;
+}
+
+.intequResult {
+    margin: 10px 0;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+}
+
+.smqzQueslist.inequeresultwrap {
+    padding: 10px;
+    background: #fff;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 6px #b2b1b1cc;
+    border-radius: 6px;
+}
+
+.quizblok .inequeresultwrap .Progresslistitem {
+    border: 0;
+    border-radius: 0;
+    height: 18px;
+    background: #cacaca;
+    width: 70% !important;
+}
+
+.quizblok .inequeresultwrap .Progresslistitem .diemensionalProgress.progressbar1 {
+    background-image: none;
+    background-color: #e46666 !important;
+    top: 0px;
+    height: 18px;
+    left: 0;
+    max-width: 60%;
+    border-radius: 0px !important;
+}
+
+.inequeresultwrap .intellegencename img {
+    max-width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid;
+}
+
+.smartquizwrapper h3.quizrestitle {
+    text-align: center;
+    margin: auto;
+    background: #e3f2fd;
+    border: 2px solid #ffcb5b;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+
+.IntelligenceWisetex .LessionDtlOverview.p-2 {
+    max-height: 72vh;
+}
+
+.EnrollTitle.selectionofquiztxt .NuggetVickyImage img {
+    min-width: 130px;
+    height: auto;
+    max-width: 130px;
+}
+
+.possiblecarrierList ul li,
+.scoredivision ul li {
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+    margin: 3px 0px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.scoredivision ul li {
+    width: 100%;
+}
+
+.possiblecarrierList ul li:before,
+.scoredivision ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: #BDBDBD;
+    border-radius: 50%;
+}
+
+.scoredivision {
+    background: #daf6db;
+    margin: 15px 0 0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.scoredivision ul li:before {
+    background: #388E3C;
+}
+
+.intelligenceimg img {
+    max-width: 200px;
+}
+
+/* .MIscoreDescription .modal.fade .modal-dialog{
+    max-width: 1000px;
+} */
+.MIscoreDescription .heading h2 {
+    font-size: 18px !important;
+}
+
+.intelligenceTyoedetail p {
+    font-size: 16px;
+}
+
+.smartquizbanner {
+    margin: 15px;
+    border: 2px solid #074a66;
+    border-radius: 4px;
+}
+
+.smartquizbanner img {
+    border-radius: 4px;
+    min-height: 68vh;
+}
+
+.beginAssessmentbtn button.btn-blue.btn-login {
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+.LessionDtlOverview p.Quiztimetxt {
+    font-size: 24px !important;
+    color: #000000;
+    font-weight: 600;
+}
+
+.knowyourcardWrap {
+    max-width: calc(100% - 150px);
+    margin-left: auto;
+}
+
+.courseInformation .EnrollTitle.selectionofquiztxt .LessionDtlOverview::before {
+    top: 0px;
+}
+
+.NSidebar.ActiveNSidebar+.knowsyourself.halfPagePOpup .modal-dialog.modal-lg {
+    max-width: calc(100% - 190px);
+}
+
+.NSidebar.ActiveNSidebar+.halfPagePOpup.knowsyourself .modal-body {
+    max-width: 75%
+}
+
+.Course_height .smartquizbanner img {
+    border-radius: 4px;
+    min-height: 63vh;
+}
+
+/* rating Servay */
+.ratingservayques .input-group label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    line-height: 2.5;
+    margin-top: 6px;
+}
+
+.feedbacklabel .input-group label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    line-height: 2.5;
+    margin-top: 6px;
+}
+
+.addservettext .input-group .form-group label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.ratingservayques {
+    max-width: 98%;
+    margin: 16px auto;
+}
+
+span.surveytop {
+    margin-top: 12px;
+}
+
+.ratingservayques .rs-slider-bar {
+    height: 14px;
+    border-radius: 10px;
+    background-color: #cdcdcd;
+}
+
+.ratingservayques .rs-slider-progress-bar {
+    height: 14px;
+    border-radius: 10px;
+}
+
+.ratingservayques .rs-slider-handle::before {
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    margin-top: 2px;
+}
+
+.scaleParameter {
+    margin-top: 4px;
+}
+
+.scaleParamerettext span {
+    font-size: 12px;
+    color: #606060;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.ratingservayques textarea {
+    width: 100%;
+    height: 75px;
+    border-radius: 0px;
+    font-size: 13px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.ratingservayques textarea::placeholder,
+.ratingservayques input::placeholder {
+    color: #ccc !important;
+}
+
+.RatetousPopup .ratingservayques h4 {
+    font-size: 15px;
+    color: #6e6e6e !important;
+    line-height: 1;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.serveyPoup .modal-body.RatetousPopup {
+    padding: 0px 20px 0px;
+}
+
+.serveyPoup.AreyousurePopup .modal .modal-dialog {
+    margin: 3px auto;
+    top: 0;
+    position: relative;
+    /* transform: translate(-50%,0%); */
+    min-width: 650px;
+}
+.enrolledpopups .serveyPoup.AreyousurePopup .modal .modal-dialog {
+    margin: 3px auto;
+    top: 0;
+    position: relative;
+    transform: translate(0%,0%);
+    min-width: 650px;
+}
+.RatetousPopup .ratingservayques h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #232323;
+    padding: 5px 5px;
+    background: #e7f7ff;
+    border: 1px solid #a5e3ff;
+    border-radius: 4px;
+}
+
+.RatetousPopup .ratingservayques h3 img {
+    max-width: 30px;
+}
+
+.ratingservayques .input-group .form-group input {
+    border-radius: 0px;
+}
+
+.sharepopup .modal .modal-dialog {
+    max-width: 450px;
+    transform: none !important;
+    top: 0;
+}
+
+.sharepopup.Addrewardform .modal.fade .modal-dialog {
+    max-width: 500px;
+    /* top: 0; */
+    /* left: auto; */
+    /* transform: none; */
+    right: 0;
+    margin-left: auto;
+}
+
+.sharewithfrnd img {
+    max-width: 30px;
+}
+
+.coursepup .modal.fade .modal-dialog,
+.coursepupstyl .modal.fade .modal-dialog {
+    max-width: 400px;
+    margin: 0;
+    right: 20px;
+    position: absolute;
+    top: 48%;
+
+}
+
+.coursepup img,
+.coursepupstyl img {
+    max-width: 30px;
+}
+
+.Alltypecourseguidepopup {
+    position: fixed;
+    right: 1.3%;
+    bottom: 92px;
+    z-index: 99999;
+    max-width: 0;
+    min-width: 27.3%;
+}
+
+.AreyousurePopup .modal-header .heading h2 {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #747474;
+}
+
+.coursepup h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.coursepup p {
+    font-size: 14px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.Selcheckbox .feedbackcheck {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    border-radius: 25%;
+    height: 18px;
+    width: 18px;
+    background-color: #cdcdcd;
+}
+
+.courseStepDesc {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #fff !important;
+    border: 0px;
+}
+
+.courseStepDesc:last-child {
+    border-bottom: 0px solid #fff !important;
+}
+
+.courseStepDesc.show,
+.courseStepDesc.show .coursedesc {
+    border-bottom: 0px solid #fff !important;
+}
+
+.coursedesc p {
+    font-size: 14px;
+    margin-top: 0px;
+    padding: 0px 15px 10px 10px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.courseStepDesc h4 {
+    padding: 7px 0px 7px 0px;
+    border-bottom: 0px solid #ffffff;
+    background: transparent;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+}
+
+.courseStepDesc h4 img {
+    max-width: 30px !important;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 6px;
+}
+
+.courseStepDesc .topstyle {
+    top: 5px;
+}
+
+.checkfeedback {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.coursebody {
+    background: #568bd7;
+    border-radius: 0px 0px 15px 15px;
+    max-height: 410px;
+    overflow-x: auto;
+}
+
+.coursepup .modal-content {
+    border-radius: 15px !important;
+    top: 40px;
+    max-height: 410px;
+    box-shadow: 0px 1px 5px #6d6c6c;
+}
+
+.coursepup .modal-header,
+.coursepup .heading {
+    background: #2861b3 !important;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.coursepup .modal-header .heading h2 {
+    color: #fff;
+}
+
+.courseStepDesc span.topstyle svg {
+    color: #fff;
+}
+
+.coursepup .modal-dialog .courseclosebtn {
+    background: #2861b3;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 150px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.coursepup .modal-dialog .courseclosebtn svg {
+    font-size: 21px;
+    cursor: pointer;
+    top: 2px;
+    position: relative;
+}
+
+.coursedesc {
+    border-bottom: 0px solid #fff;
+}
+
+.closeguidepopup svg {
+    color: #fff;
+    background: transparent;
+    font-size: 20px;
+}

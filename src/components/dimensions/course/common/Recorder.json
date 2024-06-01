@@ -1,0 +1,68 @@
+[
+  {
+    "id": "item-0-1668684439402",
+    "content": "Self Confidence",
+    "iscore": true,
+    "type": "core"
+  },
+  {
+    "id": "item-1-1668684439402",
+    "content": "Impulse Control",
+    "iscore": true,
+    "type": "core"
+  },
+  {
+    "id": "item-2-1668684439402",
+    "content": "Empathy & Emotional Intel",
+    "iscore": true,
+    "type": "core"
+  },
+  {
+    "id": "item-3-1668684439402",
+    "content": "Patience",
+    "iscore": false,
+    "type": "core"
+  },
+  {
+    "id": "item-4-1668684439402",
+    "content": "Self Care",
+    "iscore": false,
+    "type": "core"
+  },
+  {
+    "id": "item-5-1668684439402",
+    "content": "Goal Setting",
+    "iscore": false,
+    "type": "core"
+  },
+  {
+    "id": "item--1668684439402",
+    "content": "item 6",
+    "iscore": false,
+    "type": "elective"
+  },
+  {
+    "id": "item-7-1668684439402",
+    "content": "item 7",
+    "iscore": false,
+    "type": "elective"
+  },
+  {
+    "id": "item-8-1668684439402",
+    "content": "item 8",
+    "iscore": false,
+    "type": "elective"
+  },
+  {
+    "id": "item-9-1668684439402",
+    "content": "item 9",
+    "iscore": false,
+    "type": "elective"
+  },
+  {
+    "id": "item-10-1668684439402",
+    "content": "item 10",
+    "iscore": false,
+    "type": "elective"
+  }
+]

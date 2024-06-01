@@ -1,0 +1,46 @@
+/** for feedback form */
+.feedback-form {
+    /* display: flex;
+    flex-direction: column; */
+    /*align-items: center;*/
+  }
+  
+ /* .feedback-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } */
+  
+   .feedback-textarea.form-control {
+    height: 150px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .feedback-textarea1.form-control {
+    height: 70px;
+    font-size: 13px;
+    padding: 7px;
+    margin-bottom: 20px;
+  } 
+
+ 
+
+  .feedback-button {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 0;
+    border-radius: 6px !important;
+    background-color: #329fff;
+  }
+  /* form.feedback-form.flex.flex-wrap.align-items-baseline {
+    padding: 10px 20px;
+    border: 2px solid #ffc107;
+    background: #ecf7ff;
+    border-radius: 4px;
+    align-items: baseline !important;
+}  */

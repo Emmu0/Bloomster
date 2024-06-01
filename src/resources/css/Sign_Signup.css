@@ -1,0 +1,27 @@
+div#signup, .verifyusereffect {
+    padding: 75px 0 10px;
+    /* background: #ECEFF1; */
+    min-height: 93.3vh;
+    box-shadow: 0 0 10px #cccc;
+}
+.AddChildPopup .modal-dialog {
+    max-width: 750px;
+}
+.AddChildPopup .modal-dialog .modal-content {
+    max-width: 77%;
+    margin: auto;
+}
+.SignupPopup .modal-dialog .SignupRegistration, .Sign_in {
+    box-shadow: 0 0 5px #838383cc;
+}
+.signin_uptitle {
+    padding: 18px 10px 15px;
+}
+.signin_uptitle h2 {
+    font-size: 30px;
+}
+.signin_box_styl {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    min-height: 300px;
+}

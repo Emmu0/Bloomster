@@ -1,0 +1,4406 @@
+@media (min-width: 1441px) and (max-width: 1648px) {
+  .tabgrid.m-0.socialgridtab ul li {
+    font-size: 15px !important;    font-size: 15px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .MainContent.inactive .tabgrid.m-0.socialgridtab ul li {
+    font-size: 12px !important;
+  }
+  .signupType.rangetypeQuestion.textAreatypeQuestion label.Selcheckbox span.checkmark:hover ~.aboutProgdesc .Courseporogresspopup {
+    left: 38%!important;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion .Courseporogresspopup:after{
+  left: 4px!important;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion {
+  padding-bottom: 50px!important;
+}
+
+  
+}
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .tabgrid.m-0.socialgridtab ul li,
+  .LRSlidearrow span {
+    font-size: 14px !important;
+  }
+  
+  .signupType.rangetypeQuestion.textAreatypeQuestion label.Selcheckbox span.checkmark:hover ~.aboutProgdesc .Courseporogresspopup {
+    left: 42%!important;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion .Courseporogresspopup:after{
+  left: 3px!important;
+}
+  .tabgrid.m-0.socialgridtab ul li {
+    font-size: 15px !important;    font-size: 15px !important;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .knowyouselfcard h2 {
+    font-size: 18px !important;
+  }
+  .LeftbarPannel .heading h2,
+  .RightbarPannel .heading h2 {
+    font-size: 15px !important;
+  }
+  .knowyouselfcard h2 {
+    font-size: 18px;
+  }
+  .MainContent.inactive .tabgrid.m-0.socialgridtab ul li {
+    font-size: 12px !important;
+  }
+  .MainContent.inactive .LRSlidearrow {
+    min-width: 128px;
+    margin-top: -3px;
+  }
+  .MainContent.inactive .LRSlidearrow span {
+    font-size: 12px !important;
+  }
+  .familydisclaimer {
+    right: -89px !important;
+  }
+  .Course_height .courseguide {
+    left: 50%;
+  }
+  .settingtable table td:nth-child(2), .settingtable table th:nth-child(2) {
+    min-width: 220px !important;
+}
+ul.dropdown-menu.dropdown-menu-end.enrollassetsval.show {
+  right: 48px !important;
+}
+table.w-100.child_Table td {
+  width: 9% !important;
+}
+.graphbatteryprogress span.batterycells{
+  width: 50px;
+}
+.Holisticcharttengent {
+  padding: 30px 50px 30px !important;
+}
+.NuggetPopupDesc {
+  padding: 10px;
+  min-height: 200px;
+  max-height: 290px !important;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion label.Selcheckbox span.checkmark:hover ~.aboutProgdesc .Courseporogresspopup {
+  display: block;
+  left: 44% !important;
+}
+.StoryScene video{
+  height: 100% !important;
+  object-fit: cover;
+}
+.MainContent .breadCrum li{
+  font-size: 15px !important;
+}
+}
+
+@media (min-width: 1621px) and (max-width: 1780px) {
+  table.w-100.child_Table td {
+    width: 12% !important;
+}
+/* .RightbarPannel.p-0.rightpannelSticky.newcoursecardpanel.home_page_rgt_pnl {
+  min-height: 86vh !important;
+  max-height: 86vh !important;
+  overflow: hidden;
+}
+.RightbarPannel .ScenecerelateddQuiz.allcourselj {
+  min-height: 83vh !important;
+  overflow: auto;
+  padding-bottom: 26px;
+  max-height: 83vh !important;
+} */
+.RightbarPannel.p-0.rightpannelSticky.newcoursecardpanel.home_page_rgt_pnl {
+  min-height: 85vh !important;
+  max-height: 85vh !important;
+  overflow: hidden;
+}
+.learner_Planrighpnl {
+  min-height: 69vh !important;
+  overflow-x: auto;
+}
+}
+
+@media (min-width: 1781px) and (max-width: 1920px) {
+  .personalitybntsec p,
+  .perscategorytitle p,
+  .LessionDtlOverview p,
+  .LessionDtlOverview li,
+  .Personalitycategory p,
+  .personalitylandingpage ul li,
+  .overallGroups li {
+    font-size: 20px !important;
+  }
+  /* .RightbarPannel.p-0.rightpannelSticky.newcoursecardpanel.home_page_rgt_pnl {
+    min-height: 86vh !important;
+    max-height: 86vh !important;
+    overflow: hidden;
+  }
+  .RightbarPannel .ScenecerelateddQuiz.allcourselj {
+    min-height: 83vh !important;
+    overflow: auto;
+    padding-bottom: 26px;
+    max-height: 83vh !important;
+  } */
+  .videoDescription h5,
+  .videoDescription p {
+    font-size: 18px;
+    color: #3b3b3b;
+  }
+  .personalitylistitem .videoDescription h4,
+  .overallGroups h5,
+  .typecategorystrnthweeknes h5 {
+    font-size: 20px;
+  }
+  .personalitylistitem h3,
+  .breadCrum li,
+  .heading h2,
+  .Personalitycategory .SocialCoursecardWrap h4.KATitle,
+  .RightbarPannel .heading h2,
+  .lSidebarcontentwrap .ScenecerelateddQuiz h4,
+  .lSidebarcontentwrap .LessionDtlOverview p {
+    font-size: 18px !important;
+  }
+  .VKprofile .vkprofilename span {
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .PMSkillList li p,
+  .PMSkillList h5 {
+    text-align: center;
+    font-size: 17px;
+  }
+  table.w-100.child_Table td {
+    width: 12% !important;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .wpl_box_styl .wpl_box {
+    min-height: 242px;
+  }
+  .jrny_box_style {
+    width: 95%;
+  }
+  .leftSide.w-50,
+  .rigtSide.w-50 {
+    width: 100% !important;
+    padding: 0 !important ;
+  }
+  .rigtSide.w-50 {
+    margin-top: 20px;
+  }
+  .box_style h4 {
+    font-size: 15px;
+  }
+  
+  .Why_holistic_growth .growth_right .RoundAnimation::before {
+    right: -85px;
+  }
+  .rightRow .DimensionDashboadcard .SocialCoursecardWrap h4.KATitle {
+    font-size: 14px;
+  }
+  .chart-container canvas {
+    min-width: 300px !important;
+    height: 300px !important;
+  }
+  .NlandingPage .NLbanner .container h4 {
+    font-size: 32px;
+  }
+  .ribbonDimenson .totlecout {
+    font-size: 11px;
+  }
+  .ActivitycrdTitle h3 .pointer div {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .MainContent .breadCrum li,
+  .CourseCardWrapper {
+    font-size: 14px;
+  }
+  .CourseCardWrapper .tabgrid ul li {
+    font-size: 14px !important;
+    padding: 8px 3px;
+  }
+  .SpecialLeftpanel .RightbarPannel .heading h2 {
+    font-size: 14px !important;
+  }
+  .MainContent.inactive .breadCrum ul {
+    min-width: 80%;
+  }
+  .heading h2 img,
+  .heading h3 img {
+    width: 20px;
+  }
+  .heading h2 span.earnnoCoin {
+    font-size: 14px;
+  }
+  .Bloglist .bloglisting .BLogCard {
+    padding: 0px 10px 10px 10px;
+  }
+  table.w-100.child_Table td {
+    width: 12%;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next {
+    right: -30px;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-prev {
+    left: -30px;
+  }
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-next {
+    right: -35px;
+  }
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-prev {
+    left: -30px;
+  }
+  ul.dropdown-menu.dropdown-menu-end.enrollassetsval.show {
+    right: 0px;
+    min-width: 305px;
+}
+.halfPagePOpup.knowsyourself .modal-body{
+  max-width: 90% !important;
+}
+.graphbatteryprogress span.batterycells{
+  width: 28px;
+}
+.Activity {
+  width: calc(100% - 0px) !important;
+}
+.skilanddimensioncircle {
+  width: 140px !important ;
+  height: 140px !important;
+}
+.AllSkillschart .skill_pnlcircle {
+  max-width: 75px !important;
+  width: 75px !important;
+  height: 75px !important;
+}
+.graphbatteryprogress {
+  width: 35px !important;
+  margin: 20px 8PX !important;
+  min-width: 35px !important;
+}
+.graphbatteryprogress span.batterycells {
+  width: 35px  !important;
+}
+.wpl_box h2 {
+  font-size: 16px !important;
+}
+.wpl_box p ,.dtab_content .dtags h4 {
+  font-size: 14px !important;
+}
+.jrny_box {
+  margin: 10px 5px !important;
+  min-height: 275px !important;
+}
+.dtab_content p ,.wpl_title p,.Why_holistic_growth .growth_left p,.leftSide p,
+.NhPageWrap h3.statementabthome ,.Processaccordianlist h4{
+  font-size: 18px !important;
+}
+.dimension_tab ul li {
+  font-size: 16px !important;
+  padding: 4px 0px !important;
+}
+.blogdetailsstyl .blogdesc {
+  max-width: 100% !important;
+}
+.blogdesc h2 {
+  font-size: 42px !important;
+}
+.aboutdarkback .bannerleft h2 {
+  font-size: 56px !important;
+}
+.SignupPopup .modal-dialog .SignupRegistration {
+  width: 80% !important;
+}
+.disc_title h2,.jrny_title h2,.wpl_title h2,.subscribe_box_style h2,.Why_holistic_growth .growth_left h2,.LJbanner h4, .leftSide h4 {
+    font-size: 36px !important;
+}
+.disc_title h4 {
+  font-size: 24px !important;
+}
+.blog_box h4 ,.LessionDtlOverview p.Quiztimetxt{
+  font-size: 20px !important;
+}
+.NHProgresslistitem.NhHolisticProgress .NHPreogressouter, .NHProgresslistitem.NHProgresslistitem.simneskillcombo .NHPreogressouter {
+  width: 200px !important;
+  height: 200px !important;
+}
+.NHPreogressouter {
+  width: 150px !important;
+  height: 150px !important;
+ }
+ .NHProgresslistitem h4 {
+  font-size: 15px !important;
+}
+.NHProgresslistitem {
+  width: 33% !important;
+ }
+ .NHProgresslistitem:nth-child(3n + 2) {
+  width: 34%  !important;
+}
+.form-check.form-switch .avltogglebutton {
+  margin-left: 5px  !important;
+  height: 1em !important;
+  width: 2em !important;
+}
+.form-switch label.form-check-label {
+  font-size: 12px !important;
+}
+.smqzQueslist h3, .smartquizwrapper h3 {
+  font-size: 22px !important;
+}
+.SpecialLeftpanel .RightbarPannel .heading h2 span{
+  max-width: 200px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dimensionshorting h3 ,.WHDieList li, .WHDieList li a{
+  font-size: 16px !important;
+}
+.helpcardlisting .helpcards h4 {
+  font-size: 17px !important;
+}
+.signin_uptitle h2 {
+  font-size: 24px !important;
+}
+.modal-body.pt-0.flex.signupBody_popup {
+  margin: 0px 0px 0;
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+  .landing-page .banner_back_style {
+    padding: 75px 5px 15px 35px;
+  }
+  .NlandingPage .NLbanner .container h4 {
+    font-size: 31px;
+  }
+  .RightbarPannel.p-0.rightpannelSticky.newcoursecardpanel.home_page_rgt_pnl {
+    min-height: 80vh !important;
+    max-height: 80vh !important;
+    overflow: hidden;
+}
+.paceSteps h3{
+  font-size: 18px;
+}
+.PaceModeSel p, .paceSteps p {
+  font-size: 16px !important;
+}
+.selectecPaceWeek .ScenecerelateddQuiz .signupType label span {
+  font-size: 16px !important;
+}
+.setup_three .ScenecerelateddQuiz .signupType label p, p.onliner_Sel {
+  font-size: 14px !important;
+}
+.setup_three .ScenecerelateddQuiz .signupType label p.palnquestiontitle {
+  font-size: 18px !important;
+}
+.DSCoursenameList p.pointer {
+  font-weight: 400;
+  white-space: nowrap;
+  max-width: 228px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  /* .RightbarPannel .ScenecerelateddQuiz.allcourselj {
+    min-height: 81vh !important;
+    overflow: auto;
+    padding-bottom: 26px;
+    max-height: 81vh !important;
+} */
+  .signupType.rangetypeQuestion.textAreatypeQuestion label.Selcheckbox span.checkmark:hover ~.aboutProgdesc .Courseporogresspopup {
+    display: block;
+    left: 44% !important;
+  }
+  .settingtable table td:nth-child(2), .settingtable table th:nth-child(2) {
+    min-width: 140px !important;
+   }
+table.w-100.child_Table td {
+  width: 9.5%  !important;
+}
+.ScenecerelateddQuiz .signupType label span{
+  font-size: 14px !important;
+}
+.settingtable td {
+  width: 9.4% !important;
+}
+  .box_style h4 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .jrny_box_style {
+    width: 95%;
+  }
+  .wpl_box_styl .wpl_box {
+    min-height: 242px;
+  }
+  .ActivitycrdTitle h3 .pointer div {
+    max-width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .breadCrum li ,.NHProgresslistitem.EmotionalitemsNH.soicialitemsNH.simneskillcombo a{
+    font-size: 15px !important;
+  }
+  .NuggetPopupDesc,
+  .OtherCProfile {
+    max-height: 200px !important;
+  }
+  .RightbarPannel .heading h2 ,.LeftbarPannel .heading h2 {
+    padding: 0 !important;
+    font-size: 14px !important;
+  }
+  .tabgrid ul li,.GridCardTitle h3 {
+    font-size: 15px !important;
+  }
+  .textAreatypeQuestion .textareabox textarea {
+    height: 150px !important;
+  }
+  .RightbarPannel .intructionsBox.LessionDtlOverview {
+    max-height: 90px !important;
+  }
+  .RightbarPannel .LessionDtlOverview p,
+  .RightbarPannel .LessionDtlOverview li,
+  .RightbarPannel .ScenecerelateddQuiz h4,
+  .RightbarPannel .ScenecerelateddQuiz .signupType label {
+    font-size: 14px !important;
+  }
+  .RightbarPannel .LessionDtlOverview p span{
+    font-size: 14px !important;
+  }
+  .RightbarPannel .btn-login,
+  .starttoendpoint span,
+  .instlistitem h4,
+  .probleumListitem h4,
+  .SocialGridcard .Activity.selfmadeActivity h3 span {
+    font-size: 12px !important;
+  }
+  .CourseCardWrapper .tabgrid ul li {
+    font-size: 15px !important;
+    padding: 8px 3px;
+  }
+  .CourseCardWrapper .tabgrid ul li.active-tabs {
+    padding: 6px 3px;
+  }
+  .CourseCardWrapper .tabgrid ul li:hover {
+    padding: 6px 3px;
+  }
+
+  .form-title h3,
+  .Gridcard .GridCardTitle h3,
+  .SocialCoursecardWrap h4.KATitle,
+  .curriculumntable td,
+  .curriculumntable th,
+  .curriculumntable td h5,
+  .curriculumntable th h5 {
+    font-size: 14px !important;
+    padding: 6px 8px !important;
+  }
+  .curriculumntable td,
+  .curriculumntable th {
+    width: auto !important;
+  }
+  .PMSkillList li p {
+    font-size: 13px !important;
+  }
+  .Gridcard .ActivitycrdTitle h3 {
+    font-size: 14px !important;
+  }
+  .menuList li.betaversion {
+    width: auto;
+    font-size: 18px !important;
+  }
+  .commingSoonPage .LessionDtlOverview p {
+    font-size: 22px !important;
+  }
+  /* .commingSoonPage h2 {
+    font-size: 40px !important;
+  } */
+  .intresttile h3 {
+    font-size: 16px !important;
+  }
+  .chartWrappannel .chart-container canvas {
+    min-width: 325px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 325px !important;
+  }
+  .chartWrappannel .chartprofilemenu {
+    width: 84px;
+    line-height: 2 !important;
+    height: 85px;
+  }
+  .HolisticProgress .DchartContnr {
+    height: 328px !important;
+}
+  .holisticmodal.AddChildPopup .modal-content {
+    max-width: 70% !important;
+  }
+  span.HIPCharted {
+    left: -75px !important;
+    top: 30px !important;
+  }
+  .holisticmodal .HolisticgrowthFlwr {
+    padding: 50px 0 0;
+  }
+  .subscriptionPackage .monthlyPackage,
+  .subscriptionPackage .yearlyPackage {
+    max-width: 350px;
+    min-height: 300px;
+  }
+  .RightbarPannel .ScenecerelateddQuiz {
+    padding-bottom: 36px;
+  }
+  .leftSide.w-50,
+  .rigtSide.w-50 {
+    width: 100% !important;
+    padding: 0 !important ;
+  }
+  .rigtSide.w-50 {
+    margin-top: 20px;
+  }
+  .lSidebarcontentwrap .LessionDtlOverview {
+    min-height: 69vh;
+    max-height: 69vh;
+  }
+  .halfPagePOpup.subscriptionwrapcard .modal-body {
+    width: 100% !important;
+  }
+  .tabgrid ul li {
+    font-size: 14px;
+  }
+  .CourseCardWrapper .tabgrid.m-0.socialgridtab ul {
+    width: 87%;
+    top: 0px!important;
+    max-height: 440px!important;
+  }
+  .CourseCardWrapper .LRSlidearrow {
+    min-width: 115px;
+  }
+  .CourseCardWrapper .LRSlidearrow span {
+    padding: 0 3px;
+    margin: 0 3px;
+    font-size: 14px;
+  }
+  .CourseCardWrapper .LRSlidearrow span.pointer:hover {
+    padding: 0 3px;
+  }
+  .knowyouselfcard h2 {
+    font-size: 18px !important;
+  }
+  .halfPagePOpup.knowsyourself .modal-body {
+    background: #e1f5fe;
+    max-width: 80% !important;
+  }
+  .MainContent.inactive .tabgrid ul li img {
+    padding-right: 3px;
+    width: 17px;
+  }
+  .MainContent.inactive .tabgrid ul li {
+    padding: 6px 4px;
+  }
+  .familydisclaimer {
+    right: -40px !important;
+  }
+  ul.dropdown-menu.dropdown-menu-end.enrollassetsval.show {
+    right: 10px !important;
+ }
+ .graphbatteryprogress span.batterycells{
+  width: 38px;
+}
+.graphbatteryprogress {
+  width: 38px !important;
+  min-width:38px !important;
+}
+.RightbarPannel .HolisticgrowthFlwr {
+  padding: 90px 0 0;
+}
+.HolisticgrowthFlwr .HGmaincircle {
+  width: 160px;
+  height: 160px;
+}
+.HGmaincircle .HolinnerProgcircle {
+  width: 120px;
+  height: 120px;
+}
+
+.dimensionshorting h3,.madeYourownJourney a,.info_related_text p,.courseInformation .heading h2 {
+  font-size: 16px !important;
+}
+.GridCardFullDetails span.read-or-hide.pointer .readmoretxt, .CourseDetails span.read-or-hide.pointer .readmoretxt, .jrny_box span.read-or-hide.pointer .readmoretxt{
+  font-size: 16px !important;
+}
+.NHProgresslistitem h4,.popularcourse ul li,
+.backpageStrip a,
+.RightbarPannel .HolisticgrowthFlwr h4
+{
+  font-size: 14px !important;
+}
+.NHProgresslistitem h4{
+  font-size: 15px !important;
+}
+.popularcourse h4 ,.HomeProgresstilt,.popularcourse h4 span ,.lernerjourrecumCourse label.Selcheckbox.ActiveQQst span.QQtitle{
+  font-size: 15px !important;
+}
+.heading h2 img.chat_icon, .Home_two img.chat_icon {
+  max-width: 18px !important;
+}
+.Holisticcharttengent li {
+  width: 47%;
+}
+.tabgrid.m-0.socialgridtab ul li {
+  width: 25%;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.NHProgresslistitem h4 .chat_icon {
+  max-width: 14px !important;
+}
+  .NHDimeProgName img.chat_icon, .HolisticgrowthFlwr img.chat_icon, .skillsliitem h4 img.chat_icon {
+    max-width: 14px !important;
+}
+.newinfo_popup .skilanddimensioncircle.Holisticgtflr {
+  width: 220px;
+  height: 220px;
+}
+.info_related_text h4 {
+  font-size: 18px !important;
+}
+.tabgrid.m-0.socialgridtab .jumptopagescene ul li.pointer, .RPenrolledCourseList ul li ul.enrollassetsval li{
+  max-width: 100% !important;
+}
+.Holisticcharttengent {
+  padding: 30px 50px 30px !important;
+}
+.Holisticcharttengent {
+  padding: 25px 50px 0px !important;
+}
+.NuggetPopupDesc {
+  max-height: 280px !important;
+}
+.Straightarrow img {
+  max-width: 168px !important;
+}
+.NhPageWrap h3.statementabthome{
+  padding: 0px 13px !important;
+  font-size: 17px !important;
+}
+.NhPageWrap h3.statementabthome a{
+  font-size: 17px !important;
+}
+.GridCardTitle p,.coursecardnav ul li {
+  font-size: 14px !important;
+}
+.JourneyCoursecard.newCourseCard .GridCardTitle h3 .coursecomptcertifie span.PercentCompleted {
+  top: 14px !important;
+  font-size: 12px !important;
+}
+.PercentCompleted, .SocialGridcard .Activity.selfmadeActivity h3 span.PercentCompleted {
+  position: absolute;
+  top: 13px !important;
+}
+.SignupRegistration .form-title h3{
+  padding:0px 0 8px !important;
+}
+.SignupRegistration .LeanerDtl .form-title h3{
+  padding: 10px 0 8px !important;
+}
+.ScenecerelateddQuiz .dimensionshorting .filtetags label.Selcheckbox.ActiveQQst span.checkmark {
+  top: 3px !important;
+}
+.dimpagetags label.Selcheckbox.ActiveQQst.m-0 span.checkmark {
+  top: -3px !important;
+}
+.MainContent.inactive .breadCrum ul li:nth-of-type(1n), .MainContent.inactive .breadCrum ul li:nth-of-type(2n), .MainContent.inactive .breadCrum ul li:nth-of-type(3n), .breadCrum ul li:nth-of-type(4n), .breadCrum ul li:nth-of-type(5n) {
+    max-width: 230px !important;
+ }
+ .JourneyCoursecard .Coursecompprcent, .JourneyCoursecard.newCourseCard .Coursecompprcent.coursecomptcertifie {
+  width: 40px !important;
+}
+.progressstyl span.PercentCompleted {
+  text-align: center;
+  font-size: 16px;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+.dimensionshorting h3 span.dimtagHead.flexone {
+  font-size: 16px !important;
+}
+.EnroledJournyCourse ul li p {
+    font-size: 12px !important;
+}
+.parentdob span.checkmark {
+    top: 2px !important;
+}
+.checkoutbody .parentdob span.checkmark {
+  top: 13px !important;
+}
+.signin_uptitle h2 {
+  font-size: 28px !important;
+}
+.header-dnd-area2.en-header.header {
+  padding: 15.54px 10px;
+}
+.popularcourse ul li img {
+  max-width: 40px !important;
+}
+.popularcourse ul li{
+  font-size: 13px !important;
+}
+}
+
+@media screen and (min-width: 1921px) {
+  .LargescreenView {
+    max-width: 1920px;
+    margin: auto;
+  }
+  .LargescreenView {
+    display: flex;
+    padding: 0;
+  }
+  .diemensionCard {
+    width: calc(100% + 10px) !important;
+  }
+  .LargescreenView .NSidebar {
+       position: sticky;
+    margin-top: -30px;
+  }
+  .LargescreenView .NSidebar.inactive {
+    width: 50px;
+    min-width: 50px;
+  }
+  .LargescreenView .MainContent {
+    padding: 0;
+  }
+  .LargeScreenBody .header {
+    position: sticky !important;
+    top: 0;
+    max-width: 1920px;
+    margin: auto;
+    background: #ffffff;
+  }
+  .LargescreenView .MainContent {
+    padding: 0;
+    width: calc(100%);
+  }
+  .LargescreenView .MainContent.inactive {
+    width: calc(100%);
+    padding-left: 0;
+  }
+  .MainContent.inactive {
+    padding-left: 0;
+  }
+  .LargeScreenBody {
+    background: #f4f4f4;
+  }
+  .landing-page .LargeScrenResponsive {
+    max-width: 1920px;
+    margin: auto;
+    padding-left: 0;
+    display: initial;
+  }
+  .borderlendingtop {
+    border-top: 1px solid #eeee;
+  }
+  .LargeScrenResponsive .banner_style:before {
+    content: "";
+    position: absolute;
+    width: 1130px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgba(37, 88, 133, 1) 0%,
+      rgba(14, 51, 87, 1) 100%
+    );
+    right: -209px;
+    top: 0px;
+    height: 1171px;
+    z-index: 1;
+  }
+  .LargeScreenBody .backicon {
+    margin-left: auto;
+    right: 48px;
+    z-index: 100;
+    background: #0f1a34;
+    color: #fff;
+    position: sticky;
+    cursor: pointer;
+    padding: 1px 8px;
+    top: 50px;
+    border-radius: 0 0 10px 10px;
+    width: 64px;
+    margin-right: 37px;
+    right: 0;
+  }
+  .LargeScreenBody .flipIcon {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    background: #0f1a34;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    color: #fff;
+    position: absolute;
+    margin-right: 0;
+    right: 0;
+    /* z-index: 100; */
+    /* margin-left: auto; */
+    top: 19px;
+  }
+  .LargescreenView {
+    display: flex;
+    padding: 0;
+    margin-top: -30px;
+  }
+  .LargescreenView .dimensionCardWrap {
+    position: sticky !important;
+    z-index: 100;
+    right: 0;
+    top: 33px;
+  }
+  .landing-page .topbarlandindwidth {
+    max-width: 1920px;
+    margin: auto;
+  }
+  .landing-page .vickyLogo {
+    padding: 0px 0px 0px 0px;
+  }
+  .menuList.landingpageMenu li,
+  .menuList.landingpageMenu li a {
+    color: #808080 !important;
+  }
+  .HolisticgrothContanr {
+    background: #fff;
+    z-index: 9;
+    position: relative;
+    overflow: auto;
+  }
+  .borderlendingtop {
+    overflow: auto;
+  }
+  /* .personalitybntsec .leftSide.w-50,.personalitybntsec .rigtSide.w-50{
+    width: 100% !important;
+  } */
+  .NlandingPage .NLbanner::before {
+    right: -360px;
+    top: -240px;
+    height: 1050px;
+  }
+  .wp_love {
+    padding: 125px 0px 180px 0px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .tabgrid.m-0.socialgridtab ul li {
+    width: 25%;
+    max-width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.Hub_Navigation li a {
+  color: #fff;
+  font-size: 16px;
+}
+.popularcourse ul li img {
+  max-width: 35px !important;
+}
+.popularcourse ul li{
+  font-size: 12px !important;
+}
+.popularcourse ul li button{
+  font-size: 10px;
+}
+}
+@media screen and (max-width: 1024px) {
+  .landing-page .banner_back_style .banner_style:before {
+    border-radius: 50%;
+    right: -495px;
+    top: -156px;
+    height: 910px;
+  }
+  
+  .modal-body.pt-0.flex.signupBody_popup {
+    margin: 0px 0px 0 !important;
+    flex-direction: column-reverse !important;
+}
+.SignupPopup .modal-dialog {
+  margin-top: 0 !important;
+}
+.rightside_Signup.w-40 .bloomster_Heighlighter {
+  margin-top: 30px;
+  display: none;
+}
+.modal-body.pt-0.flex.signupBody_popup {
+  margin: 0px 0px 0;
+  flex-direction: column-reverse;
+}
+.rightside_Signup.w-40 {
+  width: 100%;
+}  
+.rightside_Signup.w-40 {
+  width: 100%;
+}
+.rightside_Signup.w-40 .bloomster_Heighlighter {
+  display: none;
+}
+.rightside_Signup.w-50 {
+    display: none;
+}
+.rightside_Signup.w-40 .bloomster_Heighlighter{
+  display: none;
+}
+.AddChildPopup.verifyusereffect .modal-dialog {
+  max-width: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.verifyusereffect #signin {
+  box-shadow: 0 0 5px #838383cc !important;
+}
+  .Hub_Navigation li a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .Hub_Navigation li {
+    padding: 15px;
+    margin-right: 18px;
+  }
+  div#dimensionSkillModel .ljourneyitems {
+    max-width: 65% !important;
+}
+
+  .landing-page .header {
+    background: none !important;
+  }
+
+  .header .vickyLogo {
+    padding-left: 0px;
+  }
+
+  .landing-page .header .menuList.landingpageMenu li,
+  .landing-page .header .menuList.landingpageMenu li a {
+    color: #fff;
+    padding: 0px;
+    font-size: 14px !important;
+    margin: 0px 6px;
+  }
+  .landing-page .header.is-sticky .menuList.landingpageMenu li,
+  .landing-page .header.is-sticky .menuList.landingpageMenu li a {
+    color: #000;
+  }
+  .landing-page header.is-sticky {
+    padding: 3px 0px;
+  }
+  .menuList.landingpageMenu li.signup_styl {
+    padding: 0px 6px !important;
+  }
+
+  .landing-page .banner_back_style {
+    padding: 77px 0px 65px 0px;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .landing-page .banner_back_style .form_style {
+    width: 45%;
+  }
+
+  .landing-page .banner_back_style .banner_style {
+    width: 55%;
+    position: relative;
+    top: 100px;
+  }
+
+  .landing-page .banner_back_style .form_style .head_style h4 {
+    font-size: 30px;
+    letter-spacing: 12px;
+  }
+
+  .landing-page .banner_back_style .form_style .head_style h4 span {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  .banner_back_style .banner_style .landingpageBannerBg {
+    height: 530px;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: -105px;
+    object-fit: cover;
+    background-position: left;
+  }
+
+  .landing-page .banner_back_style .head_style {
+    position: relative;
+    top: -20px;
+  }
+
+  .landing-page .banner_back_style .form_style .signinandSignup {
+    position: relative;
+    top: 30px;
+    width: 100%;
+  }
+
+  .landing-page .learning_growth .text_style1 h4 span {
+    color: #e46666;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .landing-page .learning_growth .text_style1 h4 {
+    font-size: 21px;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .landing-page .personal_coach .text_style2 h4 {
+    padding: 50px 0px 0px 0px;
+    font-size: 21px;
+  }
+
+  .landing-page .personal_coach .text_style2 h4 span {
+    color: #e46666;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .landing-page .explore .text_style3 h4 {
+    padding: 50px 0px 0px 0px;
+    font-size: 21px;
+  }
+
+  .landing-page .explore .text_style3 h4 span {
+    color: #e46666;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .halfPagePOpup .modal-dialog.modal-lg {
+    transform: none;
+    width: 90%;
+    max-width: 90%;
+  }
+  .mobilePannelDirction {
+    flex-direction: column;
+}
+  /* Sidebar Menu */
+  .navSidebar.inactive li span {
+    display: inline-block !important;
+  }
+
+  .navSidebar.inactive,
+  .navSidebar {
+    width: auto !important;
+  }
+  .navSidebar.inactive .mainmenu li {
+    padding: 11px 10px !important;
+    transition: all 0.3s;
+    justify-content: left !important;
+  }
+
+  .navSidebar .top-section .back-arrow img {
+    display: none;
+  }
+  .MobileBars,
+  .bars {
+    display: block !important;
+    width: 40px;
+  }
+
+  .navSidebar .top-section .back-arrow {
+    display: none !important;
+  }
+  .sidebarmenuwrap {
+    background: #1d103f;
+    position: absolute;
+    left: 0px;
+    width: 180px;
+    transition: all 0.3s !important;
+  }
+  .navSidebar.inactive li.sidebar-items ul.dp-submenu li {
+    margin: 0px 0 0 0 !important;
+    padding: 0 !important;
+  }
+  /* .sidebardropdown.dropdown-toggle.sidebar-link a{
+        padding: 10px 0 !important;
+    } */
+  .navSidebar.inactive
+    li
+    .sidebardropdown.dropdown-toggle.sidebar-link
+    .dp-submenu
+    a {
+    border: 0 !important;
+    margin-top: 0px;
+  }
+  .navSidebar.inactive
+    li
+    .sidebardropdown.dropdown-toggle.sidebar-link[aria-expanded="true"] {
+    min-width: 0 !important;
+    padding-left: 0 !important;
+  }
+  .navSidebar li.tabactive:before {
+    display: none;
+  }
+  .navSidebar.inactive .sidebarmenuwrap {
+    left: -180px;
+    transition: all 0.3s !important;
+  }
+  .navSidebar {
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+  .header .vickyLogo {
+    padding-left: 50px !important;
+  }
+  .menuList {
+    margin-right: 0;
+  }
+  .navSidebar .top-section {
+    background: transparent !important;
+    border: 0 !important;
+  }
+  .navSidebar .top-section .bars {
+    color: #1d103f !important;
+  }
+  .landing-page .header .vickyLogo {
+    padding: 0px 0px 0px 0px !important;
+  }
+  .navSidebar .MobileBars.bars {
+    display: block !important;
+  }
+  .RightbarPannel .Rpprogresbar .chart-container canvas {
+    min-width: 225px!important;
+    height: 225px !important;
+}
+.chart-container .chartprofilemenu {
+  font-size: 24px;
+}
+.RightbarPannel .Rpprogresbar .chartprofilemenu {
+  width: 65px;
+  height: 65px;
+  left: 53%;
+}
+  .NlandingPage .NLbanner::before {
+    top: -129px;
+    height: 710px;
+    width: 555px;
+  }
+  .right_dimension_img img {
+    max-width: 100%;
+    right: -20px;
+    top: 15px;
+  }
+  .NlandingPage .NLbanner .container h2 {
+    font-size: 40px;
+    padding: 0px 6px 5px 0px;
+  }
+  .NlandingPage .NLbanner .container h2 span {
+    font-size: 40px;
+    padding: 0px 8px 5px 8px;
+  }
+  .NlandingPage .NLbanner .container h4,
+  .NlandingPage .NLbanner .container h4 span {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .NlandingPage .NLbanner .container p {
+    font-size: 16px;
+    line-height: 1.3;
+    padding-bottom: 15px;
+  }
+  .NlandingPage .NLbanner .container .sub_btn {
+    margin-top: 10px;
+    width: 50%;
+    font-size: 18px;
+  }
+  .NlandingPage .NLbanner .container .left_panel {
+    padding: 90px 0px 20px 0px;
+    min-height: 450px;
+  }
+  .Why_holistic_growth .growth_left h2,
+  .disc_title h2,
+  .jrny_title h2,
+  .wpl_title h2,
+  .blog_title h2,
+  .subscribe_box_style h2 {
+    font-size: 28px;
+  }
+  .Why_holistic_growth .growth_left p,
+  .jrny_title p,
+  .subscribe_box_style p {
+    font-size: 16px;
+  }
+  .wpl_title p {
+    font-size: 16px;
+    padding: 0px 0px 10px 0px;
+  }
+  .parentsimg img {
+    max-width: 100%;
+  }
+  .disc_title h4 {
+    font-size: 21px;
+  }
+  .box_style {
+    width: 24%;
+    padding: 10px 10px;
+  }
+  .box_style h4 {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .dimension_tab ul li {
+    font-size: 15px;
+    padding: 7px 11px;
+  }
+  .dtab_content p {
+    line-height: 1.3;
+    padding-bottom: 25px;
+    font-size: 16px;
+  }
+  .dtab_content .dtags h4 {
+    font-size: 14px;
+  }
+  .dtab_content .dtags {
+    padding: 5px 7px;
+    margin: 10px 10px 5px 0;
+  }
+  .d_world {
+    min-height: 570px;
+  }
+  .jrny_box_style {
+    width: 100%;
+  }
+  .jrny_box {
+    margin: 10px 6px;
+    min-height: 255px;
+  }
+  .jrny_box h4 {
+    font-size: 18px;
+    padding: 40px 6px 10px 5px;
+    line-height: 1.2;
+  }
+  .jrny_box p {
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 15px 5px;
+  }
+  .wp_love {
+    padding: 40px 0px 60px 0px;
+  }
+  .wpl_box h2 {
+    font-size: 16px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .wpl_box p {
+    font-size: 14px;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-prev,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-prev {
+    left: -32px;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next {
+    right: -32px;
+  }
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-next {
+    right: -37px;
+  }
+  .exp_blog button.blog_btn {
+    width: 60%;
+  }
+  .subscribe_box_style {
+    padding-top: 20px;
+  }
+  .landing-page .aboutdarkback .bannerleft h2 {
+    font-size: 40px;
+  }
+  .aboutdarkback .LJbanner p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .aboutvicky .leftSide h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .aboutvicky .leftSide p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .landing-page .outerPagesHeader .header {
+    background: #fff !important;
+  }
+  .providerFlochrtimg h2 {
+    font-size: 28px;
+  }
+  .ResponsiblityItems h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .ResponsiblityItems p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  section.wHbanner {
+    padding: 50px 0px 110px 0px;
+  }
+  .Bloglist .bloglisting .BLogCard {
+    padding: 0px 5px 10px 5px;
+  }
+  .BLogCard .BlogCarddesc h4 {
+    font-size: 21px;
+    line-height: 1.2;
+  }
+  .BLogCard .BlogCarddesc p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .LargeScrenResponsive .menuList.landingpageMenu li a.active {
+    padding: 4px 7px;
+  }
+  .landing-page .termscondition,
+  .landing-page .privacypolicyweb {
+    max-width: 100%;
+  }
+  .landing-page .termscondition h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .CourseCardWrapper .gridSection .tabgrid {
+    height: 32px;
+  }
+  .gridSection .tabgrid ul li {
+    font-size: 10px;
+  }
+  .gridSection .tabgrid ul li img {
+    width: 21px;
+  }
+  .activityListitems .Activity {
+    width: calc(100% - 5px);
+  }
+  .curriculumntable {
+    max-width: 100%;
+    overflow-x: scroll;
+    display: block;
+  }
+  .halfPagePOpup .modal-dialog.modal-lg {
+    max-width: 80%;
+  }
+  .tableCurrForm .curriculumntable td:first-child,
+  .tableCurrForm .curriculumntable th:first-child {
+    min-width: 325px;
+    max-width: 325px;
+  }
+  .tableCurrForm .curriculumntable h5 {
+    font-size: 13px;
+  }
+  .halfPagePOpup .modal-body .tabgrid ul li {
+    font-size: 14px;
+    padding: 6px 5px;
+    min-width: 212px !important;
+  }
+  .MainContent .breadCrum li{
+    font-size: 12px;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+  }
+  .MainContent .breadCrum ul {
+    min-width: 80%;
+}
+.MainContent .bredcrumbuser {
+  min-width: 20%;
+}
+.bredcrumbuser .VKprofile .vkprofilename span {
+  font-size: 12px;
+}
+.LeftbarPannel .CourseCardWrapper .tabgrid {
+  height: 34px;
+}
+.SpecialLeftpanel .LeftbarPannel .CourseCardWrapper .tabgrid ul li {
+  width: 25%;
+  height: 30px;
+  padding: 6px 2px;
+}
+.mobilePannelDirction .SpecialLeftpanel .LeftbarPannel .CourseCardWrapper .tabgrid ul li {
+  width: 20%;
+  height: 30px;
+  padding: 10px 7px;
+  text-overflow: ellipsis;
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 108px;
+}
+.tabgrid ul{
+  padding-top: 0px;
+}
+.SpecialLeftpanel .LeftbarPannel .CourseCardWrapper .tabgrid ul li{
+  font-size: 12px;
+}
+.CourseCardWrapper .tabgrid ul li img {
+  padding-right: 4px;
+  width: 22px;
+  padding-bottom: 3px;
+}
+.RightbarPannel .AllNuggQuestionList ul li{
+  margin: 0 5px;
+}
+.RightbarPannel .LessionDtlOverview p, .RightbarPannel .LessionDtlOverview li{
+  font-size: 12px !important;
+  text-align: left;
+}
+.lSidebarcontentwrap .ScenecerelateddQuiz h4{
+  font-size: 13px;
+  line-height: 1.4;
+}
+.RightbarPannel .ScenecerelateddQuiz .signupType label, 
+.RightbarPannel .ScenecerelateddQuiz .signupType label p{
+  font-size: 13px;
+  line-height: 1.2;
+}
+.RightbarPannel .ScenecerelateddQuiz .signupType label span{
+  font-size: 13px;
+}
+.RightbarPannel .intructionsBox.LessionDtlOverview a, 
+.RightbarPannel .LessionDtlOverview a {
+  font-size: 13px !important;
+}
+.ScenecerelateddQuiz .textAreatypeQuestion .textareabox textarea {
+  height: 130px;
+}
+.lSidebarcontentwrap .NuggetPopup{
+  width: 450px;
+  top: 55px;
+}
+.NuggetPopup .NuggetVickyImage img, .NuggetPopup .unsubsvickyimg img {
+  height: 60px;
+}
+.NugeetsSolution .nuggetsolitems h6{
+  width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.NugeetsSolution .nuggetsolitems p{
+  width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.NuggetPopup .NuggetPopupDesc{
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: nowrap !important;
+}
+.RightbarPannel .heading h2{
+  font-size: 12px !important;
+}
+.RightbarPannel .heading h2 span{
+white-space: nowrap;
+width: 90%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.RightbarPannel .heading h2 span span.earnnoCoin{
+  overflow: visible;
+  padding: 4px;
+}
+.RightbarPannel .heading h2 img, .RightbarPannel .heading h3 img, 
+.RightbarPannel .Enrollcoursetitle h3 span img {
+  width: 18px;
+  max-height: 18px;
+}
+.RightbarPannel span.earnnoCoin, .RightbarPannel .GridCardTitle h3 span.earnnoCoin{
+  font-size: 13px;
+}
+.BDsubmitbutton .courseguide span {
+  font-size: 12px;
+  padding: 7px 10px;
+  font-weight: 600;
+}
+.StoryScene div{
+  height: auto !important;
+}
+.tabgrid:before{
+  top: 36px !important;
+}
+.textAreatypeQuestion .continuebtn {
+  padding: 8px 10px !important;
+}
+.helpbody .helpcardlisting {
+  width: 100%;
+}
+.helpbody .helpcardlisting .helpcards {
+  width: 30%;
+  min-height: 175px;
+}
+.helpbody .helpcardlisting .helpcards h4 {
+  font-size: 18px;
+}
+.helpbody .helptitle h2 {
+  font-size: 28px;
+  padding: 15px 0px;
+}
+.ProcessAccordian .Processaccordianlist h4{
+  font-size: 14px;
+  font-weight: 600;
+}
+.Alltypecourseguidepopup .courseInformation .heading h2 {
+  font-size: 16px !important;
+}
+.mobilePannelDirction .SpecialLeftpanel .RightbarPannel.p-0.rightpannelSticky {
+  min-height: 86vh;
+  max-height: 86vh;
+}
+
+.ProcessStepDesc .WHDieList h3 {
+  font-size: 16px;
+}
+.ProcessStepDesc .WHDieList li, .ProcessStepDesc .WHDieList li a {
+  font-size: 14px;
+}
+.RightbarPannel .imagePart ul li{ 
+  font-size: 14px;
+}
+.halfPagePOpup.knowsyourself .modal-body{
+  max-width: 100% !important;
+}
+.lessonCNameList ul.weeklist li.weellistname ul li{
+  width: 100%;
+}
+.QuizContent h4{
+  font-size: 14px;
+  line-height: 1.3;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.CourseCardWrapper .ConversionStory{
+  padding-top: 7px;
+}
+.CourseCardWrapper .LRSlidearrow {
+  min-width: 85px;
+}
+.CourseCardWrapper .LRSlidearrow span{
+  font-size: 12px;
+  margin: 0 3px;
+  padding: 0 2px;
+}
+.CourseCardWrapper .LRSlidearrow span.pointer:hover{
+  padding: 0px 2px;
+}
+.subscriptionwrapcard .chooseSubscription h3{
+  font-size: 28px;
+  width: 100%;
+}
+.halfPagePOpup.subscriptionwrapcard .modal-body{
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.form-switch label.form-check-label span span {
+  font-size: 12px !important;
+}
+.paymentinfo .tabgrid ul li {
+width: 33% !important;
+}
+.form-switch label.form-check-label { 
+  width: 100%;
+}
+.subscriptioncardwrap .subscriptioncard{
+  min-width: 45%;
+  margin-bottom: 15px;
+}
+.subscriptioncardwrap .subscriptioncard h4{
+  font-size: 18px;
+  font-weight: 600;
+}
+.subscriptioncard .subscriptioncardtitle del {
+  font-size: 21px;
+}
+.subscriptioncard .subscriptioncardtitle h2 {
+  font-size: 50px;
+}
+.subscriptioncard .Subscriptioncardconlist ul li img {
+  width: 16px;
+  margin-right: 7px;
+}
+.subscriptioncard .Subscriptioncardconlist ul li {
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.subscriptionwrapcard h4.yourexistingplan{
+  font-size: 12px !important;
+}
+.GridCardFullDetails .GridCardTitleDesc {
+  justify-items: baseline;
+  align-items: baseline;
+}
+.GridDetails .GridCardTitle h3{
+  font-size: 14px;
+}
+.RightbarPannel .RPenrolledCourseList ul li{
+  font-size: 14px;
+} 
+.GridDetails .GridCardTitle h3 span{
+  display: flex;
+  align-items: center;
+}
+.GridDetails .GridCardTitle p{
+  display: flex;
+  align-items: center; 
+}
+.basicdetailsform  .vickyimgsec img{
+  max-width: 100%;
+}
+.query_style .anythingels_btn{
+  width: 50% !important;
+}
+.LeftbarPannel .PannelContent h2{
+  font-size: 24px;
+}
+.basicdetailsform .tabgrid.Educationtab li.tabs {
+  width: auto;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+.tabgrid.Educationtab ul li svg {
+  font-size: 14px;
+  padding-right: 3px;
+}
+.Profileheading .heding-title span {
+  font-size: 13px;
+}
+.Profileheading .heding-title svg{
+  height: 0.8rem;
+}
+.fcardBody .fcardInfolist .comp_details .type_style{
+  flex-direction: column;
+}
+.fcardBody .fcardInfolist .comp_details{
+  padding: 10px 20px 10px 145px;
+}
+.fcardBody .fcardInfolist .experience {
+  width: 120px;
+  height: 140px;
+  top: -12px;
+  padding: 10px 0px;
+}
+.FieldinfoCard .fcardBody .fcardInfolist .experience h4 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.fcardBody .fcardInfolist .comp_details span {
+  font-size: 14px;
+} 
+#intrest_form .tabgrid.intresttab ul li {
+  width: 33%;
+  font-size: 13px;
+  padding: 6px 7px;
+}
+#intrest_form .tabgrid.intresttab ul li svg {
+  font-size: 14px;
+}
+.changepasword .Accountrelated .changepasswordbutns .BDsubmitbutton button.btn-blue.btn-login.d-block{
+  font-size: 12px !important;
+}
+.LargeScreenBody .Addrewardform.ljpopups .modal-dialog.modal-lg {
+  max-width: 700px;
+  width: 700px;
+}
+.lSidebarcontentwrap .LessionDtlOverview{ 
+  min-height: auto;
+}
+.LessionDtlOverview .textcontentSidebar {
+  padding-right: 35px;
+}
+.NHProgreschartList .NHProgresslistitem.NHProgresslistitem.simneskillcombo .NHPreogressouter {
+  width: 130px;
+  height: 130px;
+}
+.NHProgresslistitem .NHPreogressouter {
+  width: 120px;
+  height: 120px;
+}
+.NHProgresslistitem h4 {
+  font-size: 14px;
+}
+.CourseCardWrapper .Home_two img.chat_icon {
+  max-width: 15px;
+}
+.RightbarPannel .HolisticgrowthFlwr {
+  padding: 70px 0 0;
+}
+.HolisticgrowthFlwr .HGmaincircle {
+  width: 80px;
+  height: 80px;
+}
+.HolisticgrowthFlwr .HolinnerProgcircle {
+  width: 60px;
+  height: 60px;
+}
+.CourseCardWrapper .NhPageWrap h3 {
+  font-size: 16px;
+}
+.backpageStrip p {
+  font-size: 13px;
+}
+.NHDimeProgName h5 {
+  font-size: 12px;
+}
+.NHDimeProgName {
+  margin-bottom: 20px;
+}
+.courseskillbox .HomeProgresstilt{
+  font-size: 13px;
+}
+.RightbarPannel .popularcourse h4 {
+  font-size: 12px;
+}
+.dtab_content .dtags {
+  width: 47% !important; 
+  min-width: 47% !important;
+}
+.subscribe_box_style1 .form-group {
+  width: 40% !important;
+}
+.dimskiltags{
+ flex-wrap: wrap;
+}
+.SignupPopup .modal-dialog .SignupRegistration {
+  width: 100% !important;
+}
+.newinfo_popupdimension.entryPOuopwrap .modal-dialog.modal-lg {
+  width: 800px;
+  max-width: 700px !important;
+}
+.leftarrowpopup img {
+  max-width: 100px !important;
+}
+.welcomscreentwo .leftarrowpopup img {
+  max-width: 60px !important;
+}
+.LeftbarPannel {
+  width: calc(100% - 10px) !important;
+  margin: 0px 0px 10px 10px !important;
+  max-height: 600px !important;
+  overflow: auto !important;
+  min-height: auto !important;
+}
+.RightbarPannel.p-0.rightpannelSticky {
+  min-height: 39vh !important;
+  max-height: 100% !important;
+  margin-top: 0;
+  position: static;
+  width: calc(100% + -10px) !important;
+  margin-left: 10px;
+}
+.RightbarPannel {
+  width: 100% !important;
+  margin-left: 10px !important;
+}
+.MainContent{
+  padding-bottom: 10px !important;
+}
+.d-flex.w-100.align-items-start.overflow-visible,.HGprocess .d-flex.mb-5.align-items-flex-start{
+  flex-wrap: wrap;
+}
+.RightbarPannel .ScenecerelateddQuiz.allcourselj {
+  min-height: 100% !important;
+  overflow: auto;
+  padding-bottom: 10px;
+  max-height: 100% !important;
+}
+.CourseCardWrapper{
+  min-height: auto !important;
+}
+.smartquizwrapper {
+  padding: 10px 10px !important;
+}
+.halfPagePOpup .modal-dialog.modal-lg {
+  max-width: 90% !important;
+}
+.tabgrid.m-0.socialgridtab .jumptopagescene ul.dropdown-menu.dropdown-menu-end.show {
+  max-height: 347px;
+}
+span.closeback {
+  right: 90% !important;
+}
+.helpbody .helpcardlisting .helpcards {
+  width: 48% !important;
+  min-height: 175px;
+} 
+section.help_banner {
+  margin-top: 0px !important;
+}
+.Gridcard .coursecardnav ul.w-60 li {
+  width: 50%;
+}
+}
+@media (max-width: 991px) {
+.Hub_Navigation ul li {
+  margin-right: 3px;
+  display: none;
+}
+ .Hub_Navigation li.Singnupbtn {
+   margin-left: 0;
+}
+div#signup, .verifyusereffect {
+  padding: 76px 0 10px;
+}
+.bloomLogo {
+  max-width: 45.076923%;
+  padding: 0 0px 0.09px 10px;
+}
+.bloomLogo img {
+    max-width: 200px !important; 
+}
+.Mobile_Navigation .Hub_Navigation ul {
+display: block;
+}
+.Mobile_Navigation .Hub_Navigation li a{
+  color: #000;
+}
+.Mobile_Navigation .Hub_Navigation {
+  position: absolute;
+  top: 67px;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 0 6px  #ccc;
+  width: 100%;
+}
+.Mobile_Navigation .Hub_Navigation li.Singnupbtn{
+  top: -53px;
+}
+.Mobile_Navigation .Hub_Navigation li {
+  width: 100%;
+  text-align: right;
+  display: block;
+  border-top: 2px solid #ced4db;
+}
+/* .Hub_Navigation li.Singnupbtn {
+  padding: 0;
+  margin-right: 0;
+  margin-left: 8px;
+  position: absolute;
+  display: block;
+  top: 14px;
+  right: 57px;
+  border: 0;
+} */
+.Hub_Navigation li.Singnupbtn a {
+  padding: 8px 18px;
+  color: #fff;
+}
+.Mobile_Navigation .mobileNavigation span:first-child {
+  transform: rotate(45deg);
+  transform-origin: 2px 12px;
+}
+.Mobile_Navigation .mobileNavigation span:nth-child(2) {
+  opacity: 0;
+}
+.Mobile_Navigation .mobileNavigation span:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 8px -5px;
+}
+.mobileNavigation{
+display: block;
+}
+.logoFooter img {
+  max-width: 200px;
+}
+.signin_uptitle h2 {
+  color: #005fb2;
+  font-family: BicycletteLight!important;
+  font-size: 24px !important;
+  flex-wrap: wrap;
+}
+.logoFooter {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.FooterAddInfo {
+  padding-bottom: 50px;
+  padding-right: 4px;
+  width: 100%;
+}
+.hubPrimaryFooter .flex.align-items-start {
+  flex-wrap: wrap;
+}
+.hubspotFooter .container-fluid.footer-dnd-area2.footer__container.content-wrapper {
+    padding: 0 15px;
+}
+.hubsecondryFoorer {
+  /* flex-wrap: wrap; */
+  flex-direction: column-reverse;
+}
+.Hub_Navigation li.Singnupbtn a {
+  background: #e46666;
+  font-size: 16px;
+  font-family: 'figtree';
+  border-color: #e46666;
+  border-radius: 6px;
+  min-width: 140px;
+  width: auto;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #fff;
+  margin: 5px;
+  width: 140px;
+  margin-left: auto;
+  text-align: center;
+}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header .vickyLogo {
+    padding-left: 28px !important;
+  }
+  .menuList li.Subscribe_topbarbtn{
+    margin-right: 5px !important;
+  }
+  .Enrollcoursetitle .pagination{
+    display: none !important;
+  }
+
+  .landing-page .banner_back_style .form_style .signinandSignup {
+    top: 40px;
+  }
+
+  #root .landing-page .header {
+    background: #fff !important;
+    padding: 0px !important;
+    height: 55px !important;
+  }
+
+  .menuList.landingpageMenu li a,
+  .menuList.landingpageMenu li {
+    color: #212529 !important;
+    font-size: 12px !important;
+    margin: 10px 2px !important;
+    line-height: 30px;
+  }
+
+  .landing-page img.landingpagelogo {
+    display: block;
+    max-width: 145px !important;
+  }  
+
+  .vickyLogo .logoTitle {
+    max-width: 22%;
+  }
+
+  .landing-page .banner_back_style .form_style .head_style h4 {
+    font-size: 30px;
+    letter-spacing: 12px;
+    color: #fff;
+  }
+
+  .landing-page .banner_back_style .form_style .head_style h4 span {
+    font-size: 30px;
+    padding: 0px 0px 0px 10px;
+    background: transparent;
+    color: #fff;
+  }
+
+  .banner_back_style .form_style .head_style h4 span::after {
+    height: 38px !important;
+  }
+
+  .landing-page .banner_back_style {
+    padding: 70px 0px 10px 0px;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .landing-page .banner_back_style .banner_style {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    position: relative;
+  }
+
+  .banner_style:before {
+    border-radius: 0 !important;
+  }
+
+  .landing-page .banner_back_style .banner_style .landingpageBannerBg {
+    max-width: 100%;
+    background-position: center;
+    left: 0px;
+    top: -155px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .banner_back_style .banner_style .dimension_style1 .physical {
+    margin: 85px 0px 20px 0px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .landing-page
+    .banner_back_style
+    .banner_style
+    .dimension_style1
+    .intelectual {
+    margin: 0px;
+    width: 85px;
+    height: 85px;
+    border-radius: 15%;
+    left: 0;
+    bottom: auto;
+    top: 240px;
+    position: relative;
+    padding: 2px 4px;
+  }
+
+  .landing-page .banner_back_style .banner_style .dimension_style1 .social {
+    margin: 65px 0px 20px 0px;
+    width: 85px;
+    height: 85px;
+    border-radius: 15%;
+    left: 0;
+    bottom: 0;
+    top: 130px;
+    position: relative;
+    padding: 2px 4px;
+  }
+
+  .landing-page .banner_back_style .banner_style .dimension_style2 .emotional {
+    margin: 0px;
+    width: 85px;
+    height: 85px;
+    border-radius: 15%;
+    left: 0;
+    top: 85px;
+    bottom: 0;
+    position: relative;
+    padding: 2px 4px;
+  }
+
+  .landing-page .banner_back_style .banner_style .dimension_style2 .spiritual {
+    width: 85px;
+    height: 85px;
+    border-radius: 15%;
+    left: 0;
+    bottom: auto;
+    position: relative;
+    top: 90px;
+    padding: 2px 4px;
+  }
+
+  .banner_back_style .banner_style .dimension_style1,
+  .banner_back_style .banner_style .dimension_style2 {
+    padding-top: 30px !important;
+  }
+
+  .landing-page .banner_back_style .form_style {
+    width: 100% !important;
+  }
+
+  .signinandSignup .login-right {
+    margin: 2rem 0rem !important;
+  }
+
+  .login-right .tab {
+    padding: 0px 7px 30px 7px;
+  }
+
+  .login-right .tab a {
+    padding: 8px 20px 8px;
+  }
+
+  .signinandSignup .login-right #signin .signupType label {
+    padding-left: 25px;
+  }
+
+  .landing-page .banner_back_style .signinandSignup .btn-login {
+    width: 100%;
+  }
+
+  .banner_back_style .banner_style .dimension_style1 .social {
+    margin: 15px 7px -60px 0px;
+  }
+
+  .landing-page .banner_back_style .banner_style .dimension_style1 .physical {
+    margin: 0;
+    width: 85px;
+    height: 85px;
+    border-radius: 15%;
+    left: 0;
+    top: 190px;
+    bottom: 0;
+    position: relative;
+    padding: 2px 12px;
+  }
+
+  .banner_back_style .banner_style .dimension_style1 .social {
+    margin: 15px 7px -60px 0px;
+  }
+
+  .banner_back_style .banner_style .dimension_style1 .physical {
+    margin: 65px 20px 20px 25px;
+  }
+
+  .banner_back_style .banner_style .dimension_style1 .intelectual {
+    margin: -20px 45px 20px 0px;
+  }
+
+  .landing-page .holistic_growth {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .landing-page .holistic_growth .img_style {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .landing-page .holistic_growth .text_style {
+    width: 100%;
+    padding: 10px 0px;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .landing-page .holistic_growth .img_style img {
+    padding: 0px;
+  }
+
+  .holistic_growth .text_style .RoundAnimation {
+    position: relative;
+    width: 390px;
+    height: 390px;
+    top: 45px;
+    background: none;
+  }
+
+  .landing-page .holistic_growth .text_style h4 {
+    top: 20px;
+    margin-left: 0px;
+    font-size: 21px;
+  }
+
+  .landing-page .holistic_growth .text_style h4 span {
+    font-size: 30px;
+  }
+
+  .landing-page .learning_growth {
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .landing-page .RoundAnimation::before {
+    display: none;
+  }
+
+  .RoundAnimation .circle11.circle15 {
+    width: 220px;
+    height: 220px;
+    left: calc(50% - 137px);
+    animation-duration: 8s;
+    top: calc(50% - 119px);
+    border-radius: 50%;
+  }
+
+  .RoundAnimation .circle11.circle14 {
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 127px);
+    animation-duration: 7.5s;
+    top: calc(50% - 108px);
+  }
+
+  .RoundAnimation .circle11.circle13 {
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 107px);
+    animation-duration: 7s;
+    top: calc(50% - 87px);
+  }
+
+  .RoundAnimation .circle11.circle12 {
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 77px);
+    animation-duration: 8s;
+    top: calc(50% - 58px);
+  }
+
+  .RoundAnimation .circle11 {
+    width: 65px;
+    height: 65px;
+    left: calc(50% - 60px);
+    top: calc(50% - 40px);
+  }
+
+  .landing-page .banner_back_style .head_style {
+    position: relative;
+    top: 10px;
+    display: none;
+  }
+
+  .landing-page .learning_growth .text_style1 {
+    width: 100%;
+  }
+
+  .landing-page .learning_growth .img_style1 {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .landing-page .learning_growth .text_style1 h4 {
+    padding: 40px 0px 0px 0px;
+    font-size: 21px;
+    letter-spacing: 2px;
+  }
+
+  .landing-page .learning_growth .text_style1 h4 span {
+    font-size: 28px;
+  }
+
+  .landing-page .personal_coach .img_style2 {
+    width: 100%;
+    padding: 0px;
+    background-image: none;
+    min-height: 100%;
+  }
+
+  .landing-page .personal_coach .img_style2 iframe {
+    max-width: 100%;
+  }
+
+  .landing-page .personal_coach .text_style2 {
+    width: 100%;
+  }
+
+  .landing-page .personal_coach .text_style2 h4 {
+    font-size: 21px;
+    padding: 40px 0px 0px 0px;
+    letter-spacing: 1px;
+  }
+
+  .explore {
+    padding: 10px 20px;
+  }
+
+  .landing-page .explore .text_style3 {
+    width: 100%;
+  }
+
+  .landing-page .explore .img_style3 {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .landing-page .explore .text_style3 h4 {
+    font-size: 22px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .landing-page .explore .text_style3 h4 span {
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 10px;
+  }
+
+  /* Sighup screen css */
+  .SignupPopup .modal-dialog .SignupRegistration {
+    width: 100% !important;
+  }
+
+  .SignupPopup .modal-dialog .SignupRegistration .input-group {
+    width: 100% !important;
+  }
+
+  .SignupRegistration .signupType label {
+    padding-left: 24px;
+    display: block;
+    padding-right: 18px;
+  }
+  .fsignupBtn.m-0.bottom-dwn button.btn-blue.btn-login.d-block.w-auto {
+    padding: 8px 27px !important;
+  }
+  .modal-body.pt-0.flex.signupBody_popup {
+    margin: 0px 0px 0;
+  }
+
+  .SignupPopup .modal-dialog .SignupRegistration .heading {
+    position: initial;
+  }
+
+  .SignupPopup form.content .w-48,
+  .marksorgrade {
+    width: 100% !important;
+  }
+
+  .SignupPopup form.content .w-100,
+  .gradeDivsion {
+    flex-wrap: wrap;
+  }
+
+  /* Profile page screen css */
+  /* .dimensionCardWrap,
+  .diemensionCard,
+  .diemensionCard.collapse:not(.show) {
+    display: none !important;
+  } */
+
+  .basicdetailsform .wrapper .uploadedPhoto {
+    width: 100px;
+    height: 100px;
+  }
+
+  span.ortag {
+    padding-top: 10px !important;
+    margin: auto;
+  }
+
+  .basicdetailsform .wrapper .uploadedPhoto span {
+    width: 90px;
+    height: 90px;
+  }
+
+  .Profile_details h4 {
+    font-size: 21px !important;
+  }
+
+  .wrapper .imgFrm .Profile_details p {
+    font-size: 12px !important;
+  }
+
+  .wrapper .imgFrm .Profile_details {
+    padding: 0px 0px 30px 15px !important;
+    width: calc(100% - 120px);
+    max-height: 150px;
+    height: 150px;
+  }
+  .basicdetailsform .CurriModule .input-group,
+  .basicdetailsform .currilessionlistitem .input-group,
+  .QueOption {
+    width: 100% !important;
+  }
+  .MainContent .LeftbarPannel .upload_box {
+    max-height: 110px;
+  }
+
+  .basicdetailsform .wrapper .form-title {
+    margin: 0px 10px 20px;
+  }
+
+  .basicdetailsform .wrapper .input-group {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .basicdetailsform .wrapper .ProfileQuote {
+    padding: 0px 0px;
+  }
+
+  .basicdetailsform form.content p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .basicdetailsform .wrapper .input-group input.form-control {
+    flex: 0 0 70%;
+  }
+
+  .MainContent .d-flex .RightbarPannel {
+    min-height: auto;
+    height: auto;
+  }
+
+  .basicdetailsform .tabgrid.Educationtab ul li.tabs {
+    font-size: 12px;
+    text-align: left;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 9px 5px;
+    width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .profile_division .panel-collapse p,
+  .panel-collapse a {
+    font-size: 12px;
+  }
+  .profile_division .panel-body {
+    padding: 3px 20px !important;
+  }
+  .panel-body a svg,
+  .Accountrelated
+    .PasswordIntruction
+    ul.list-group
+    li.list-group-item.bg-light
+    .circleIcon {
+    font-size: 12px !important;
+  }
+  .Profileheading .heding-title {
+    padding: 3px 15px 3px;
+  }
+  .LeftbarPannel span.UserEditForm {
+    right: 10px;
+    font-size: 14px;
+  }
+  span.UserEditForm svg {
+    font-size: 14px !important;
+  }
+  .Profileheading .heding-title span {
+    font-size: 14px;
+    color: #616161;
+  }
+  li.tabs.active-tabs {
+    min-width: 40%;
+  }
+  .LeftbarPannel .basicdetailsform .Educationtab {
+    margin-top: 0px !important;
+  }
+
+  .LeftbarPannel .PannelContent form.content {
+    width: 100% !important;
+    padding: 10px 10px;
+  }
+
+  .basicdetailsform .input-group.placeholderseach,
+  .basicdetailsform form.content .input-group,
+  .wrapper.changepasword .Accountrelated form.bg-white.content .input-group,
+  .halfPagePOpup .modal-body .form_left,
+  .halfPagePOpup .modal-body .form_right,
+  .SActivytForm .input-group,
+  .CourseSchedule .form-group,
+  .input-group label {
+    width: 100%;
+    width: 100% !important;
+  }
+  .SecondryActivityform .form-title {
+    margin: 15px 0px 0px;
+  }
+  .SecondryActivityform {
+    margin-top: 0px;
+  }
+  .CourseSchedule {
+    padding: 0 10px;
+    margin-top: 0px;
+  }
+  .LeftbarPannel .heading.d-flex {
+    position: inherit;
+  }
+  header.header {
+    background: #fff;
+    padding: 5px 0px !important;
+    height: auto;
+  }
+  .container-fluid .MainContent {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 65px;
+  }
+  .MainContent .backicon {
+    right: 10px;
+  }
+  .loadmoreAddActivity .loadmoreActivity {
+    width: 150px;
+  }
+  .MainContent
+    .RightbarPannel
+    .halfPagePOpup.HolisticProgress
+    .modal.fade.show
+    .modal-dialog.modal-lg,
+  .MainContent
+    .RightbarPannel
+    .halfPagePOpup.AllDiemensionChart
+    .modal.fade.show
+    .modal-dialog.modal-lg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Course screen css */
+  .CourseSearchFilter .filterYourCourse {
+    width: 33%;
+    padding: 10px 6px;
+    height: 40px;
+  }
+  .CourseSearchFilter .SearchCourse {
+    width: 65%;
+  }
+  .CourseSearchFilter .SearchCourse input.form-control {
+    height: 40px;
+    font-size: 14px;
+  }
+  .intrestlisting .instlistitem .carditem h4 {
+    font-size: 12px;
+  }
+  .carditem span.crossmark svg {
+    font-size: 12px !important;
+  }
+  .LeftbarPannel .CourseSearchFilter {
+    padding: 10px 5px 10px 5px;
+  }
+  .CourseSearchFilter .intrestlisting {
+    width: 65% !important;
+  }
+  .Gridcard .Gridsocialsec ul li svg.svg-inline--fa.fa-calendar-days {
+    font-size: 12px;
+  }
+  .Gridcard .Gridsocialsec ul li {
+    font-size: 12px;
+  }
+  .Gridcard .Gridsocialsec ul li svg {
+    font-size: 12px;
+    padding-left: 0px;
+    margin-right: 1px;
+    padding-right: 0px;
+  }
+  .Gridcard .Gridsocialsec .shorSchedule p img,
+  .Gridcard .Gridsocialsec .shorSchedule p svg {
+    width: 12px;
+    margin-right: 4px;
+    font-size: 12px;
+  }
+  .Gridcard .Gridsocialsec .shorSchedule {
+    padding: 0 0px 10px;
+  }
+  .shorSchedule p {
+    font-size: 12px;
+  }
+  .Gridcard .Gridsocialsec .priceWrap {
+    padding: 6px 2px;
+  }
+  .Gridcard .Gridsocialsec .priceWrap .btn-login {
+    font-size: 11px;
+    padding: 5px 2px 5px 2px;
+  }
+  .Gridcard .Gridsocialsec .priceWrap .btn-login svg {
+    margin-right: 0px;
+    font-size: 10px;
+  }
+  .LeftbarPannel .basicdetailsform.px-5 {
+    padding: 15px 0 !important;
+  }
+  .Gridcard .GridDetails .Activity {
+    width: calc(100% - 5px);
+  }
+  .GridCardFullDetails .GridCardTitleDesc .CourseProvider {
+    padding: 5px 5px;
+  }
+  div#filterAccordian .GradeAndleve {
+    padding: 5px;
+  }
+  div#filterAccordian .GradeAndleve h4.flex {
+    font-size: 12px !important;
+    font-weight: normal;
+  }
+  div#filterAccordian .AllFilterdList h4 {
+    font-size: 14px !important;
+  }
+  div#School_information .AllFilterdList label.Selcheckbox {
+    font-size: 14px !important;
+  }
+  .Gridcard .GridDetails .GridCardTitle h3 {
+    font-size: 16px;
+  }
+  .Gridcard svg.star-svg {
+    height: 12px;
+    width: 12px;
+  }
+  .GridTeacher .teachername span.teachernametxt {
+    font-size: 14px;
+  }
+  .PannelContent .ProCoursecard h3.ActivyTitleName {
+    font-size: 14px;
+  }
+  .Coursebanner .bannerright .coursedtlImage {
+    width: 130px;
+    height: 130px;
+  }
+  .halfPagePOpup .modal-dialog.modal-lg {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+  .halfPagePOpup .modal-dialog .CoursedetailList ul {
+    padding: 5px !important;
+  }
+  .halfPagePOpup .modal-dialog .CoursedetailList ul li {
+    width: 100%;
+    font-size: 14px;
+  }
+  .halfPagePOpup .modal-dialog .CoursedetailList li span {
+    font-size: 12px;
+  }
+  .halfPagePOpup .modal-dialog .CoursePriceDetail {
+    width: 36%;
+  }
+  .halfPagePOpup .modal-dialog .CoursePriceDetail a {
+    padding: 8px 4px 8px;
+  }
+  .CoursebannerWrap .ProCourseNameDes h4 {
+    font-size: 14px;
+  }
+  .CoursebannerWrap .Coursebanner h3,
+  .CoursebannerWrap .Aboutmedesc h3 {
+    font-size: 16px;
+  }
+  .cart_style .fcardInfolist .experience {
+    width: 90px;
+    height: 75px;
+    padding: 4px 3px;
+    top: -75px;
+    left: 0px;
+  }
+  #Educations
+    .basicdetailsform
+    .fcardTitle
+    .cart_style
+    .fcardInfolist
+    svg.svg-inline--fa.fa-calendar-days {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .cart_style .fcardInfolist .experience h4 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .cart_style .fcardInfolist .experience p {
+    font-size: 12px;
+  }
+  .cart_style .fcardInfolist .comp_details {
+    padding: 10px 5px 10px 5px !important;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+  }
+  .cart_style .fcardInfolist .comp_details .type_style {
+    flex-direction: column;
+  }
+  .LeftbarPannel .basicdetailsform .AddCourseformWrap .input-group {
+    width: 100% !important;
+    padding: 0px 10px;
+  }
+  .searchVideoList .videoDescription {
+    padding-right: 10px !important;
+    width: calc(100% - 53%) !important;
+  }
+  .videoDescription {
+    padding-right: 20px;
+    width: auto !important;
+  }
+  .basicdetailsform form.content .publicprivateToggle {
+    width: 100%;
+    padding: 10px;
+  }
+  .basicdetailsform form .input-group .Selectcalenderyr .w-48 {
+    margin: 0px 5px;
+    width: 50% !important;
+  }
+
+  .basicdetailsform form.content .input-group.datespl.calender {
+    width: 100%;
+  }
+
+  .basicdetailsform form .input-group .Selectcalenderyr {
+    justify-content: flex-start;
+  }
+
+  .basicdetailsform form .input-group .Selectcalenderyr .form-group {
+    width: 50%;
+  }
+
+  .basicdetailsform form.content .form-title.margintitle {
+    margin: 0px 0px 10px;
+  }
+
+  .LeftbarPannel .tabgrid.intresttab ul li {
+    width: 100%;
+    text-align: left;
+    padding: 7px 2px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .LeftbarPannel .tabgrid ul li svg {
+    padding-right: 2px;
+  }
+
+  .wrapper.changepasword .Accountrelated,
+  .basicdetailsform .wrapper .Accountrelated {
+    display: block;
+  }
+
+  .wrapper.changepasword .Accountrelated .PasswordIntruction,
+  .basicdetailsform .wrapper .Accountrelated .PasswordIntruction {
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .LeftbarPannel {
+    min-height: auto;
+  }
+
+  .MainContent .d-flex .RightbarPannel .DChartWrap {
+    margin: 13px 2px 30px 20px;
+  }
+  .DChartWrap .DcHorizontalParameter span.HSESCharted {
+    bottom: -42px;
+    letter-spacing: 1px;
+  }
+  .breadCrum.breadsticky {
+    position: sticky;
+    top: 57px; 
+  }
+  .diemensionCard.sticky {
+    position: sticky;
+    z-index: 999;
+    width: calc(100% + 0px) !important;
+  }
+  /* Vicky Assumtions popup screen css */
+  .halfPagePOpup.AssumptionPopup
+    .modal-body
+    .AssemptionWrap
+    .Assemptionrightbar {
+    padding-left: 0px;
+  }
+
+  .learnerAssumtion .Asslearnerimage {
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    line-height: 48px;
+  }
+
+  .halfPagePOpup.AssumptionPopup
+    .modal-body
+    .AssemptionWrap
+    .Assemptionrightbar
+    .learnerAssumtion {
+    padding: 10px;
+  }
+
+  .AssemptionWrap .w-100.PopupConclusion.flex {
+    flex-direction: column;
+    text-align: left;
+    align-items: end;
+  }
+
+  .DiemensionPiechart.dropdown-menu.show {
+    min-width: 260px;
+  }
+
+  .DiemensionPiechart.dropdown-menu .gUOCOV {
+    display: block;
+  }
+
+  /* Dimension screen css */
+  /* .Gridsocialsec .Gridimage {
+    width: 80px;
+    height: 80px;
+  } */
+  .AViewListitem .videoDescription h3 {
+    font-size: 14px;
+  }
+  .ActivityViewFormat .subtitleHeadinhg h4 {
+    font-size: 16px;
+  }
+  .halfPagePOpup .courseInformation .heading h2 {
+    font-size: 16px !important;
+  }
+
+  .Gridcard .Gridsocialsec {
+    width: 90px;
+    padding: 5px;
+  }
+  .Gridcard .ProfileChild {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .Gridcard .TeacherActivityimg svg.ActivityIcon {
+    padding: 5px;
+  }
+  .Gridcard .Activity.selfmadeActivity .ActivitycrdTitle {
+    padding-left: 44px;
+  }
+  .Gridcard .TeacherActivityimg {
+    width: 30px;
+  }
+  .Gridcard .ShareYourActivity {
+    color: #949494;
+    font-size: 12px;
+    padding-right: 5px;
+  }
+  .TeachersLive .ActivitycrdTitle {
+    width: calc(100% - 35px);
+  }
+  .Gridcard .Activity.selfmadeActivity h3 span,
+  .Gridcard .AssessmentCards h3.ActivyTitleName span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    left: 10px;
+    line-height: 12px;
+  }
+  .Gridcard .TeacherActivityimg img,
+  .Gridcard .TeacherActivityimg svg.ActivityIcon {
+    max-height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .fa-school {
+    color: #747474;
+    font-size: 14px;
+  }
+  .Gridcard .GridDetails {
+    width: calc(100% - 90px);
+  }
+
+  .GridCardFullDetails .GridCardTitleDesc .gridSchool {
+    padding-left: 0px !important;
+    padding-top: 5px !important;
+    margin-left: 0 !important;
+  }
+  .Gridcard .ListIcon {
+    display: none;
+  }
+  .TopicSpeclist ul.spaclistcontactlist,
+  .TopicSpeclist .specialistTitle {
+    padding: 10px 10px 10px 90px !important;
+  }
+  .input-group.calender .clenderIcon {
+    position: absolute;
+    right: 16px !important;
+  }
+  .TopicSpeclist .speclistimage {
+    width: 68px;
+    height: 68px;
+  }
+  .ActivityTitle {
+    flex-direction: row !important;
+  }
+  .ActivityList .activityListitems {
+    display: block;
+  }
+
+  .ActivityList .activityListitems .Activity {
+    width: calc(50% - -115px);
+  }
+
+  .tabgrid ul {
+    overflow: scroll;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+  }
+
+  .gridSection .tabgrid ul li {
+    padding: 3px 32px;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .LeftbarPannel .tabgrid {
+    min-width: 332px;
+  }
+  .CourseardDesc .d-flex {
+    flex-wrap: nowrap;
+  }
+
+  .LeftbarPannel .heading.d-flex {
+    position: inherit;
+    flex-wrap: initial;
+  }
+
+  header.header {
+    background: #fff;
+    padding: 5px 0px !important;
+    height: auto;
+  }
+
+  .container-fluid .MainContent {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 48px;
+  }
+
+  .MainContent .backicon {
+    right: 44px;
+    z-index: 99999;
+    top: 54px;
+  }
+
+  .loadmoreAddActivity .loadmoreActivity {
+    width: 160px;
+  }
+
+  .MainContent
+    .RightbarPannel
+    .halfPagePOpup.HolisticProgress
+    .modal.fade.show
+    .modal-dialog.modal-lg,
+  .MainContent
+    .RightbarPannel
+    .halfPagePOpup.AllDiemensionChart
+    .modal.fade.show
+    .modal-dialog.modal-lg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Course screen css */
+  .CourseSearchFilter .filterYourCourse {
+    width: 33%;
+    padding: 10px 6px;
+    height: 40px;
+  }
+  .CourseSearchFilter .w-100 {
+    align-items: baseline;
+  }
+
+  .CourseSearchFilter .SearchCourse {
+    width: 65%;
+  }
+
+  .CourseSearchFilter .SearchCourse input.form-control {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .intrestlisting .instlistitem .carditem h4 {
+    font-size: 10px !important;
+}
+.skillSeltaglist .Course_filter img {
+  max-width: 20px !important;
+}
+  .carditem span.crossmark svg {
+    font-size: 12px !important;
+  }
+
+  .LeftbarPannel .CourseSearchFilter {
+    padding: 10px 5px 10px 5px;
+  }
+
+  .CourseSearchFilter .intrestlisting {
+    width: 65% !important;
+  }
+
+  .Gridcard .Gridsocialsec ul li svg.svg-inline--fa.fa-calendar-days {
+    font-size: 12px;
+  }
+
+  .Gridcard .Gridsocialsec ul li {
+    font-size: 12px;
+  }
+
+  .Gridcard .Gridsocialsec ul li svg {
+    font-size: 12px;
+    padding-left: 0px;
+    margin-right: 1px;
+    padding-right: 0px;
+  }
+
+  .Gridcard .Gridsocialsec .shorSchedule p img,
+  .Gridcard .Gridsocialsec .shorSchedule p svg {
+    width: 12px;
+    margin-right: 4px;
+    font-size: 12px;
+  }
+
+  .Gridcard .Gridsocialsec .shorSchedule {
+    padding: 0 0px 10px;
+  }
+
+  .shorSchedule p {
+    font-size: 12px;
+  }
+
+  .Gridcard .Gridsocialsec .priceWrap {
+    padding: 6px 2px;
+  }
+
+  .Gridcard .Gridsocialsec .priceWrap .btn-login {
+    font-size: 11px;
+    padding: 5px 2px 5px 2px;
+  }
+
+  .Gridcard .Gridsocialsec .priceWrap .btn-login svg {
+    margin-right: 0px;
+    font-size: 10px;
+  }
+
+  .LeftbarPannel .basicdetailsform.px-5 {
+    padding: 15px 0 !important;
+  }
+
+  .Gridcard .GridDetails .Activity {
+    width: calc(100% - 0px);
+  }
+
+  .GridCardFullDetails .GridCardTitleDesc .CourseProvider {
+    padding: 5px 5px;
+  }
+
+  div#filterAccordian .GradeAndleve {
+    padding: 7px;
+  }
+
+  div#filterAccordian .GradeAndleve h4.flex {
+    font-size: 12px !important;
+    font-weight: normal;
+  }
+
+  div#filterAccordian .AllFilterdList h4 {
+    font-size: 14px !important;
+  }
+
+  div#School_information .AllFilterdList label.Selcheckbox {
+    font-size: 14px !important;
+  }
+
+  .Gridcard .GridDetails .GridCardTitle h3 {
+    font-size: 14px;
+  }
+
+  .Gridcard svg.star-svg,
+  .videoDescription svg.star-svg,
+  .coursedetailpopuppage svg.star-svg,
+  .spaclistcontactlist svg.star-svg,
+  .Resorctitledtl svg.star-svg {
+    height: 13px !important;
+    width: 13px !important;
+  }
+
+  .GridTeacher .teachername span.teachernametxt {
+    font-size: 14px;
+  }
+
+  .PannelContent .ProCoursecard h3.ActivyTitleName {
+    font-size: 14px;
+  }
+
+  .Coursebanner .bannerright .coursedtlImage {
+    width: 150px;
+    height: 150px;
+  }
+
+  .halfPagePOpup .modal-dialog.modal-lg {
+    width: 98% !important;
+    max-width: 98% !important;
+  }
+
+  .ActivitycrdTitle h3 {
+    width: auto;
+  }
+
+  .tabgrid.AddActivityTab ul li {
+    width: 33.33%;
+    font-size: 12px;
+    padding: 6px 7px;
+  }
+  .tabgrid.AddActivityTab ul li svg {
+    font-size: 14px;
+  }
+
+  .courseInformation ul.CurriMainTitle {
+    padding: 15px 0px 10px 0px !important;
+  }
+
+  .submoduleList h4 ul {
+    padding: 0px 0px 0 0px !important;
+    width: 90% !important;
+  }
+
+  .ModuleTitle {
+    padding: 4px 5px;
+  }
+
+  .submoduleList h4 li {
+    padding-right: 16px !important;
+    align-items: center;
+  }
+/* 
+  .Selcheckbox {
+    margin-bottom: 20px !important;
+  } */
+
+  .AViewListitem {
+    width: 100%;
+    max-height: 85px;
+    min-height: 85px;
+  }
+
+  .videoDescription {
+    padding-right: 20px;
+    width: auto;
+  }
+  .AddCourseformWrap .flex.w-100 {
+    display: inline-block !important;
+  }
+  .LeftbarPannel .basicdetailsform .AddCourseformWrap .fullinput_width {
+    width: calc(100% - 0px);
+  }
+  .BDsubmitbutton .buttonDistribotion {
+    padding: 0px 10px;
+    width: 100% !important;
+  }
+  .CurriculamWrap .BDsubmitbutton .buttonDistribotion {
+    padding: 0px 10px;
+    width: auto !important;
+    width: 100% !important;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .BDsubmitbutton.Addchieldbtn.w-100.addEnrichbtn.m-0.mt-3.pr-10 {
+    padding-bottom: 10px;
+  }
+  .slider {
+    margin-bottom: 35px;
+  }
+  div#filterAccordian .flex {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .mobileWrap,
+  .currilessionlistitem.flex,
+  .AssessmentDtl {
+    flex-wrap: wrap !important;
+  }
+  .input-group.AttributrTitle {
+    width: calc(100% - 30px) !important;
+  }
+  #Educations .basicdetailsform .fcardTitle::before {
+    display: none;
+  }
+  .qzQuestioncontent {
+    padding: 10px !important;
+  }
+  .cart_style {
+    margin-top: 10px;
+  }
+  .basicdetailsform .AssessmentDtl .input-group {
+    width: 100%;
+  }
+  .basicdetailsform .currilessionlistitem .input-group {
+    padding: 0 0px 0 0px !important;
+  }
+  .curriculumCard {
+    border: 1px solid #ccc;
+    padding: 20px 15px 15px;
+  }
+  .curriModulelessionlist .BDsubmitbutton.Addchieldbtn.addEnrichbtn strong {
+    margin-left: 0 !important;
+  }
+  .mobmargin {
+    margin-top: 15px !important;
+  }
+  .Accountrelated
+    .PasswordIntruction
+    ul.list-group
+    li.list-group-item.bg-light {
+    padding: 5px 3px !important;
+    font-size: 12px !important;
+  }
+  .header .menuList .dropdown-menu {
+    min-width: 0;
+    width: 200px;
+    margin-top: 23px;
+    min-width: 300px !important;
+  }
+  .header .dropdown- {
+    font-size: 14px;
+    min-height: 42px;
+    padding: 5px 10px;
+  }
+  .basicdetailsform
+    .CourseSearchFilter
+    .SearchCourse
+    .input-group
+    .searchCourseicon
+    svg {
+    padding: 12px 12px;
+    font-size: 15px !important;
+  }
+  .container.borderlendingtop {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Why_holistic_growth .flex {
+    flex-direction: column;
+  }
+  .Why_holistic_growth .flex .RoundAnimation {
+    top: 157px;
+    width: 100%;
+    padding: 0;
+    transform: translateX(-50%);
+    height: auto;
+    /* display: flex; */
+    justify-content: center;
+    /* position: relative; */
+    left: 50%;
+    display: flex;
+    right: auto;
+    position: relative;
+    width: 85%;
+  }
+  .d_world {
+    position: relative;
+    top: 20px;
+    margin-top: 0;
+  }
+  .NlandingPage .NLbanner .container .right_panel {
+    width: 100%;
+  }
+  .right_dimension_img img {
+    right: 0px;
+    text-align: right;
+    top: 65px;
+    max-width: 100%;
+  }
+  .NlandingPage .NLbanner .container .left_panel {
+    position: relative;
+    z-index: 1;
+    padding: 90px 20px 20px 20px;
+    min-height: 100%;
+  }
+  .NlandingPage .NLbanner .container h2 {
+    font-size: 36px;
+    color: #ffffff;
+  }
+  .NlandingPage .NLbanner .container h2 span {
+    font-size: 36px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  .NlandingPage .NLbanner .container h4,
+  .NlandingPage .NLbanner .container h4 span {
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .NlandingPage .NLbanner .container p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .NlandingPage .NLbanner::before {
+    border-radius: 0%;
+    right: 0;
+  }
+  .NlandingPage .NLbanner .container .sub_btn {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .Why_holistic_growth {
+    padding: 20px 0; 
+  }
+  .Why_holistic_growth .growth_left {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .Why_holistic_growth .growth_left h3 {
+    font-size: 24px;
+  }
+  .Why_holistic_growth .growth_left h2,
+  .d_world .disc_title h2,
+  .tl_journey .jrny_title h2,
+  .wpl_title h2,
+  .blog_title h2,
+  .subscribe_box_style h2 {
+    font-size: 21px;
+    padding: 15px 5px;
+  }
+  .disc_title h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+  .d_world .dtab_content,
+  .d_world .dtab_img {
+    width: 100%;
+  }
+  button.blog_btn {
+    background: #1e5a9a;
+    width: 62%;
+  }
+  .blog_box h4 {
+    font-size: 18px;
+  }
+  .dtab_img img {
+    max-width: 100%;
+    position: static;
+    right: 0;
+    margin-top: 0px;
+  }
+  .Why_holistic_growth .growth_left p,
+  .box_style h4,
+  .dtab_content .dtags h4 {
+    font-size: 16px;
+  }
+  .Why_holistic_growth .b_content.flex,
+  .d_world .dtab_content .d-flex {
+    flex-flow: wrap;
+    /* flex-direction: column; */
+    align-items: baseline;
+  }
+  .Why_holistic_growth .box_style span img {
+    width: 130px;
+    min-width: 130px;
+    max-width: 160px;
+    height: 130px;
+  }
+  .dimension_tab ul {
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .dimension_tab ul li {
+    min-width: 140px;
+    font-size: 16px;
+    padding: 5px 5px;
+  }
+  .dtab_content p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+  .dtab_content .dtags {
+    width: 100%;
+  }
+  .dtab_content .dtags:nth-child(2n + 2) {
+    margin-right: 0px;
+  }
+  .box_style {
+    width: 48%;
+    margin: 10px 0px;
+  }
+  .wpl_title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    line-height: 1.4;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+  }
+  .landingpageMenu .menuList {
+    margin-right: 30px;
+  }
+  .tl_journey {
+    position: static;
+    margin-top: 50px;
+  }
+  .Why_holistic_growth .container .sub_btn {
+    font-size: 16px;
+
+    border-radius: 4px !important;
+
+    width: auto;
+    padding: 6px 30px;
+    margin: 15px auto;
+  }
+  .jrny_box_style {
+    flex-flow: nowrap;
+    width: 100%;
+    overflow: auto;
+  }
+  .jrny_box {
+    width: 100%;
+    min-width: 280px;
+    height: auto;
+    margin: 42px 0;
+    margin-right: 10px;
+    min-height: 180px;
+  }
+  .Why_holistic_growth .growth_right {
+    width: 100%;
+  }
+  .NlandingPage .NLbanner .container .left_panel {
+    width: 100%;
+    padding: 90px 0px 20px 0px;
+  }
+  section.aboutdarkback .LJbanner .flex,
+  section.wHbanner .flex,
+  .sectionpadding .flex {
+    flex-direction: column-reverse;
+  }
+  section.wHbanner .ProviderResposiblity .ResponsiblityItems {
+    width: 100%;
+  }
+  .Bloglist .bloglisting .BLogCard {
+    width: calc(100% - 10px);
+  }
+  .basicdetailsform form.content p.invalid-feedback {
+    text-align: left;
+  }
+  .input-group .is-invalid {
+    border-radius: 10px;
+  }
+  .input-group
+    .react-date-picker.react-date-picker--closed.react-date-picker--enabled.form-control.is-invalid {
+    border-radius: 10px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .BlogList .Blogbanner p {
+    padding: 0px 5%;
+  }
+
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-prev,
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+  }
+
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-next {
+    left: auto;
+    right: 0;
+  }
+  .subscribe_box_style1 .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .leftSide h4 {
+    margin-top: 30px;
+  }
+  .aboutvicky .leftSide {
+    padding: 0px 10px !important;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-prev,
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-prev,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-next {
+    transform: none;
+    transform: none;
+    top: auto;
+    bottom: -40px;
+    margin: 0;
+    left: 40%;
+  }
+  .wpl_box_styl .owl-carousel .owl-nav button.owl-next,
+  .explr_blog_styl .owl-carousel .owl-nav button.owl-next {
+    right: 40%;
+    left: auto;
+  }
+  .subscribe_style {
+    width: 100%;
+    margin: 70px 0px 40px 0px;
+  }
+  .AddChildPopup .modal-content,
+  .modal-content {
+    max-width: 100% !important;
+  }
+  .NSidebar {
+    width: 0;
+  }
+  .NSidebar.ActiveNSidebar {
+    width: 170px;
+    min-width: 170px;
+}
+  .NSidebar ul li.top-section {
+    border-bottom: 1px solid #483282;
+    left: 20px;
+    top: 7px;
+    display: flex;
+  }
+  .NSidebar ul li.top-section svg.svg-inline--fa.fa-arrow-left {
+    color: #ffffff !important;
+    font-size: 12px !important;
+}
+.NSidebar ul li.top-section svg.svg-inline--fa.fa-bars{
+  color: #0f1a34 !important;
+  font-size: 18px !important;
+}
+  .NSidebar ul li {
+    display: none;
+  }
+  .NSidebar.ActiveNSidebar ul li {
+    display: flex;
+    left: 0;
+    padding: 0px 8px !important;
+    top: 0;
+  }
+  .dimensionCardWrap .flipIcon {
+    right: 23px;
+    top: 54px;
+    z-index: 99999;
+  }
+  .cardleftpannel.d-flex.justify-content-between {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+  .diemensionCard .Card {
+    min-width: 250px;
+  }
+  .diemensionCard.sticky {
+    z-index: 99999;
+    top: 51px;
+  }
+  .MainContent .diemensionCard {
+    overflow: auto;
+    margin-right: 0;
+    width: auto;
+    margin-left: 0;
+    width: 100%;
+  }
+  .cardrightpannel {
+    width: auto;
+  }
+  .breadCrum {
+    overflow: auto;
+  }
+  .diemensionCard .Card:nth-child(1) {
+    margin-left: 0 !important;
+  }
+  .SpecialLeftpanel .HomePageDeshborad {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .MainContent .breadCrum {
+    width: calc(100% - 0px);
+    margin: 10px 0px 10px 0px;
+  }
+  .leftRow,
+  .rightRow,
+  .RightbarPannel.p-0.rightpannelSticky {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  /* header.header.is-sticky{
+  height: 48px !important;
+  top: 20px; 
+  width: auto;
+  transition: all .3s;
+} */
+  .fusionchart .chart-container canvas, .RightbarPannel .Rpprogresbar .chart-container canvas {
+    min-width: 300px !important;
+    height: 300px !important;
+    max-width: 300px !important;
+    width: 300px !important;
+  }
+  /* header.header{
+  width: auto;
+} */
+.RightbarPannel .Rpprogresbar .chartprofilemenu {
+  width: 110px;
+  height: 100px;
+  left: 50%;
+}
+  .MainContent.resetPassword {
+    padding: 58px 10px;
+  }
+  .reserpasswordhedaer .header .vickyLogo {
+    padding-left: 0px !important;
+  }
+  .PMSkillList.wpl_box_styl .owl-carousel .owl-nav button.owl-prev,
+  .PMSkillList.wpl_box_styl .owl-carousel .owl-nav button.owl-next {
+    top: 0 !important;
+  }
+  .breadCrum.breadsticky {
+    position: sticky;
+    top: 57px !important;
+  }
+  .DchartContnr span.HIPCharted {
+    left: -105px;
+    font-size: 14px;
+    width: 400px;
+    text-align: center;
+  }
+  .HolisticProgress .DcverticleParameter span {
+    position: absolute;
+    left: -127px !important;
+  }
+  .LeftbarPannel .CourseCardWrapper,
+  .mobilePannelDirction .SpecialLeftpanel .LeftbarPannel {
+    min-height: auto;
+  }
+  .EnrolledCourse .priceWrap {
+    padding: 0;
+  }
+  .EnrolledCourse .priceWrap button {
+    padding: 4px 6px !important;
+  }
+  .GridCardTitle h3 span.earnnoCoin {
+    top: 4px;
+  }
+  .GridCardTitle h3 img {
+    margin-left: 27px;
+    margin-top: -14px;
+  }
+  .ActivitycrdTitle h3 {
+    font-size: 12px;
+  }
+  .ActivitycrdTitle h3 .pointer div{
+    max-width: 95px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .PercentCompleted, .SocialGridcard .Activity.selfmadeActivity h3 span.PercentCompleted{
+    top: 1px;
+    left: -1px;
+    align-items: center;
+  }
+  .menuList li.signup_styl {
+    color: #fff !;
+  }
+  .Abouttaginfo .NuggetPopupDesc p {
+    width: 85%;
+  }
+  .menuList li.betaversion {
+    display: none;
+  }
+  .breadCrum .heading ul {
+    min-width: 60%;
+  }
+  .wp_love .parentText{
+    flex-direction:column-reverse;
+  }
+  .form-group .input-group{
+    border-radius: 0px; 
+  }
+  .LeftbarPannel .basicdetailsform .wrapper {
+    max-width: 100%;
+    flex-direction: column;
+}
+.LeftbarPannel .basicdetailsform .wrapper .w-48{
+  width: 95% !important; 
+}
+.LargeScreenBody .Addrewardform.ljpopups .modal-dialog.modal-lg {
+  max-width: 95%;
+  width: 95%;
+}
+.phyitem .ljuserlistitemDesc .flex{
+  flex-direction: column;
+  align-items: baseline;
+}
+.OtherChPPLstitm .Prifg.childpersonalprofile{
+  left: 2%;
+  top: 140px;
+}
+
+.subscriptioncard .subscriptioncardtitle h2 {
+  font-size: 40px;
+}
+.subscriptioncard .subscriptioncardtitle p{
+  font-size: 16px;
+}
+.subscriptionwrapcard h4.yourexistingplan {
+  font-size: 14px !important;
+}
+.subscriptioncardwrap {
+  flex-direction: column;  
+}
+.cardrightpannel .totleCourse {
+  width: 100%;
+}
+.cardrightpannel .totlecout {
+  max-width: 100%;
+  min-width: 100%;
+}
+.sharecertificate {
+  padding: 10px 10px;
+}
+
+/* MObile Header */
+.holistic_view_popup .welcomscreenContent ul li {
+  font-size: 14px !important;
+}
+.holisticview .modal-dialog.modal-lg {
+  width: 100% !important;
+  margin: 10px !important;
+}
+.holisticflowr.w-40 {
+  width: 100%;
+}
+.Seocialaaproch {
+  width: 72px !important;
+  height: 72px !important;
+}
+.Seocialaaproch.EmotioanlApproch {
+  top: -1px !important;
+  left: 41px !important;
+}
+.socialcircle {
+  left: 163px !important;
+  top: -83px !important;
+}
+.Seocialaaproch.SpritiualApproch {
+  right: -10px !important;
+  top: -2px !important;
+}
+.Seocialaaproch.PhysicalApproch {
+  left: 72px !important;
+  top: 141px !important;
+}
+.Seocialaaproch.intellectualApproch {
+  right: 30px !important;
+  top: 148px !important;
+}
+.Straightarrow {
+  max-width: 100%;
+  left: 50% !important;
+  transform: translateX(-50%) rotate(90deg) !important;
+  position: absolute !important;
+}
+.holisticnewappoch {
+  width: 100% !important;
+  padding: 0px 0px 100px 0px !important;
+  max-width: 344px !important;
+  margin: auto !important;
+}
+.dimensionapproch {
+  top: 0px;
+  left: 42% !important;
+  transform: translateX(-50%) !important;
+}
+.centeralapproch{
+  left: 109px !important;
+}
+.welcomscreenContent.welcomscreentwo.flex  ul {
+  padding: 0px 0px 0px 0px !important;
+}
+.billingHistryTabl {
+  padding: 0px !important;
+}
+.welcomscreenContent.welcomscreentwo.flex {
+  align-items: flex-start !important;
+}
+.Seocialaaproch p {
+  font-size: 12px !important;
+}
+.infopopupright.align-items-start.pb-2 .flex.pb-1,
+.CoursebannerWrap,
+.notenrollednanycourses.flex,
+.infopopupright.flex.align-items-start {
+  flex-wrap: wrap !important;
+}
+
+.infopopupleft.flexone.justify-content-left {
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  padding-top: 0;
+}
+.infopopupleft.flexone.justify-content-left {
+  flex-wrap: wrap !important;
+  flex-direction: column-reverse !important;
+}
+.newinfo_popupdimension .infopopupleft .angleuppericon {
+  max-width: 348px !important;
+  margin-top: 20px!important;
+}
+.newinfo_popupdimension .holisticflowr.dimension_skilflow {
+  padding: 60px 2px 0px 2px !important;
+}
+#latestNews span{
+  flex-wrap: nowrap !important;
+}
+.holisticflowr.w-50 {
+  padding-top: 20px !important;
+}
+p.uppercarrowicon.angleuppericon.text-center.flexone img{
+  display: none ;
+}
+.coursecardnav.dropdownlistmodl.flex ul{
+  width: 100% !important;
+  min-width: 240px !important;
+  left: -11px !important;
+  }
+  .coursecardnav.dropdownlistmodl ul ul.dropdown-menu.dropdown-menu-end.newrewardDropdwn.show {
+    transform: none !important;
+    top: 32px !important;
+    left: 35px !important;
+}
+  .coursecardnav.dropdownlistmodl.flex,.CourseWeekdtl{
+    flex-wrap: wrap !important;
+    }
+    .JourneyCoursecard .Coursecompprcent, .JourneyCoursecard.newCourseCard .Coursecompprcent.coursecomptcertifie {
+      width: 38px !important;
+      display: block;
+  }
+  .JourneyCoursecard.newCourseCard .GridCardTitle h3 .coursecomptcertifie span.PercentCompleted {
+    top: 11px !important;
+    font-size: 12px !important;
+}  
+.LeftbarPannel.p-0 {
+  margin: 0  0 10px!important;
+  width: 100% !important;
+}
+.learnerpathwaysec {
+  padding: 15px 0px 0 !important;
+}
+.learnerpathwaysec  .d-flex.align-items-center.mb-3.pl-3.pr-3{
+  justify-content: center !important;
+}
+.learnerpathwaysec h2 {
+  font-size: 28px !important;
+}
+.learnerpathwaysec h4 {
+  font-size: 16px !important;
+}
+.pathwayslistitm li,.billingHistryTabl th h5 {
+  font-size: 14px !important;
+}
+.pathwayslistitm {
+  width: 100% !important;
+  padding: 0 8px !important;
+}
+.learnerpathwaysec span.pathway_root,.coveredDimensionpathway.d-flex.align-items-baseline{
+  flex-wrap: nowrap !important;
+}
+.learnerpathwaysec span.pathway_root h4{
+  padding:0 10px !important;
+  font-size: 14px !important;
+}
+.popularcourse p.dmskills, .courseskillbox p.dmskills {
+  font-size: 14px !important;
+  padding: 0px 0px 15px !important;
+}
+.graphbatteryprogress{
+  margin: 5px !important;
+}
+.courseskillbox {
+  padding: 0px 10px 10px !important;
+}
+.ScenecerelateddQuiz h4{
+  margin-bottom: 0 !important;
+}
+.coursepagelist .dimpagetags .instlistitem{
+  margin: 2px 8px 5px 0px !important;
+}
+.skillSeltaglist.coursepagelist{
+  padding-left: 0 !important;
+}
+.SocialGridcard .Activity.selfmadeActivity h3 span.percenrSign {
+  position: static !important;
+  width: auto !important;
+}
+.MainContent .breadCrum li{
+  display: none !important;
+}
+.MainContent .breadCrum li:last-child{
+  display: block  !important;
+}
+.jumptopagescene.dropdownlistmodl{
+  display: none !important;
+}
+.tabgrid.m-0.socialgridtab ul {
+  padding-bottom: 0 !important;
+}
+.mobilePannelDirction .SpecialLeftpanel .LeftbarPannel .CourseCardWrapper .tabgrid.m-0.socialgridtab.flex ul li {
+  min-width: 170px;
+}
+.NSidebar ul li img {
+  max-width: 22px !important;
+}
+.ActiveNSidebar .NsidebarLogondback img {
+  max-width: 120px !important;
+}
+.NSidebar ul li svg.svg-inline--fa.fa-house,.NSidebar ul li svg {
+  font-size: 18px !important;
+  width: auto;
+}
+.NSidebar ul li.course_sideicon img {
+  max-width: 25px !important;
+  width: 25px !important;
+}
+.ActiveNSidebar .OpnNsidebartxt {
+  display: flex !important;
+  width: 125px !important;
+  min-width: 125px !important;
+}
+.ActiveNSidebar .NsideBrDimWrap {
+  justify-content: left !important;
+  flex-wrap: nowrap !important;
+}
+.checkmark, .WrongQuizAns, .circularicon {
+  height: 16px !important;
+  width: 16px !important;
+  top: -3px !important;
+  left: -4px !important;
+} 
+.intrestlisting.dimpagetags .Selcheckbox {
+  padding-left: 14px !important;
+}
+.skillSeltaglist .intrestlisting.dimpagetags .Selcheckbox {
+  padding-left: 0 !important;
+}
+.pagebuttonStrip .BDsubmitbutton .buttonDistribotion{
+  width: auto !important;
+  padding: 0 !important;
+}
+.Alltypecourseguidepopup {
+  position: fixed;
+  right: 0% !important;
+  bottom: 92px;
+  z-index: 10000009 !important;
+  max-width: 0;
+  min-width: 100% !important;
+}
+.CourseCardWrapper .LRSlidearrow {
+  min-width: 80px !important;
+  background: #E0E0E0 !important;
+  height: 36px !important;
+  line-height: 36px !important;
+}
+.videoinfotext p,.billingHistryTabl td p {
+  font-size: 13px !important;
+}
+.billingHistryTabl td p.viewinv{
+  padding: 4px 6px;
+  font-size: 12px !important;
+}
+.videoinfotext{
+  padding: 2px 4px !important;
+}
+.intrestpopup .confirmintrest,.scrorecardWrap .scorecard_table li {
+  overflow-x: auto !important;
+}
+.signupType.checkycourse span.checkmark.intrestcheckmark {
+  left: 50% !important;
+ }
+ .Course_filter.mr-3 {
+  margin-right: 2px !important;
+}
+ .newinfo_popup .abundantpopup,
+ .congratulationPopup .modal-dialog ,
+ .AddChildPopup .modal-dialog,
+ .Addrewardform .modal-dialog.modal-lg,
+ #schoolactivity111 .modal-dialog.modal-lg.gradepopup,
+ .newEnrollCoursPopup .modal-dialog,
+ .newinfo_popup .abundantpopup.modal-dialog,
+ .serveyPoup.AreyousurePopup .modal .modal-dialog,
+ .enrollZindex .modal-dialog.modal-lg{
+  width: 100% !important;
+  padding: 8px !important;
+}
+.notenrolledskill li {
+  font-size: 12px !important;
+  margin: 0px 3px 8px !important;
+  padding: 0px 10px 3px !important;
+}
+.ratingservayques {
+  margin: 16px auto 3px !important;
+}
+span.surveytop {
+  margin-top: 0 !important;
+}
+.serveyPoup .modal-body.RatetousPopup {
+  padding: 0px 10px 0px !important;
+}
+.enrollZindex .modal-dialog.modal-lg,.serveyPoup.AreyousurePopup .modal .modal-dialog{
+  min-width: 100% !important;
+  margin: 0;
+}
+.downgradepopup button.btn.btn-primary{
+  min-width: 25px !important
+}
+.scoringtable td:first-child, .scoringtable th:first-child {
+  min-width: 103px !important;
+}
+.congratulationPopup .sectionscore td, .congratulationPopup .scoringtable th {
+  font-size: 13px !important;
+  vertical-align: baseline;
+}
+.coursecardnav #regularrewardwn ul.dropdown-menu.dropdown-menu-end.newrewardDropdwn.show{
+  max-width: 275px !important;
+  min-width: 236px !important;
+  left: -50px !important;
+}
+.congratulationPopup .sectionscore td:nth-child(2), .congratulationPopup .scoringtable th:nth-child(2) {
+  min-width: 112px !important;
+}
+.BDsubmitbutton .buttonDistribotion{
+  padding: 0 !important;
+}
+.AreyousurePopup .modal-header .heading h2 ,
+.parents_Support.parent_collabtaremenu h4.heighlitedboxpopup,
+.NuggetPopupTitle h4,
+.modal#schoolactivity135  .heading h2{
+  font-size: 16px !important;
+}
+.modal#schoolactivity135 .heading h2 span,.NuggetPopupTitle h4 span{
+  display: flex !important;
+}
+.parents_Support .welcomscreenContent ul li,
+.sectionscorecard .sectionscore li.scorecardtitle,
+.RightbarPannel .heading h2 ,
+.CourseDetails .text.textdescription.coursetextheght .textdesc,
+.coursecardmenulocked .feeAnalysispopup .welcomscreenContent h4  {
+  font-size: 14px !important;
+}
+.welcomscreenContent ul li svg {
+    margin-top: 5px !important;
+    font-size: 12px !important;
+}
+span.skill_imageicon_.mr-3 {
+  margin-right: 3px !important;
+}
+.coursecardmenulocked .welcomscreenContent ul{
+margin: 0 !important;
+}
+.NuggetVickyImage img, .unsubsvickyimg img {
+  height: 32px !important;
+}
+.fixedtoppar .tabgrid ul li {
+  width: 145px !important;
+}
+.parents_Support .welcomscreenContent ul li img {
+   width: 11px !important;
+  height: 12px !important;
+}
+.parent_collabtaremenu .welcomscreenContent ul{
+  margin: 10px 0 !important;
+  padding: 10px !important;
+} 
+.Gridcard .coursecardnav ul.w-60 li p span,.modal .heading h2 span{
+  display: flex;
+  align-items: flex-start;
+}
+.CoursebannerWrap{
+  padding: 10px!important;
+}
+.weelyCoursedesc {
+  width: calc(100% - 0px) !important;
+}
+.Weektitledtl {
+  width: 100% !important;
+  text-align: left !important;
+  padding: 10px !important;
+  border-bottom: 1px solid #ccc !important;
+  margin-bottom: 10px;
+}
+.Weektitledtl span {
+  display: inline-block !important;
+  font-size: 20px !important;
+}
+.CourseWeekdtl{
+  margin-top: 0 !important;
+}
+.CourseJourney span.Lvlcount {
+  font-size: 15px !important;
+  min-width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  padding: 0 !important;
+  top: 50% !important;
+  left: -20px !important;
+  transform: translateY(-50%) !important;
+}
+.CourseJourney .jrny_box {
+  margin: 0px 0px 10px 12px !important;
+  width: 100%;
+  min-height: 100px !important;
+  padding-left: 23px !important;
+}
+.CourseJourney .jrny_box h4 ,.weelyCoursedesc h5,.selctedpathwaytitle h3.flexone,
+.modal .heading h2,.newcoursecardpanel .ScenecerelateddQuiz .dimensionshorting .signupType label span.dimtagHead{
+  font-size: 16px !important;
+}
+.Coursebanner p, .Aboutmedesc p {
+  color: #232323;
+  font-size: 14px !important;
+}
+.sectionscorecard .PercentCompleted {
+  top: 11px !important;
+}
+.Course_height .smartquizbanner img {
+  min-height: auto;
+}
+.beginAssessmentbtn button.btn-blue.btn-login {
+  padding: 6px 20px !important;
+  font-size: 16px !important;
+}
+.smartquizbanner {
+  margin: 10px 10px 0 !important;
+}
+.pt-3.mt-3.mb-3.beginAssessmentbtn {
+  margin-top: 0px !important;
+}
+.LinkImage.pointer img {
+  width: 100% !important;
+  border: 1px solid #ffcb5b !important;
+  margin-bottom: 20px !important;
+}
+.wlCard img, .wlCard svg {
+  max-width: 35px !important;
+  padding: 3px !important;
+}
+.paymentinfo .tabgrid.w-100.mb-4.pb-2 {
+  overflow-x: auto;
+}
+.subscriptioncardtitle .checkmark {
+  height: 60px !important;
+  width: 60px !important;
+  top: 45px !important;
+  border: 1px solid #dbdbdb;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.form-switch label.form-check-label span {
+  font-size: 20px !important;
+}
+.subscriptioncardwrap .subscriptioncard {
+  min-width: 300px !important;
+}
+.chooseSubscription {
+  padding: 0px 0 20px !important;
+}
+.subscriptionChoose label.form-check-label.d-flex.w-90.m-auto.p-0 span.saveuptomsg {
+  top: 32px !important;
+  min-width: 110px;
+  left: 36px !important;
+}
+.curruntplanstrip {
+  left: -8.8px !important;
+  top: 25px !important;
+}
+.billingAddress img {
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+.billingAddress .input-group.d-flex .w-50.pr-3 {
+  padding-right: 0 !important;
+}
+.SUbscriptionPreview span, .UsedCarddtl span {
+    width: 181px !important;
+}
+.BillingCardAdd.mb-3.UsedCarddtl.Addrsbille,.BillingCardAdd  {
+    height: auto !important;
+}
+.checkoutbody .parentdob span.checkmark {
+  top: 13px !important;
+}
+.top_head h2 {
+  font-size: 20px !important;
+}
+.top_head h2 span,.top_head h2 span{
+  font-size: 18px !important;
+}
+.ScenecerelateddQuiz .dimensionshorting .filtetags {
+  padding: 3px 10px 5px 0px !important;
+}
+.newcoursecardpanel .tabgrid ul li{
+  font-size: 15px !important;
+}
+.alltypeCourseFilter .filtersetAllcourse .checkmark {
+  border: 1px solid #ccc;
+  top: 0px !important;
+  left: 7px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+.alltypeCourseFilter .checkmark {
+  border: 1px solid #ccc;
+  top: 1px !important;
+  left: 7px !important;
+}
+.notenrollednanycourses .learnerpathwaysec img {
+  max-width: 150px !important;
+}
+.lSidebarcontentwrap .NuggetPopup {
+  top: 55px !important;
+  right: 5px !important;
+  width: 100% !important;
+}
+.insceptionFilter #navbarDropdown {
+  font-weight: 400;
+  text-overflow: ellipsis;
+  width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.Hometwowrap .NHProgreschartList.flex.flex-wrap {
+  padding: 0 !important;
+}
+.diemensionCard .Card span img {
+  width: 20px !important;
+}
+.cardrightpannel .totlecout {
+  max-width: 100% !important ;
+  min-width: 100% !important;
+}
+.GridCardTitle h3{
+  font-size: 16px !important;
+}
+div#ProfileMenuPopup .modal-content.ProfilepopupWidth {
+  max-width: 300px !important;
+}
+.SignupPopup p.text-center.signinsignupline.mb-3 {
+  max-width: 100% !important;
+}
+}
+@media (max-width: 576px) {
+  .whereyouleft .NuggetPopupTitle img {
+    max-height: 38px;
+}
+.NuggetPopupTitle h4 {
+  font-size: 16px;
+}
+.whereYouleftwtrap .wlCard h3.whleftbtn {
+  font-size: 16px !important;
+  color: #fff;
+}
+.whereYouleftwtrap h2.h1.text-center.m-minus-15.orbutton {
+  margin: 18px 0px !important;
+}
+.whereYouleftwtrap h2 span.bg-white {
+  padding: 8px 6px !important;
+  top: -6px !important;
+  font-size: 10px !important;
+}
+.NHProgreschartList.flex {
+  padding: 200px 0 20px !important;
+  position: relative !important;
+}
+.NHProgresslistitem.NhHolisticProgress.allitemsNH {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.NHProgresslistitem:nth-child(3n + 2),.NHProgresslistitem  {
+  width: auto !important;
+  min-width: 300px
+}
+.NHProgresslistitem:nth-child(5),.NHProgresslistitem:nth-child(4), .NHProgresslistitem:nth-child(6),.NHProgresslistitem:nth-child(3n + 2) {
+  margin-top: 0 !important;
+}
+.NHProgresslistitem.NhHolisticProgress .NHPreogressouter, .NHProgresslistitem.NHProgresslistitem.simneskillcombo .NHPreogressouter {
+  width: 150px !important;
+  height: 150px !important;
+}
+.NhPageWrap h3.statementabthome {
+  padding: 0px 0px !important;
+  margin-top: 0 !important;
+}
+.popularcourse ul li {
+  font-size: 14px !important;
+}
+.popularcourse ul li .btn-login {
+  padding: 5px 5px 5px 5px !important;
+  font-size: 11px !important;
+}
+.menuList li.Subscribe_topbarbtn h4,.MainContent .breadCrum li {
+  font-size: 14px !important;
+}
+.Gridsocialsec .Gridimage {
+  width: 100% !important;
+  height: auto!important;
+}
+.GridCardTitle h3{
+  flex-wrap: wrap !important;
+}
+.landing-page .banner_back_style .form_style .head_style h2 {
+  font-size: 26px;
+  letter-spacing: 10px;
+  line-height: 40px;
+  color: #fff;
+}
+.JourneyCoursecard .Gridsocialsec {
+  padding: 0px 0 10px 10px;
+  width: 100%;
+}
+
+.JourneyCoursecard .Gridsocialsec,.JourneyCoursecard .GridDetails {
+width: 100% !important;
+}
+.JourneyCoursecard.newCourseCard .Gridsocialsec {
+  padding: 5px 5px 5px 5px !important;
+}
+.coursecardnav ul li,.GridCardTitle h3,.GridCardTitle p {
+font-size: 14px !important;
+}
+.Gridcard{
+flex-wrap: wrap !important;
+}
+.JourneyCoursecard.newCourseCard .GridDetails .GridCardTitle h3 {
+  padding: 5px 7px 5px !important;
+}
+.RatingWrap1.flex {
+  justify-content: left !important;
+}
+
+.coursecardnav.dropdownlistmodl.flex ul.w-30.flex.justify-content-end {
+  margin-top: 5px;
+}
+.pricewrap.w-auto.p-0.Course_Enroll_btn {
+  position: absolute !important;
+  z-index: 1 !important ;
+  right: 5px !important;
+  bottom: 350px !important;
+}
+.JourneyCoursecard{
+  position: relative !important;
+}
+.pathwayslistitm li {
+  font-size: 13px !important;
+}
+.breadCrum ul li:nth-of-type(5n) {
+  max-width: 252px !important;
+ }
+ .lSidebarcontentwrap .ScenecerelateddQuiz h4{
+  flex-wrap: nowrap !important;
+ }
+ .Coursebanner .bannerleft ,.Coursebanner .bannerright{
+  width: 100% !important;
+  padding: 0 !important;
+}
+.PageTitle .flex.p-0 {
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+.ProCoursename.d-flex.align-items-center.mt-2 {
+  width: 100%;
+  margin-bottom: 0;
+}
+.Procourselevel{
+  padding: 0 !important;
+}
+/* .RatingWrap1.flex.dropdown-toggle.mt-2.justify-content-center {
+  margin-top: 0 !important;
+} */
+.sectionscorecard .scoringtable td, .sectionscorecard .scoringtable th {
+  font-size: 14px !important;
+  padding: 0px 2px 7px !important;
+}
+.breadCrum.breadsticky .heading {
+  padding: 10px 5px !important;
+}
+.intructionsBox.ScenecerelateddQuiz.Analysistxt.seneriotext p,.SeeMoreTxt p {
+  font-size: 14px !important;
+}
+.ActivitycrdTitle h3 .pointer div {
+  max-width: 210px !important;
+}
+.cardSubtitles {
+  display: flex;
+}
+}
+@media (max-width: 480px) {
+  
+}

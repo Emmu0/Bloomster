@@ -1,0 +1,293 @@
+.NSidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 50px;
+  background: #1d103f;
+  z-index: 999990;
+  transition: all 0.3s;
+  align-content: space-between;
+}
+.NSidebar ul li {
+  position: relative;
+  min-height: 49px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.NSidebar ul li svg {
+  font-size: 22px;
+  color: #fff;
+  width: 29px;
+}
+.NSsubMenu {
+  position: absolute;
+  right: -200px;
+  border-radius: 0 5px 5px 0;
+  top: 0px;
+  width: 200px;
+  background: #192d5b;
+  border: 1px solid #192d5b;
+}
+.NSidebar ul li img {
+  max-width: 29px;
+  margin-top: 0px;
+}
+.NSidebar ul li svg.svg-inline--fa.fa-house {
+  font-size: 23px;
+}
+/* .NSidebar ul li:hover .NSsubMenu{
+	display: block;
+} */
+.NSidebar ul li:hover {
+  background: #192d5b;
+  border-bottom: 1px solid #264183;
+}
+.NSidebar ul li.ParentChildSidebar:hover {
+  border-radius: 30px 0 0 30px;
+}
+.NSidebar ul li ul.NSsubMenu li {
+  line-height: 1;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  color: #fff;
+  justify-content: left;
+  padding: 7px 10px;
+  min-height: auto;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.NSidebar ul li ul.NSsubMenu li a {
+  color: #fff;
+}
+.NSidebar ul li ul.NSsubMenu li:hover {
+  background: #0f1a34;
+  padding: 7px 7px;
+  border-radius: 0;
+}
+.NSidebar ul li ul.NSsubMenu li.NSubmenuDiemnsion:hover {
+  background: transparent;
+  border-radius: 0;
+}
+.NSidebar ul li ul.NSsubMenu li.NSubmenuDiemnsion {
+  border-bottom: 1px solid #264183;
+  padding: 16px 6px 16px;
+  font-size: 16px;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+.NSidebar ul li ul.NSsubMenu li svg {
+  background: #445886;
+  padding: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 24px;
+  margin-right: 5px;
+  height: 24px;
+  box-sizing: border-box;
+}
+/* .Nsidebarbars{display: none;} */
+.ActiveNSidebar {
+  width: 200px;
+  min-width: 200px;
+}
+.NSidebar ul li svg.svg-inline--fa.fa-house {
+  font-size: 24px;
+}
+.NSidebar ul li.course_sideicon img {
+  max-width: 28px;
+  width: 28px;
+}
+
+
+.NSidebar.ActiveNSidebar ul li {
+  justify-content: left;
+  padding: 0px 5px;
+  flex-wrap: wrap;
+  height: auto;
+}
+.ActiveNSidebar .NsidebarLogondback img {
+  max-width: 160px;
+  padding-top: 2px;
+}
+.ActiveNSidebar .NsidebarLogondback span{
+  text-align: left;
+}
+.leftClosebar {
+  position: absolute;
+  width: 24px;
+  line-height: 26px;
+  height: 24px;
+  background: #329fff;
+  color: #fff;
+  border: 2px solid #fff;
+  right: -14px;
+  border-radius: 65%;
+  top: 12px;
+}
+.NSidebar ul li .leftClosebar svg {
+  font-size: 14px;
+  width: auto;
+  margin-top: 4px;
+  margin-left: 4px;
+  display: block;
+}
+.NSidebar.ActiveNSidebar ul li:hover {
+  border-radius: 0;
+}
+.OpnNsidebartxt {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  display: none !important;
+}
+.ActiveNSidebar .OpnNsidebartxt {
+  display: flex !important;
+  width: 145px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 7px;
+  min-width: 145px;
+}
+.ActiveNSidebar .OpnNsidebartxt a{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+
+}
+.ActiveNSidebar.NSidebar .NSsubMenu.collapse:not(.show) {
+  display: none;
+}
+.ActiveNSidebar.NSidebar .NSsubMenu {
+  position: static;
+}
+.ActiveNSidebar.NSidebar .NSsubMenu {
+  position: relative;
+  right: -10px;
+  min-width: calc(100% + 15px);
+  top: 2px;
+  left: -10px;
+}
+.ActiveNSidebar.NSidebar ul li ul.NSsubMenu li.NSubmenuDiemnsion {
+  display: none;
+}
+.ActiveNSidebar .OpnNsidebartxt .fa-chevron-down {
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.NsideBrDimWrap {
+  width: 100%;
+  min-height: 50px;
+  justify-content:center;
+  line-height: 50px;
+}
+.ActiveNSidebar .NsideBrDimWrap {
+  justify-content:left;
+}
+.NSidebar.ActiveNSidebar ul li[aria-expanded="true"] {
+  background: #192d5b;
+}
+.NSidebar.ActiveNSidebar ul li[aria-expanded="true"] .fa-chevron-down {
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+.leftClosebar:hover {
+  transform: scale(1.1);
+  transition: all.2s;
+}
+.NSidebar.ActiveNSidebar ul li:first-child:hover {
+  background: none;
+  border-radius: 5px;
+  border-bottom: 1px solid transparent;
+}
+.NSidebar.ActiveNSidebar ul.helpAndlogout li:first-child:hover{
+  background: #192d5b;
+}
+.sidebarChildActive{
+  background: #0f1a34;
+}
+.NSidebar ul li.top-section {
+  border-bottom: 1px solid #483282;
+}
+.NSidebar ul li.ActiveSidebr:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 7px solid #fff;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  right: 0;
+}
+.NSidebar ul li:nth-child(4) .NsideBrDimWrap{
+  line-height: 44px;
+}
+svg.svg-inline--fa.fa-location-dot {
+  font-size: 28px;
+}
+.NSidebar ul li .NsideBrDimWrap img {
+  max-width: 29px;
+  max-height: 29px;
+}
+.nonActiveSideBar ul#sidebar_Collasepe {
+  border-radius: 0 4px 4px 0px;
+  width: 175px;
+  background: #192d5b;
+  position: absolute;
+  left: 50px;
+  border: 1px solid #264183;
+  top: 0;
+}
+
+.nonActiveSideBar ul#sidebar_Collasepe .NsideBrDimWrap.d-flex {
+  justify-content: left;
+  padding: 0 10px;
+}
+
+.nonActiveSideBar ul#sidebar_Collasepe span.OpnNsidebartxt.flex {
+  display: block !important;
+  padding-left: 8px;
+  display: flex !important;
+  width: 100%;
+  justify-content: space-between;
+}
+.nonActiveSideBar ul#sidebar_Collasepe span.OpnNsidebartxt.flex svg{
+  font-size: 16px;
+}
+.ActiveNSidebar .collaspe_sidebartxt{
+  display: none;
+}
+.nonActiveSideBar ul#sidebar_Collasepe li {
+  border-bottom: 1px solid #1a46b3;
+  border-radius: 0;
+  width: 100%;
+}
+.nonActiveSideBar ul#sidebar_Collasepe li::before {
+  display: none;
+}
+.NSidebar ul li .NsideBrDimWrap .LNAeroplanIcon img {
+  max-width: 24px !important;
+  max-height: 29px;
+}
+.NSidebar ul li .ParentChildSidebar .NsideBrDimWrap  img{
+  max-width: 27px;
+}
+.NSidebar ul li.course_sideicon .NsideBrDimWrap img {
+  width: auto;
+  max-height: 26px;
+}
+.nonActiveSideBar ul#sidebar_Collasepe li:hover {
+  background: #1d103f;
+}
+.nonActiveSideBar ul#sidebar_Collasepe li.collaspe_sidebartxt:hover{
+  background:#192d5b;
+}

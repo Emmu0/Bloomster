@@ -1,0 +1,266 @@
+.JCcourselevel img {
+    max-width: 25px;
+}
+
+.JCcourselevel li {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 16px;
+}
+
+.JCcourselevel li.ActiveLevel {
+    border-bottom: 4px solid #329fff;
+}
+
+.JourneyCoursecard {
+    border: 2px solid #329fff;
+    margin-top: 15px;
+}
+.JourneyCoursecard .GridCardTitle {
+    border-bottom: 1px solid #9c9a9a;
+}
+.JCcourselevel{
+    padding: 10px 0px 10px 7px;
+}
+.GridCardTitle h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    background: #ededed;
+    cursor: auto;
+    color: #006dcc;
+    font-weight: 600;
+    padding: 7px 15px;
+    width: 100%;
+    align-items: center;
+}
+.JourneyCoursecard .Gridsocialsec,.JourneyCoursecard  .GridCardTitle h3{
+    background: none;
+    padding: 5px 10px 5px 15px;
+}
+.JCcourselevel p img{
+    max-width: 25px;
+}
+
+.JourneyCoursecard .Coursecompprcent ,.JourneyCoursecard.newCourseCard .Coursecompprcent.coursecomptcertifie{
+    width: 43px;
+    display: block;
+}
+.JourneyCoursecard.newCourseCard .GridCardTitle h3 .coursecomptcertifie span.PercentCompleted {
+    top: 15px;
+    font-size: 14px;
+}
+.JourneyCoursecard .Activity .Coursecompprcent{
+    width: 35px;
+}
+.JourneyCoursecard  .GridCardTitle h3 span.PercentCompleted {
+    top: 15px;
+}
+.JCcourselevel .GridTeacher .TeacherActivityimg {
+    width: 40px;
+    margin-right: 7px;
+}
+.JourneyCoursecard .GridDetails .GridCardTitle h3 img {
+    max-width: 40px;
+    margin-left: 0;
+    width: 40px;
+}
+.JourneyCoursecard.newCourseCard .GridDetails .GridCardTitle h3 img {
+    max-width: 30px;
+}
+.JourneyCoursecard.newCourseCard .GridDetails .GridCardTitle h3 img.chat_icon{
+    max-width: 16px;
+}
+.JourneyCoursecard .TeacherActivityimg {
+    width: 40px;
+    margin-right: 6px;
+}
+.JourneyCoursecard  .GridDetails .GridCardTitle h3 {
+    padding: 7px 10px;
+}
+.JourneyCoursecard .SocialGridcard .GridTeacher .TeacherActivityimg img {
+    padding: 0;
+    min-width: 40px !important;
+}
+.coursecardnav ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #232323;
+    display: inline-block;
+    position: relative;
+}
+.coursecardnav ul.w-60 li{
+    width: 40%;
+}
+.coursecardnav ul li img {
+    max-width: 22px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+.coursecardnav.flex {
+    padding: 10px 10px 0px 10px;
+}
+.JCcourselevel p{
+    font-size: 15px;
+}
+.JourneyCoursecard .Gridsocialsec{
+    padding: 0px 0 10px 10px;
+    width: 170px;
+}
+.JourneyCoursecard.newCourseCard .Gridsocialsec{
+    padding: 10px 0 5px 10px;
+}
+.JourneyCoursecard .GridDetails .GridCardTitle h3 {
+    padding: 0px 10px 7px;
+}
+.JourneyCoursecard.newCourseCard .GridDetails .GridCardTitle h3 {
+    padding: 0px 10px 5px;
+}
+.JourneyCoursecard .gridActivity{
+    padding:0 10px 0 10px ;
+}
+span.score_bedge span.earnnoCoin {
+    left: -5px;
+}
+
+.coursecardnav ul li span.earnnoCoin {
+    margin-right: -1px;
+    cursor: auto;
+    top: -4px;
+}
+.coursecardnav ul li .Score_points  img{
+    margin-left: -7px;
+}
+.commingsoonActivity .Activity {
+    opacity: .6;
+    background: #eee;
+}
+
+.JourneyCoursecard .GridCardTitle span.percenrSign {
+    font-size: 10px !important;
+}
+
+.JourneyCoursecard .GridCardTitle h3 span.PercentCompleted{
+    font-size: 14px;
+    top: 14px;
+}
+.JourneyCoursecard.newCourseCard .GridCardTitle h3 span.PercentCompleted{
+    font-size: 13px;
+    top: 12px;
+}
+
+.JourneyCoursecard .GridDetails {
+    width: calc(100% - 170px);
+}
+.coursecardnav.dropdownlistmodl ul.dropdown-menu.dropdown-menu-end {
+    width: 300px;
+    left: 0;
+}
+.cardSubtitles span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+.cardSubtitles svg{
+    font-size: 11px;
+    padding-left: 5px;
+    color: #3b3b3b;
+    vertical-align: baseline;
+}
+.GridCardTitle h3 .Score_points img {
+    max-width: 22px;
+}
+.JourneyCoursecard .GridDetails .GridCardTitle h3 .coursecomptcertifie img {
+    max-width: 30px;
+}
+.JourneyCoursecard .GridCardTitle .coursecardnav ul li svg{
+    color:#006dcc
+}
+.JourneyCoursecard .GridCardTitle .coursecardnav.dropdownlistmodl ul.dropdown-menu.dropdown-menu-end{
+    max-width: 180px;
+}
+.coursecardnav ul li img.electriIcon {
+    max-width: 18px;
+}
+span.SCourseLevel.levelnevimg img {
+    max-width: 22px !important;
+}
+.lockedSection .activityCap h3 {
+    text-transform: none;
+    /* opacity: .5; */
+    color: #3594ff;
+}
+.Activity.selfmadeActivity.lockedSection {
+    background: #e5e2e2 !important;
+    opacity: .8;
+}
+span.specialkeysec {
+    margin-left: auto !important;
+    background: #fff !important;
+    border: 0 !important;
+    color: #909090 !important;
+    font-size: 18px !important;
+}
+ul.dropdown-menu.dropdown-menu-end.newrewardDropdwn.show {
+    transform: none !important;
+    /* right: -299px !important; */
+    top: -8px !important;
+    left: 297px !important;
+    max-width: 275px !important;
+}
+.newrewardDropdwn svg.svg-inline--fa.fa-circle-plus {
+    color: #00b050;
+    font-size: 27px;
+}
+.newrewardDropdwn li span.jumponscene {
+    min-width: 28px;
+    height: 28px;
+    line-height: 25px;
+    font-size: 13px;
+}
+li.AdRedisabled,.rewardDrpDwnd .AdRedisabled {
+    background: #cbcbcb;
+    opacity: .4;
+    cursor: not-allowed !important;
+    padding: 10px 5px !important;
+}
+li.rewardDrpDwnd.p-0 {
+    padding: 0 !important;
+}
+#regularrewardwn ul.dropdown-menu.dropdown-menu-end.newrewardDropdwn.show {
+    transform: none !important;
+    /* right: -299px !important; */
+    top: 20px !important;
+    left: 0 !important;
+    max-width: 275px !important;
+}
+li#regularrewardwn span.earnnoCoin {
+    margin-right: 1px !important;
+}
+li.AdRedisabled:hover ~ .aboutProgdesc .Courseporogresspopup{
+    display: block;
+    width: 253px;
+    top: 48px;
+    background: #666666;
+}
+li.AdRedisabled:hover ~ .aboutProgdesc .Courseporogresspopup::after,.rewardDrpDwnd p.AdRedisabled:hover ~.aboutProgdesc .Courseporogresspopup::after{
+    border-bottom: 15px solid #666666;
+    top: -10px;
+}
+li.AdRedisabled:hover ~ .aboutProgdesc .Courseporogresspopup p.m-0 ,.rewardDrpDwnd p.AdRedisabled:hover ~.aboutProgdesc .Courseporogresspopup p{
+    color: white;
+}
+.coursecardnav ul.newrewardDropdwn li img{
+    margin-right: 0;
+}
+.rewardDrpDwnd p.AdRedisabled:hover ~.aboutProgdesc .Courseporogresspopup{
+    display: block;
+    width: 300px;
+    z-index: 1;
+    top: 45px;
+}
+.rewardDrpDwnd{
+    padding: 10px !important;
+}
+.diabledAddrewrd ul.dropdown-menu.dropdown-menu-end.newrewardDropdwn.show {
+    display: none;
+}

@@ -1,0 +1,21 @@
+/** @format */
+
+import axios from "axios";
+
+import { RESPONSE } from "./ChatTypes";
+
+import { API_PATHS } from "../../utils";
+import { responseFailure } from ".";
+import { getAxios } from "../../utils/helper";
+
+/********************************************************* */
+export const addResponse = (loggedInUser) => async (dispatch) => {
+  try {
+    const instance = getAxios();
+ 
+    //const { data } = await instance.post(`https://apipath`);
+    dispatch({ type: RESPONSE, payload: data });
+  } catch (error) {
+    dispatch(responseFailure(error));
+  }
+};

@@ -1,0 +1,186 @@
+.personalitybntsec {
+    padding: 10px;
+}
+.leftSide {
+    padding-right: 30px;
+}
+.personalitybntsec h2,.Personalitycategory h2 {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.personalitybntsec p,.perscategorytitle p {
+    font-size: 16px;
+}
+.personalitylistitem .AViewListitem {
+    max-height: none;
+    min-height: 0;
+}
+.personalitybntsec {
+    background: #e3f2fd;
+    padding: 10px 10px 20px;
+}
+.typecategorystrnthweeknes th {
+    background: #fff9e7;
+    width: 50%;
+    padding: 5px 10px;
+    border: 1px solid #8c8c8c;
+}
+.typecategorystrnthweeknes th h5,.overallGroups h5{
+    font-size: 16px;
+}
+.typecategory p {
+    font-size: 15px;
+  }
+/* .typecategorystrnthweeknes tr td:first-child{
+    background: #efffef;
+} */
+.typecategorystrnthweeknes tr td ul{
+    padding: 0 0px 0 10px !important;
+}
+/* .typecategorystrnthweeknes tr td:last-child{
+    background: #ffeee9;
+} */
+.typecategorystrnthweeknes td {
+    border: 1px solid #8c8c8c;
+    vertical-align: baseline;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion {
+    overflow: visible;
+    max-height: 100%;
+    padding-bottom: 30px;
+}
+.signupType.rangetypeQuestion.textAreatypeQuestion.personalitytypeqli {
+    max-height: 100%;
+    padding: 5px 0px 30px 0px;
+    max-height: 60vh;
+    overflow: auto;
+}
+.typecategorystrnthweeknes td li {
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.overallGroups li {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.personalityrightpannel .LessionDtlOverview{
+    min-height: 100px;
+    position: sticky;
+    top: 37px;
+}
+.personalityrightpannel  .heading{
+    position: sticky;
+    top: 0;
+}
+.SpecialLeftpanel .RightbarPannel.p-0.rightpannelSticky .personalityListing{
+    overflow: auto;
+}
+.personalitylistitem  .videoDescription{
+    width: 100%;
+    cursor: auto;
+}
+.personalitylistitem .LinkImage.pointer {
+    width: 45%;
+    margin-right: 10px;
+}
+.personalitylistitem h3{
+    font-size: 18px;
+}
+.personalitylistitem  .videoDescription h4{
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 10px !important;
+}
+.typecategory.SocialCoursecardWrap h3{
+    border-bottom: 1px solid #ccc;
+}
+.RightbarPannel.p-0.personalityrightpannel {
+    position: sticky;
+    overflow: auto;
+    top: 107px;
+    min-height: 83.2vh;
+    display: flex;
+    flex-direction: column;
+}
+.RightbarPannel .ScenecerelateddQuiz{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* .RightbarPannel.p-0.personalityrightpannel .personalityListing{
+    max-height: 90vh;
+    overflow: auto;
+} */
+
+/*ScenecerelateddQuiz {
+    max-height: 80vh;
+    overflow: auto;
+  }*/
+
+.takeyourQuiz {
+    /* padding: 12px 10px; */
+    background: #e2e2e2;
+}
+/* .personalitybntsec .leftSide img{
+    height: 100%;
+} */
+/*iphone 6/7/8 iphone x media query*/
+@media screen and (max-width: 780px) and (min-width: 331px) {
+    .LeftPanelFooter{
+        background-color: #e2e2e2;
+        padding: -4px;
+        /* position: relative !important; */
+        bottom: 0px;
+        width: 100% !important;
+        padding-bottom: 0px;
+        bottom: 0px;
+        padding: 3px !important;
+    }
+    .RightPanelFooter {
+        background-color: #e2e2e2;
+        padding: -4px;
+        position: relative !important;
+        bottom: 0px;
+        width: 100% !important;
+        padding-bottom: 0px;
+        bottom: 0px;
+        padding: 3px !important;
+      }
+    
+}
+
+.LeftPanelFooter,.RightPanelFooter{
+    background-color: #e2e2e2;
+    padding: -4px;
+    position: sticky;
+    order: 3;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    bottom: 0px;
+    z-index: 99;
+    padding: 8px 10px;
+}
+.RightPanelFooter{
+   position: absolute;
+  }
+  .otherPersonlity{
+    border: 2px solid #ffcb5b;
+    padding: 10px 10px;
+    background: #ffe0b2;
+    margin: 10px;
+    border-radius: 0px;
+}
+.otherPersonlity h3.text-left {
+    font-size: 19px;
+    color: #232323;
+    text-transform: capitalize;
+}
+.personalityrightpannel .personalityListing {
+    overflow: auto;
+    padding-bottom: 80px !important;
+}
+  

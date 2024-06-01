@@ -1,0 +1,2799 @@
+/* Learning Journey */
+.journeytrack {
+  border: 1.5px solid #1976d2;
+  position: relative;
+  margin: 10px 50px;
+}
+
+.learning_journey {
+  padding: 10px;
+}
+
+.learning_journey h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.journeytrack img {
+  max-width: 30px;
+  position: absolute;
+  top: -30px;
+  left: -6px;
+}
+
+.journeytrack:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #1976d2;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: -3px;
+  top: -5px;
+}
+
+.fronzerotodest h4 {
+  font-size: 21px;
+}
+
+.ljournyimg {
+  max-width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #f00;
+  text-align: center;
+  display: flex;
+  width: 100px;
+}
+
+.ljournyimg img {
+  max-width: 80px;
+  height: 80px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.ljourneyDesc img {
+  max-width: 16px;
+  margin-left: 10px;
+}
+
+.ljourneywrap {
+  margin: auto;
+  text-align: center;
+  max-width: 50%;
+  padding: 10px 0;
+}
+
+.ljourneyDesc {
+  width: calc(100% - 100px);
+  text-align: left;
+  padding-left: 12px;
+}
+
+.ljourneycarxd:nth-child(2n + 1) {
+  padding-left: 100px;
+}
+
+/* .ljourneycarxd:nth-child(2n) {
+    flex-direction: row-reverse;
+    padding-right: 100px;
+} */
+
+.ljourneycarxd:nth-child(2n) .ljourneyDesc {
+  margin-right: 10px;
+}
+
+.ljourneycarxd {
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ljourneycarxd:nth-child(1) .ljournyimg {
+  background: #85b812;
+}
+
+.ljourneycarxd:nth-child(2) .ljournyimg {
+  background: #1ec1d9;
+}
+
+.ljourneycarxd:nth-child(3) .ljournyimg {
+  background: #e9b72f;
+}
+
+.ljourneycarxd:nth-child(4) .ljournyimg {
+  background: #e46666;
+}
+
+.ljourneycarxd:nth-child(5) .ljournyimg {
+  background: #a86adb;
+}
+
+.ljourneycarxd:nth-child(2n + 1)::before {
+  content: "";
+  width: 112px;
+  height: 1px;
+  background: #1976d2;
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  z-index: -1;
+  transform: rotate(150deg);
+}
+
+.ljourneycarxd:nth-child(2n)::before {
+  content: "";
+  width: 112px;
+  height: 1px;
+  background: #1976d2;
+  position: absolute;
+  top: 100%;
+  left: 50px;
+  z-index: -1;
+  transform: rotate(30deg);
+}
+
+.ljourneycarxd:nth-child(5)::before {
+  display: none;
+}
+
+.Addrewardform .photoUploded input[type="file"] {
+  background: none;
+  color: transparent !important;
+  z-index: 9;
+  position: relative;
+  border: 0;
+  width: 100px !important;
+  padding-top: 22px;
+  height: 100px;
+  padding: 0;
+  max-width: 100px;
+  padding-left: 0px;
+  position: absolute;
+}
+
+.Addrewardform .photoUploded img {
+  max-width: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Addrewardform .photoUploded input[type="file"]:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+/* .Addrewardform .photoUploded input[type="file"]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 17px;
+    width: 73%;
+    height: 38px;
+    border:1px solid #ccc;
+} */
+.Addrewardform .setyourrewardtarget button.btn-blue.btn-login.w-auto {
+  position: absolute;
+  right: 0;
+  top: 61px;
+}
+
+.react-date-picker__inputGroup span {
+  width: auto !important;
+}
+
+.rewardPopupcontent span.UserEditForm {
+  top: 45px;
+}
+
+.rewardPopupcontent .photoUploded span.UserEditForm {
+  top: 45px;
+  right: auto;
+  left: 80px;
+  top: 5px;
+}
+
+.skilanddimensioncircle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #ccc;
+  position: relative;
+  margin: auto;
+}
+
+.Holosticcircle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #466cdf;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+
+.Dimen_Circle {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .newinfo_popup .modal-dialog {
+  width: 1000px;
+  max-width: 1000px;
+} */
+.newinfo_popup.new_skill_popinfo .modal-dialog {
+  width: 1000px;
+  max-width: 1000px;
+}
+
+.Dimen_Circle.PhysicalCircle {
+  background: #1ec1d9;
+  transform: translate(-50%, -0%);
+  top: 50%;
+  left: 29%;
+}
+
+.Dimen_Circle.SocicalCircle {
+  transform: translate(-50%, -50%);
+  top: 21%;
+  background: #ff9900;
+}
+
+.Dimen_Circle.EmotionalCircle {
+  background: #e46666;
+  transform: translate(-50%, -60%);
+  left: 20%;
+}
+
+.holisticflowr {
+  text-align: center;
+  padding: 13px 30px 10px;
+  display: flex;
+}
+
+.Dimen_Circle.SpritiuslCircle {
+  top: 46%;
+  transform: translate(-50%, -50%);
+  left: 81%;
+  background: #a86adb;
+}
+
+.Dimen_Circle.intellectualCircle {
+  transform: translate(-50%, 0%);
+  top: 49%;
+  left: 70%;
+  background: #85b812;
+}
+
+.skill_pnlcircle {
+  max-width: 150px;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: #0096fe;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3px;
+}
+
+.skill_pnlcircle p,
+.Dimen_Circle p,
+.Holosticcircle h4 {
+  color: #fff;
+}
+
+.skill_pnlcircle:nth-child(1) {
+  left: 0;
+}
+
+.skill_pnlcircle:nth-child(2) {
+  left: 100%;
+}
+
+.skill_pnlcircle:nth-child(3) {
+  top: 0;
+}
+
+.skill_pnlcircle:nth-child(4) {
+  top: 100%;
+}
+
+.skill_pnlcircle:nth-child(5) {
+  top: 10%;
+  left: 10%;
+}
+
+.AllSkillschart .skill_pnlcircle:nth-child(5) {
+  top: 15%;
+  left: 15%;
+}
+
+.skill_pnlcircle:nth-child(6) {
+  top: 10%;
+  left: 90%;
+}
+
+.AllSkillschart .skill_pnlcircle:nth-child(6) {
+  top: 15%;
+  left: 85%;
+}
+
+.skill_pnlcircle:nth-child(7) {
+  top: 85%;
+  left: 15%;
+}
+
+.skill_pnlcircle:nth-child(8) {
+  top: 85%;
+  left: 85%;
+}
+
+.dimensionskills {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+  top: 50%;
+  border: 1px solid #fff;
+  transform: translate(-50%, -50%);
+  background: #85b812;
+}
+
+.newinfo_popupdimension .skill_pnlcircle:nth-child(1) {
+  left: -30px;
+}
+
+.newinfo_popupdimension .skill_pnlcircle:nth-child(3) {
+  top: 10px;
+}
+
+.newinfo_popupdimension .skill_pnlcircle:nth-child(2) {
+  left: calc(100% + 30px);
+  right: 0;
+}
+
+.dimensionskills.Social_Skils_center {
+  background: #ff9900;
+  color: #fff;
+  z-index: 1;
+}
+
+.newinfo_popupdimension .dimensionskills.Social_Skils_center {
+  width: 150px;
+  height: 150px;
+  z-index: 0;
+}
+
+.newinfo_popupdimension .dimensionskills.Emotional_Skils_center,
+.newinfo_popupdimension .dimensionskills.Intellectual_Skils_center,
+.newinfo_popupdimension .dimensionskills.Physical_Skils_center,
+.newinfo_popupdimension .dimensionskills.Mindfulness_Skils_center {
+  z-index: 0;
+}
+
+.newinfo_popupdimension .skilanddimensioncircle {
+  width: 150px;
+  background: none;
+  border: 0;
+  height: 150px;
+}
+
+.dimensionskills.Intellectual_Skils_center {
+  background: #85b812;
+  color: #fff;
+  z-index: 1;
+}
+
+.dimensionskills.Emotional_Skils_center {
+  background: #e46666;
+  color: #fff;
+  z-index: 1;
+}
+
+.dimensionskills.Mindfulness_Skils_center {
+  background: #a86adb;
+  color: #fff;
+  z-index: 1;
+}
+
+.dimensionskills.Physical_Skils_center {
+  background: #1ec1d9;
+  color: #fff;
+  z-index: 1;
+}
+
+.Singlr_skill .skill_pnlcircle {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  transform: none;
+  top: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.holisticflowr.skills_flow {
+  padding: 0 25px;
+}
+
+.holisticflowr.dimension_skilflow {
+  padding: 0px 78px 0px 70px;
+}
+
+/* .infopopupleft{
+    margin-top: 48px;
+} */
+.angleuppericon {
+  margin-top: -110px !important;
+  max-width: 278px !important;
+}
+
+.info_related_text p {
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.uppercarrowicon {
+  display: flex;
+  align-items: center;
+  margin-top: -43px;
+  max-width: 122px;
+}
+
+.infopopupright {
+  /* background: #eeeeee;
+    padding: 15px;
+    border: 1px solid #ffcb5b;
+    border-radius: 12px;
+    margin: 10px 0 0; */
+}
+
+.skilanddimensioncircle.Holisticgtflr {
+  border: 0;
+  background: none;
+  width: 250px;
+  height: 250px;
+  margin-top: 90px;
+}
+
+.newinfo_popup .skilanddimensioncircle.Holisticgtflr,
+.newinfo_popupdimension .skilanddimensioncircle.Holisticgtflr {
+  margin-top: 20px;
+}
+
+.info_related_text h4 {
+  /* background: #fdf6e7;
+    padding: 10px;
+     border: 1px solid #ccc;
+    box-shadow: 0 0 2px #888888;
+    border-radius: 6px;
+    margin-bottom: 15px; */
+  font-size: 20px;
+}
+
+.infopopup_txt {
+  /* background: #E3F2FD;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px #888888; */
+}
+
+.infopopup_txt li {
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.infopopup_txt li::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  background: #64b5f6;
+  top: 8px;
+  left: 0;
+}
+
+.infopopupleft {
+  padding-top: 50px;
+}
+
+.newinfo_popupdimension .angleuppericon {
+  max-width: 348px !important;
+  margin-top: -116px !important;
+}
+
+.newinfo_popupdimension .holisticflowr.dimension_skilflow {
+  padding: 0px 132px 0px 132px;
+}
+
+.newinfo_popupdimension .new_skill_popinfo .holisticflowr.dimension_skilflow {
+  padding: 0px 102px 0px 96px !important;
+}
+
+.newinfo_popupdimension .Singlr_skill .skill_pnlcircle:nth-child(1) {
+  left: 0;
+}
+
+span.secProgTxt {
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  top: -25px;
+  font-weight: 600;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+span.secProgTxtName {
+  position: absolute;
+  bottom: -23px;
+  font-size: 12px;
+  min-width: 70px;
+}
+
+span.secProgTxtName .chat_icon {
+  max-width: 14px;
+}
+
+.infopopup_wrap {
+  padding: 0px 5px;
+}
+
+.Whatadmcndo ul li {
+  font-size: 16px;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.Whatadmcndo ul li img {
+  max-width: 24px;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+
+.welcirculuarContent {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #cccccccc;
+  text-align: center;
+  border-radius: 50%;
+  background: #0096fe;
+  margin: auto;
+}
+
+.welcirculuarContent h4 {
+  color: #fff;
+}
+
+.Welcomedimenlist {
+  max-width: 64%;
+  margin: auto;
+  padding: 35px 0;
+}
+
+.Welcomecontentlist {
+  min-width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #005cb8;
+  line-height: 50px;
+  background: #1976d2;
+  position: relative;
+}
+
+.Welcomecontentlist p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.welcomesceerelatetext ul li {
+  padding: 5px 0;
+}
+
+.welcomesceerelatetext ul li svg {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+
+.welcomscreentwo .Welcomecontentlist {
+  min-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  line-height: 120px;
+}
+
+.welcomscreentwo .Welcomedimenlist {
+  max-width: 60%;
+  padding: 0;
+}
+
+/* .modal-footer.dontshowagain {
+  background: none !important;
+  border: 0;
+  padding: 0 15px 10px !important;
+  min-height: 41px;
+} */
+.leftarrowpopup {
+  position: absolute;
+  top: -56px;
+  transform: rotate(-30deg);
+  left: 44%;
+}
+
+.welcomscreentwo .leftarrowpopup {
+  top: -64px;
+  left: 80%;
+}
+
+.welcomscreentwo .leftarrowpopup.rightarrowpopup {
+  left: auto;
+  right: 80%;
+}
+
+.welcirculuarContent h3 {
+  color: #fff;
+}
+
+.welcomscreentwo .welcirculuarContent {
+  width: 150px;
+  height: 150px;
+}
+
+.leftarrowpopup img {
+  max-width: 130px;
+}
+
+.welcomscreentwo .leftarrowpopup img {
+  max-width: 87px;
+}
+
+.leftarrowpopup.rightarrowpopup {
+  transform: rotate(-150deg);
+  left: auto;
+  right: 44%;
+}
+
+h4.skillinclude {
+  font-size: 17px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+h4.skillinclude.blankspace {
+  margin-top: 4px;
+}
+
+.dontshowagain .signupType label.Selcheckbox.ActiveQQst.m-0 {
+  margin-bottom: 0 !important;
+  padding: 2px 28px;
+}
+
+.dontshowagain span.checkmark {
+  border-radius: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.nextbackonpoup span {
+  font-size: 18px;
+  color: #329fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.socialinfo h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff9900;
+  line-height: 1.3;
+}
+
+.socialinfo p {
+  font-size: 14px;
+  color: #424242;
+}
+
+.socialinfo {
+  background: #f7f4f4;
+  border: 1px solid #ff9900;
+  padding: 10px;
+  min-width: 280px;
+  text-align: left;
+  position: relative;
+  top: -110px;
+}
+
+.emotionalinfo h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e46666;
+  line-height: 1.3;
+}
+
+.emotionalinfo p {
+  font-size: 14px;
+  color: #424242;
+}
+
+.emotionalinfo {
+  background: #f7f4f4;
+  border: 1px solid #e46666;
+  padding: 10px;
+  min-width: 280px;
+  text-align: left;
+  position: relative;
+  top: -45px;
+  left: -210px;
+}
+
+.spiritualinfo h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #a86adb;
+  line-height: 1.3;
+}
+
+.spiritualinfo p {
+  font-size: 14px;
+  color: #424242;
+}
+
+.spiritualinfo {
+  background: #f7f4f4;
+  border: 1px solid #a86adb;
+  padding: 10px;
+  min-width: 280px;
+  text-align: left;
+  position: relative;
+  top: -45px;
+  right: -210px;
+}
+
+.physicalinfo h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1ec1d9;
+  line-height: 1.3;
+}
+
+.physicalinfo p {
+  font-size: 14px;
+  color: #424242;
+}
+
+.physicalinfo {
+  background: #f7f4f4;
+  border: 1px solid #1ec1d9;
+  padding: 10px;
+  min-width: 280px;
+  text-align: left;
+  position: relative;
+  top: 10px;
+  left: -220px;
+}
+
+.intellectualinfo h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #85b812;
+  line-height: 1.3;
+}
+
+.intellectualinfo p {
+  font-size: 14px;
+  color: #424242;
+}
+
+.intellectualinfo {
+  background: #f7f4f4;
+  border: 1px solid #85b812;
+  padding: 10px;
+  min-width: 280px;
+  text-align: left;
+  position: relative;
+  top: 15px;
+  right: -220px;
+}
+
+.welcirculuarContent.flextwo.Wlsocial_skill {
+  background: #1ec1d9;
+}
+
+.intrestpopup {
+  padding: 10px 0px;
+}
+
+.intrestpopup .confirmintrest {
+  width: 100%;
+}
+
+.intrestpopup .confirmintrest table {
+  border: 1px solid #eee;
+  width: 100%;
+}
+
+.intrestpopup .confirmintrest table tr th {
+  background: #427dcb;
+  border: 1px solid #eee;
+  padding: 7px;
+  color: #fff;
+  font-size: 15px;
+  min-width: 152px;
+  font-weight: 600;
+}
+
+.intrestpopup .confirmintrest table tr td {
+  background: transparent;
+  padding: 7px;
+  color: #444343;
+  border: 1px solid #c8c6c6;
+  font-size: 15px;
+}
+
+.intrestpopup .confirmintrest table tr:nth-child(odd) {
+  background: #f5faff;
+}
+
+.intrestpopup .confirmintrest p {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 25px;
+}
+
+.welcirculuarContent.Wlsocial_skill.wlHolistic {
+  background: #1976d2;
+}
+
+.Welcomecontentlist.dimensiontwo {
+  background: #e46666;
+  border-color: #e46666;
+}
+
+.Welcomecontentlist.dimensionone {
+  background: #ff9900;
+  border-color: #ff9900;
+}
+
+.newinfo_popup.holisticview .skilanddimensioncircle.Holisticgtflr {
+  margin-top: 90px;
+}
+
+.dontshowagain .BDsubmitbutton button.btn-blue.btn-login.d-block.mb-5.explore_course {
+  margin-left: auto !important;
+}
+
+/* .newenrolledpopup .HomeProgresstilt {
+  font-size: 17px;
+  background: #eeeeee;
+  padding: 15px;
+} */
+
+.newenrolledpopup {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.newenrollepopup {
+  padding: 0 5px 0 7px;
+  /* background: #E3F2FD; */
+  border-top: 0;
+}
+
+/* div#newenrollepopup {
+  padding: 0 20px 0px;
+  background: #f5faff;
+  border: 1px solid #f5b936;
+  border-top: 0;
+  border-left: 10px solid #f5b936;
+} */
+
+.newcoursesetting.flex {
+  padding-bottom: 20px;
+  padding: 0px;
+}
+
+/* .newenrolledpopup .HomeProgresstilt[aria-expanded="false"] {
+  border-bottom: 1px solid #f9ca5c;
+} */
+.Course_evaluation {
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.Course_evaluation .skillprogrs span {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+span.proficencyprog img,
+.CompltProgress img,
+.TimProgress img {
+  max-width: 50px;
+  position: absolute;
+  top: -16px;
+  transform: rotate(-45deg);
+  left: 62px;
+}
+
+.progressstyl .TimProgress img {
+  transform: rotate(-135deg);
+  left: -12%;
+}
+
+.progressstyl .CompltProgress img {
+  transform: rotate(-90deg) translateX(-50%);
+  left: 34%;
+  top: -35px;
+  max-width: 29px;
+}
+
+.Course_evaluation .TimProgress,
+.Course_evaluation .proficencyprog,
+.Course_evaluation .CompltProgress {
+  position: relative;
+}
+
+.newenrollepopup .chat_icon {
+  max-width: 16px;
+}
+
+.coursesteps ul li span.Coursesteps {
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  background: #329fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+}
+
+.coursesteps ul li span.startsteps {
+  background: royalblue;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: -4px !important;
+  margin: 10px 0 14px;
+  display: inline-block;
+}
+
+.Completeindays img {
+  min-width: 76px;
+  margin-right: -4px;
+}
+
+.coursesteps ul li {
+  position: relative;
+  text-align: center;
+  min-width: 75px;
+}
+
+.coursesteps ul li p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+span.Completeindays {
+  position: absolute;
+  left: 80px;
+  top: -23px;
+}
+
+.coursesteps ul li:first-child span.Completeindays {
+  left: 75px;
+  top: -24px;
+}
+
+.coursesteps {
+  padding: 17px 45px 10px;
+}
+
+.newenrollepopup span.checkmark {
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+.parent_Support.newenrollepopup span.checkmark {
+  border-radius: 50%;
+}
+
+.heghlightedstar {
+  padding: 2px 5px;
+  border: 3px solid red;
+  display: inline-block;
+}
+
+.dropdownsec.heigh_light_star img {
+  width: 100%;
+  border: 1px solid #8d8d8d;
+}
+
+sup {
+  font-size: 23px;
+  display: inline-block;
+  margin-left: 3px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.heghlightedstar img {
+  max-width: 20px;
+  margin: 0 5px 0 0;
+}
+
+.newenrollepopup .ScenecerelateddQuiz h4 {
+  margin-bottom: 5px !important;
+  font-size: 18px;
+}
+
+.coursesteps ul li p strong {
+  margin-left: -6px;
+}
+
+.newenrollepopup span.QQtitle {
+  color: #000;
+}
+
+.newinfo_popupdimension.entryPOuopwrap .modal-dialog.modal-lg {
+  width: 800px;
+}
+
+.congratulationPopup .sectionscore td,
+.congratulationPopup .scoringtable th {
+  padding: 2px;
+  font-size: 15px;
+  padding: 2px 5px;
+}
+
+.congratulationPopup .sectionscore td:nth-child(2),
+.congratulationPopup .scoringtable th:nth-child(2) {
+  min-width: 160px;
+}
+
+.sectionscore li.scorecardtitle {
+  background: #d7e9fb;
+  padding: 5px;
+}
+
+ul.sectionscore {
+  background: #fff;
+  padding: 10px !important;
+}
+
+.circlestyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressstyl .circlestyle .Coursecompprcent {
+  display: flex;
+  flex-direction: column;
+}
+
+.Courseporogresspopup:after {
+  content: "";
+  border-bottom: 15px solid #dbe4ec;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  top: -15px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info_related_text p.text-left {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.intrestpopup .confirmintrest table tr th:nth-child(2) {
+  min-width: 320px;
+}
+
+.intrestpopup .confirmintrest table tr th:nth-child(1) {
+  min-width: 115px;
+}
+
+.intrestpopup .confirmintrest table tr th:nth-child(4) {
+  min-width: 100px;
+}
+
+.proficiencyclr circle.rc-progress-circle-path {
+  stroke: #008aea !important;
+}
+
+.paceclr circle.rc-progress-circle-path {
+  stroke: #ff9900 !important;
+}
+
+.sectionpopupui.modal .modal-dialog {
+  top: 10px !important;
+  transform: translateX(-50%) !important;
+}
+
+.sectionpopupui.modal .modal-dialog .modal-content {
+  margin: 10px auto 10px !important;
+}
+
+.signupType .intrestcheckmark {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  border-radius: 9%;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+}
+
+/* .sectionpopupui .modal-content h4.sectionhvr:hover .Courseporogresspopup{
+  display: block;
+  top: 45px;
+  left: 20px;
+  max-width: 198px;
+  line-height: 1.3;
+} */
+.sectionpopupui .modal-content h4.sectionhvr .Courseporogresspopup::after {
+  left: 82% !important;
+}
+
+/* .sectionpopupui .modal-content .skillprogrs span{
+  font-size: 15px !important;
+  width: 40px !important;
+  height: 40px !important;
+} */
+.sectionpopupui .modal-content .skillprogrs span .percentage_sign {
+  font-size: 10px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.newenrollepopup .newcoursesetting h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4.sectionhvr {
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 9999;
+  position: relative;
+  cursor: pointer;
+}
+
+.newenrollepopup h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.course_progress .newenrollepopup h4 {
+  font-size: 17px;
+  text-align: center;
+  padding: 20px 0 10px !important;
+}
+
+.newenrollepopup h4.recommendtxt {
+  font-weight: 600;
+  padding-top: 0px;
+}
+
+.newenrollepopup .form-check.form-switch .avltogglebutton {
+  margin-left: 7px;
+  margin-top: 0;
+  height: 1.7em;
+  width: 4em;
+}
+
+.Welcomecontentlist p.progressstyle {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  position: relative;
+  top: 6px;
+  font-size: 12px;
+}
+
+.courseprogrsstyl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courseskillstyl {
+  max-width: 80% !important;
+}
+
+ul.courseskilllist {
+  padding: 10px 0px 5px 0px;
+}
+
+ul.courseskilllist li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3a3939;
+  padding: 0;
+  line-height: 2;
+}
+
+ul.courseskilllist li ul {
+  margin-left: 30px;
+}
+
+ul.courseskilllist li ul li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.courseprogrsstyl .Welcomecontentlist {
+  min-width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  line-height: 70px;
+}
+
+.welcomscreentwo .skillscircl {
+  width: 100px;
+  height: 100px;
+}
+
+.admactivy span.readmoretxt {
+  color: #329fff;
+}
+
+.welcomscreenContent h4 {
+  font-size: 20px;
+  /* text-transform: capitalize;
+  padding-top: 10px; */
+}
+
+.welcomscreenContent h4 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.JourneyCoursecard .scorecard_table .Coursecompprcent,
+.scorecardnewdesign.scorecard_table .Coursecompprcent {
+  width: 38px;
+}
+
+.JourneyCoursecard .scorecard_table .Coursecompprcent img {
+  min-width: 30px;
+}
+
+.skillscircl h3 span.percenrSign,
+.dimensioncircl h3 span.percenrSign {
+  font-size: 13px;
+}
+
+.welcomscreenContent .dimensioncircl {
+  background: #e46666 !important;
+  width: 70px;
+  height: 70px;
+}
+
+.welcomscreenContent .overallcircle {
+  background: #0096fe;
+  width: 70px;
+  height: 70px;
+}
+
+.welcomscreentwo .courseprogrsstyl .leftarrowpopup {
+  top: -48px;
+}
+
+.courseskillright {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+}
+
+.courseskillstylinside {
+  max-width: 100% !important;
+}
+
+.courseskillstylout {
+  max-width: 90% !important;
+}
+
+.progressnewstyl span.TimProgress,
+.progressnewstyl span.proficencyprog,
+.progressnewstyl span.CompltProgress {
+  min-width: 70px !important;
+}
+
+.progressnewstyl span.TimProgress p,
+.progressnewstyl span.proficencyprog p,
+.progressnewstyl span.CompltProgress p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.courseprogrsstyl .progressnewstyl span.PercentCompleted {
+  font-size: 12px;
+}
+
+.welcomscreentwo .progressnewstyl .Coursecompprcent {
+  width: 40px;
+}
+
+.profoncard circle.rc-progress-circle-path {
+  stroke: #008aea !important;
+}
+
+.pacedoncard circle.rc-progress-circle-path {
+  stroke: #ffb300 !important;
+}
+
+.welcomscreentwo .courseskillstylinside .leftarrowpopup img {
+  max-width: 54px;
+}
+
+.welcomscreentwo .courseskillright .leftarrowpopup img {
+  max-width: 83px;
+}
+
+.welcomscreentwo .courseprogrsstyl .insiderightarrow {
+  top: -25px !important;
+}
+
+.rightcoursestyl {
+  margin-left: -140px;
+}
+
+.newEnrollCoursPopup .modal-content,
+.newscroecrdpopup .modal-dialog {
+  max-height: 93vh;
+  overflow-y: auto;
+}
+
+.newEnrollCoursPopup .modal-content .modal-header {
+  position: sticky;
+  top: -1px;
+  width: 100%;
+  z-index: 99990;
+}
+
+.newEnrollCoursPopup .modal-content .modal-footer {
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}
+
+.newEnrollCoursPopup .modal-body {
+  padding: 43px 0 0px;
+  overflow-y: scroll;
+}
+
+.newEnrollCoursPopup .paddingbtmpopup {
+  padding-bottom: 10px;
+}
+
+.courseprogrsstyl span.TimProgress,
+.courseprogrsstyl .proficencyprog,
+.courseprogrsstyl .CompltProgress {
+  min-width: 85px;
+}
+
+.Courseporogresstooltip {
+  padding: 10px 15px;
+  background: #fff;
+  display: none;
+  width: 225px;
+  border: 1px solid #dbe4ec;
+  box-shadow: 0 1px 5px #d3dbe2;
+  border-radius: 7px;
+  top: 182px;
+  position: absolute;
+  z-index: 99;
+}
+
+.Courseporogresstooltip:after {
+  content: "";
+  border-top: 15px solid #dbe4ec;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: -15px;
+  position: absolute;
+  left: 48%;
+}
+
+.progressstyl span.proficencyprog p,
+.progressstyl span.CompltProgress p,
+.progressstyl span.TimProgress p {
+  cursor: pointer;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.Courseporogresspopup {
+  left: 50%;
+  top: 36px;
+  transition: 0.3s all;
+  right: auto;
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+.proficencyprog p.aboutProgdesc:hover .Courseporogresspopup,
+.CompltProgress p.aboutProgdesc:hover .Courseporogresspopup,
+.TimProgress p.aboutProgdesc:hover .Courseporogresspopup {
+  display: block;
+}
+
+.welcomscreenContent p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.welcomscreenContent ul {
+  padding: 20px 0px 0px 0px;
+}
+
+.welcomscreenContent ul li {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.skillEvaluatoin .welcomscreenContent ul {
+  position: relative;
+  padding-top: 0 !important;
+}
+
+.skillEvaluatoin .welcomscreenContent ul li {
+  padding-bottom: 10px;
+}
+
+.skillEvaluatoin .welcomscreenContent ul li svg {
+  margin-top: 6px !important;
+}
+
+.welcomscreenContent ul li svg {
+  margin-top: 4px !important;
+  color: #797777;
+  font-size: 16px;
+}
+
+.AddChildPopup.coursecardmenulocked .modal-dialog .modal-content {
+  max-width: 85%;
+}
+
+.ljpopups .ScenecerelateddQuiz .SkilEvalResult h4 {
+  font-size: 18px;
+}
+
+.parents_Support .welcomscreenContent ul li {
+  font-size: 18px;
+  font-weight: 400;
+  align-items: flex-start;
+}
+
+.parents_Support .photoUploded input[type="file"] {
+  background: none;
+  color: #1ec1d9 !important;
+  width: 175px !important;
+  height: 175px;
+}
+
+.parents_Support .ScenecerelateddQuiz .signupType label span.QQtitle {
+  font-size: 16px;
+}
+
+.parents_Support.parentsupp_first .secparent_colla .welcomscreenContent ul {
+  max-height: none;
+  margin-left: 0px !important;
+}
+
+.parents_Support.parentsupp_first .welcomscreenContent ul {
+  padding: 6px 10px 0px 15px !important;
+  max-height: 267px;
+  overflow: auto;
+  border-radius: 10px;
+  margin: 13px 0 3px;
+  border: 1px solid #ebebeb;
+}
+
+.heighlightcong {
+  padding: 10px 0;
+  background: #f5faff;
+  margin-bottom: 0;
+  /* padding: 20px; */
+  border: 1px solid #f9ca5c;
+  cursor: pointer;
+  border-left: 10px solid #f5b936;
+  border-radius: 10px;
+}
+
+.parents_Support .welcomscreenContent ul li img {
+  width: 17px !important;
+  height: 17px !important;
+  max-width: 17px !important;
+  margin: 4px 5px 4px 0px;
+  padding: 0 !important;
+}
+
+.parents_Support.parent_collabtaremenu h4.heighlitedboxpopup img {
+  max-width: 24px;
+  margin-right: 5px;
+}
+
+.SkilEvalResult {
+  border: 1px solid #329fff;
+  margin-bottom: 20px;
+  border-left: 7px solid #329fff;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 41px;
+  position: relative;
+  border-radius: 8px;
+
+}
+
+.SkilEvalResult .your_AudioIocn {
+  top: 10px;
+}
+
+.rewardlisting p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 0;
+  padding: 0;
+}
+
+.newinfo_popupdimension .skillmodalpopup {
+  width: 600px !important;
+}
+
+.newinfo_popupdimension .gradepopup {
+  width: 400px !important;
+}
+
+.newinfo_popup .abundantpopup {
+  width: 900px !important;
+  max-width: 900px !important;
+}
+
+.welcirculuarContent h3 span.percenrSign {
+  font-size: 12px;
+}
+
+.holisticview .modal-dialog.modal-lg {
+  width: 860px;
+  max-width: 860px;
+}
+
+.Straightarrow {
+  max-width: 100%;
+}
+
+.holisticview .HolinnerProgcircle {
+  width: 120px;
+  height: 120px;
+}
+
+.entryPOuopwrap .welcomscreenContent p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.welcomscreentwo.welcomscreenContent .Welcomecontentlist p {
+  line-height: 120px;
+}
+
+.enrollZindex .modal-dialog.modal-lg {
+  min-width: 705px;
+  max-width: 705px;
+}
+
+.laststep .Completeindays {
+  display: none;
+}
+
+.lockedcontentpopup .modal-dialog.modal-lg {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centeralapproch {
+  width: 120px;
+  height: 120px;
+  background: #4169e1;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 130px;
+  top: 140px;
+}
+
+.centeralapproch h4 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.Seocialaaproch {
+  width: 90px;
+  height: 90px;
+  background: #f90;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.Seocialaaproch p {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.dimensionapproch {
+  position: relative;
+  top: 0px;
+  left: -8px;
+  display: flex;
+  flex-direction: row;
+  min-height: 215px;
+}
+
+.Seocialaaproch.EmotioanlApproch {
+  background: #e46666;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+
+.socialcircle {
+  position: absolute;
+  left: 155px;
+  top: -100px;
+}
+
+.Seocialaaproch.SpritiualApproch {
+  background: #a769d9;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+}
+
+.Seocialaaproch.PhysicalApproch {
+  background: #1ec1d9;
+  position: absolute;
+  left: 65px;
+  top: 143px;
+}
+
+.Seocialaaproch.intellectualApproch {
+  background: #83b612;
+  position: absolute;
+  right: 42px;
+  top: 143px;
+}
+
+.holistic_view_popup .welcomscreenContent ul li {
+  font-size: 18px;
+}
+
+.holisticnewappoch {
+  width: 60%;
+  padding: 0px 0px 67px 10px;
+}
+
+.holistic_view_popup .welcomscreenContent ul li svg {
+  margin-top: 5px !important;
+}
+
+.Straightarrow img {
+  max-width: 140px;
+}
+
+img.emotionalarrow {
+  position: relative;
+  left: 114px;
+  max-width: 20px;
+  top: 50px;
+  transform: rotate(30deg);
+}
+
+img.socialarrow {
+  position: relative;
+  top: -5px;
+  left: 170px;
+  transform: rotate(90deg);
+  max-width: 20px;
+}
+
+img.spiritualarrow {
+  position: relative;
+  top: 50px;
+  left: 220px;
+  transform: rotate(150deg);
+  max-width: 20px;
+}
+
+img.physicalarrow {
+  position: relative;
+  top: 127px;
+  left: 75px;
+  transform: rotate(-45deg);
+  max-width: 20px;
+}
+
+img.intellectualarrow {
+  position: relative;
+  top: 127px;
+  left: 160px;
+  transform: rotate(-130deg);
+  max-width: 20px;
+}
+
+.whereyouleft .NuggetPopupTitle img {
+  max-height: 50px;
+}
+
+.newuiareyousure .modal-dialog.modal-lg {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.newenrollepopup .SenstiveCourse h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 0;
+}
+
+.SensCoursename h4 img {
+  max-width: 24px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.coursedescstyl p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  padding-bottom: 0px;
+}
+
+.coursedescstyl h4 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 1;
+}
+
+.infopopupright .info_related_text p {
+  font-size: 17px !important;
+  /* font-weight: 600; */
+  line-height: 1.5;
+}
+
+.w-40.pr-3.courseimageskilldesc {
+  float: left;
+}
+
+.SignupRegistration .tacbox.input-group label {
+  font-weight: 400;
+}
+
+.holisticmodal .Holisticcharttengent li {
+  padding-left: 150px;
+}
+
+.holisticmodal .Holisticcharttengent li:nth-child(2n + 2) {
+  padding-left: 47px;
+}
+
+.holisticmodal .Holisticcharttengent {
+  padding-bottom: 0;
+}
+
+.Addrewardform.Whatadmcndo .modal-dialog.modal-lg {
+  max-width: 600px;
+  width: 600px;
+}
+
+.admactivy h4.mb-3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.admactivy h4 img,
+.curriresopopup p img {
+  max-width: 24px;
+  margin-right: 5px;
+}
+
+.curriresopopup p {
+  text-align: justify;
+}
+
+.point_bag img {
+  max-width: 24px;
+}
+
+.curriresopopup p {
+  font-size: 18px;
+}
+
+.resoandcurriculum .heading h2 span svg {
+  color: #329fff;
+}
+
+.signupType.checkycourse span.checkmark.intrestcheckmark {
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+}
+
+.holistic_view_popup div#schoolactivity93 {
+  z-index: 9999999;
+}
+
+.holisticmodal .HolisticgrowthFlwr {
+  padding: 45px 0 0;
+}
+
+/* .rewardfortaravh img{
+  max-width: 350px;
+} */
+p.rewardtext {
+  font-size: 18px;
+}
+
+.rewardtitletext {
+  font-size: 20px !important;
+}
+
+.rewardfortaravh h4 {
+  font-size: 16px;
+}
+
+p.rewardtext strong {
+  color: #e46666;
+}
+
+.rewardfortaravh img {
+  max-width: 200px;
+}
+
+.popupboxstyl p img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+.coursedevpopup textarea.form-control {
+  height: 150px;
+}
+
+.coursedevpopup .popupboxstyl p {
+  text-align: left;
+}
+
+.invite_frnd .popupboxstyl p {
+  text-align: left;
+  font-size: 17px !important;
+}
+
+.dontshowagain .cancc span {
+  line-height: 1;
+  padding: 3px 0;
+}
+
+.welcomscreenContent ul li a {
+  font-size: 16px;
+}
+
+/* .welcomscreenContent ul li.rewardpoupgreentxt{
+  color: #3ec093;
+} */
+.newEnrollCoursPopup h5 {
+  padding: 0px 10px 10px;
+}
+
+.newEnrollCoursPopup h5 svg {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.congratulationPopup .lockedcontentpopup .welcomscreenContent ul li {
+  display: inline-block;
+}
+
+.lockedcontentpopup .welcomscreenContent ul li img {
+  border: 2px solid red;
+  padding: 1px;
+  margin: 0 4px;
+  max-width: 22px;
+}
+
+.lockedcontentpopup .welcomscreenContent ul li img.Viewcheckedicon {
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.feeAnalysis img {
+  max-height: 200px;
+}
+
+.versiousbar {
+  width: 20%;
+  text-align: center;
+  /* border-left: 1px solid #ccc; */
+  min-height: 278px;
+  position: relative;
+}
+
+.versiousbar:before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  display: inline-block;
+  background: #466cdf;
+  position: absolute;
+  top: 4px;
+  transform: rotate(10deg);
+  bottom: 0;
+}
+
+span.versious {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000000;
+  font-size: 16px;
+  padding: 7px 0;
+  border-radius: 50%;
+  background: #fff;
+  min-width: 40px;
+  left: 50%;
+}
+
+.Addrewardform.feeAnalysispopup .modal-dialog.modal-lg {
+  max-width: 700px;
+  width: 700px;
+}
+
+span.color_green {
+  color: #3ec093;
+  font-size: 14px;
+}
+
+.feeAnalysispopup .welcomscreenContent h4 {
+  font-size: 17.5px;
+  text-align: left;
+  font-weight: 700;
+  color: #000;
+}
+
+.feeAnalysispopup .welcomscreenContent h4.lockedpopuptitl {
+  font-size: 20px;
+}
+
+.feeAnalysispopup.Addrewardform.feeAnalysispopup .modal-dialog.modal-lg {
+  max-width: 850px;
+  width: 850px;
+}
+
+.serveyPoup .lockContentPOpups.w-100.p-0.mt-4.welcomscreenContent {
+  padding: 0 25px !important;
+}
+
+.feeAnalysis {
+  padding: 0 50px;
+}
+
+.dropdownsec {
+  display: flex;
+  font-size: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.newenrollepopup p {
+  font-size: 16px !important;
+  color: #000;
+}
+
+.dropdownsec span {
+  font-size: 30px;
+  padding: 0 5px;
+  margin-top: -4px;
+}
+
+.dropdownsec img {
+  max-width: 536px;
+}
+
+.dropdownsec svg.svg-inline--fa.fa-arrow-up-long {
+  position: absolute;
+  right: 4px;
+  bottom: -3px;
+  font-size: 25px;
+  color: red;
+}
+
+.Addrewardform.howtoshowpopup.ljpopups .modal-dialog.modal-lg {
+  max-width: 1000px;
+  width: 1000px;
+  top: 0;
+  transform: none;
+}
+
+.howtoshowpopup .lockContentPOpups p {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.ScenecerelateddQuiz.Analysistxt p {
+  font-size: 19px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #525252;
+}
+
+.ScenecerelateddQuiz.Analysistxt p.seneriotext {
+  font-weight: 400;
+  border: 1px solid #f9ca5c;
+  border-left: 10px solid #f9ca5c;
+  border-radius: 6px;
+  padding: 10px 40px;
+}
+
+.skillEvaluatoin .ljourneyitems {
+  margin: 10px auto;
+}
+
+.ScenecerelateddQuiz.Analysistxt .SkilEvalResult p {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.ScenecerelateddQuiz.Analysistxt p svg {
+  font-size: 40px;
+  color: #ececec;
+  vertical-align: bottom;
+  margin: 0 7px;
+}
+
+.parentQuizsanalysis h3 {
+  font-size: 21px;
+  color: #525252;
+  display: inline-block;
+}
+
+.parentQuizsanalysis .welcomscreenContent.lockContentPOpups.p-0 {
+  /* max-height: 206px;
+  overflow: auto; */
+  border: 2px solid #f9ca5c;
+  width: calc(100% - 30px) !important;
+  margin: 0 15px 20px;
+}
+
+.ScenecerelateddQuiz.Analysistxt p svg.svg-inline--fa.fa-quote-right {
+  vertical-align: text-top;
+}
+
+.parentQuizsanalysis .feeAnalysispopup .welcomscreenContent h4 {
+  font-weight: 400;
+  color: #3b3b3b;
+  padding-top: 0;
+}
+
+.skillEvaluatoin h4.mb-3.mt-2 {
+  color: #404040;
+  font-size: 18px;
+}
+
+.rewardlisting .Selcheckbox .checkmark:after {
+  left: 24px;
+  top: 7px;
+  width: 36px;
+  height: 60px;
+  border-width: 0 12px 12px 0;
+}
+
+.rewardlisting .checkmark {
+  height: 90px;
+  width: 90px;
+}
+
+/* .rewardlisting .welcomscreenContent ul li {
+  width: 50%;
+}
+.rewardlisting .welcomscreenContent ul li:nth-child(2n) {
+  padding-left: 50px;
+} */
+.Whatadmcndo .signupType label {
+  color: #000;
+  font-weight: 600;
+}
+
+.Whatadmcndo .Selcheckbox .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 7px;
+  height: 12px;
+}
+
+.ljpopups .ScenecerelateddQuiz.Analysistxt .signupType label span {
+  font-size: 19px !important;
+  top: 15px;
+}
+
+.ljpopups .ScenecerelateddQuiz.Analysistxt h4 {
+  font-size: 19px;
+}
+
+.skillEvaluatoin .ljdimension.ljsocial {
+  background: #43a047;
+  border-color: #43a047;
+}
+
+.skillEvaluatoin .ljdimension.ljsocial .tracks {
+  background: #43a047;
+}
+
+.ljpopups .skillEvaluatoin .ScenecerelateddQuiz h4 img {
+  max-width: 24px;
+}
+
+.rewardlisting h4 {
+  font-size: 18px;
+  padding: 10px 0 0;
+}
+
+.rewardlisting .welcomscreenContent ul li svg {
+  margin-top: 3px !important;
+  color: #797777;
+}
+
+.modal-body.pt-1.feeAnalysispopup.rewardlisting {
+  padding: 10px 12px;
+}
+
+.evalscreenfst h4 {
+  font-size: 19px;
+  color: #525252;
+}
+
+.ScenecerelateddQuiz.Analysistxt.pt-0 {
+  padding: 40px 16px;
+}
+
+.skillEvaluatoin .welcomscreenContent ul li:first-child {
+  padding-top: 10px;
+}
+
+.parentQuizsanalysis .feeAnalysispopup .welcomscreenContent h4 svg.svg-inline--fa.fa-chevron-down.icon-show {
+  font-size: 16px;
+}
+
+.coursejourneydetails .CoursebannerWrap {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px 20px 20px 20px;
+  padding-top: 0;
+}
+
+.paymentinfo .tabgrid ul li {
+  width: 26%;
+}
+
+.sectionscorecard .scoringtable td:first-child {
+  min-width: 160px;
+}
+
+.sectionscorecard .scrorecardWrap li {
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  font-size: 17px;
+}
+
+.sectionscorecard .scrorecardWrap {
+  margin: 0px 0;
+  border: 0;
+}
+
+.sectionscorecard .w-48 {
+  width: 49% !important;
+}
+
+.sectionscorecard .scoringtable td,
+.sectionscorecard .scoringtable th {
+  font-size: 16px;
+  padding: 0px 15px 7px;
+}
+
+.sectionscorecard .scoringtable th {
+  padding-top: 7px;
+}
+
+.sectionscorecard .sectionscore li.scorecardtitle {
+  background: #fff;
+  padding: 8px 10px;
+  font-size: 17px;
+}
+
+.sectionscorecard .sectionscore {
+  padding: 10px 0px !important;
+}
+
+.sectionscorecard .scrorecardWrap li img {
+  min-width: 28px;
+}
+
+.sectionscorecard .Coursecompprcent {
+  width: 38px;
+}
+
+.sectionscorecard .PercentCompleted {
+  font-size: 14px;
+  top: 13px;
+}
+
+.sectionscorecard .scrorecardWrap li:nth-child(2) {
+  border-top: 0;
+}
+
+.your_AudioIocn {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+}
+
+.seneriotext .your_AudioIocn {
+  right: 10px;
+  top: 5px;
+}
+
+.your_AudioIocn img {
+  max-width: 30px;
+}
+
+.parentQuizsanalysis .feeAnalysispopup .welcomscreenContent h4.keyconcepttitle {
+  background: #f9ca5c;
+  padding: 6px;
+}
+
+.keyconceptListing {
+  padding: 0 10px;
+  max-height: 210px;
+  overflow: auto;
+}
+
+.scorecardnewdesign .PercentCompleted {
+  top: 13px;
+}
+
+.sectionscorecard .percenrSign {
+  font-size: 10px;
+}
+
+.Enrlconforrewa .modal {
+  z-index: 999999999;
+}
+
+.sectionscorecard .scoringtable td:nth-child(3) {
+  font-weight: 600;
+}
+
+.parents_Support .welcomscreenContent h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.parents_Support h4.heighlitedboxpopup {
+  padding: 15px;
+  border: 1px solid #f9ca5c;
+  border-left: 10px solid #f9ca5c;
+  border-radius: 10px;
+  background: #f5faff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.parents_Support .welcomscreenContent ul li svg {
+  margin-top: 5px !important;
+}
+
+.parents_Support .ScenecerelateddQuiz {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  /* background: #fffaf2; */
+  /* border: 2px solid #ffbc51 !important; */
+  padding-left: 15px !important;
+}
+
+.parents_Support .ScenecerelateddQuiz .signupType label span,
+.parentsupp_first .Analysistxt h4 {
+  font-size: 18px;
+}
+
+.parentsupp_first .Analysistxt h4 {
+  margin-bottom: 0 !important;
+  line-height: 1;
+}
+
+.ScenecerelateddQuiz h4 span.mandatoryField {
+  color: #dd3333;
+}
+
+.welcomscreenContent ul {
+  padding: 20px 0px 0px 15px !important;
+}
+
+.parents_Support .ljourneyitems {
+  max-width: 46%;
+  margin: 5px auto 5px;
+}
+
+.parents_Support .ScenecerelateddQuiz .checkmark {
+  border: 1px solid #ccc;
+}
+
+.parent_collabtaremenu .welcomscreenContent ul {
+  padding: 20px 10px 0px 15px !important;
+  border: 1px solid #f9ca5c;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-left: 10px solid #f9ca5c;
+  margin: 15px 15px;
+  background: #f5faff;
+  margin: 15px 5px !important;
+}
+
+.parent_collabtaremenu .welcomscreenContent ul li {
+  color: #000;
+  font-family: Lato, sans-serif !important;
+  position: relative;
+}
+
+.parent_collabtaremenu .welcomscreenContent ul li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background: url("../images/Capturevdfhfveh.png");
+  max-width: 16px;
+  height: 17px;
+  background-size: contain;
+  width: 15px;
+  background-repeat: no-repeat;
+}
+
+.parents_Support.parent_collabtaremenu h4.heighlitedboxpopup {
+  padding: 0px 15px;
+  border: 0;
+  border-left: 0;
+  border-radius: 30px;
+  background: transparent;
+  font-size: 19px;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+.modal-body.parents_Support {
+  min-height: 80vh;
+}
+
+.coursecardmenulocked .welcomscreenContent ul {
+  padding: 10px 10px 10px 15px !important;
+  border: 1px solid #f9ca5c;
+  background: #f5fbff;
+  border-radius: 4px;
+  border-left: 10px solid #f9ca5c;
+  margin: 10px;
+}
+
+.coursecardmenulocked .feeAnalysispopup .welcomscreenContent h4 {
+  font-size: 19px;
+}
+
+.SEheighlitedtitle {
+  align-items: center;
+  font-size: 21px;
+  color: #525252;
+  background: #eee;
+  padding: 8px 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  margin: 35px 0;
+}
+
+.ljpopups .skillEvaluatoin .ScenecerelateddQuiz h4.SEheighlitedtitle img {
+  max-width: 32px;
+}
+
+.ScenecerelateddQuiz.Analysistxt .SkilEvalResult p img {
+  max-width: 25px;
+}
+
+.CourseDetails p.your_AudioIocn {
+  padding: 0;
+  top: 0;
+  margin-top: -4px;
+}
+
+.recumdedgift img {
+  max-width: 20px;
+}
+
+.dropdownsec.heigh_light_star svg.svg-inline--fa.fa-arrow-up-long {
+  position: absolute;
+  left: 23px;
+  bottom: 0px;
+  font-size: 25px;
+  color: red;
+}
+
+.dropdownsec.heigh_light_star img {
+  max-width: 96%;
+}
+
+div#schoolactivity135 .modal-body.parents_Support {
+  min-height: 70vh;
+}
+
+/* .newEnrollCoursPopup .modal-body.parents_Support {
+  min-height: auto;
+} */
+.newenrollepopup h3.HomeProgresstilt {
+  background: none;
+  font-size: 18px;
+}
+
+.newenrollepopup h3.HomeProgresstilt img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+.newenrollepopup.parent_Support {
+  padding-top: 25px;
+}
+
+.course_progress h3.mb-3 {
+  font-size: 18px;
+  padding: 0px;
+  line-height: 1.6;
+}
+
+.halfPagePOpup.SchoolActivityPopup.parentQuizsanalysis.ljpopups #schoolactivity130 {
+  z-index: 99999991;
+}
+
+.Procourselevel strong {
+  color: #006dcc;
+}
+
+li.rewardpoupgreentxt {
+  font-size: 16px;
+  padding: 10px 0px 0px;
+  text-align: left;
+}
+
+.rewardpoupgreentxt svg {
+  color: #797777;
+}
+
+.parent_signin .input-group span.parentloginst {
+  font-size: 17px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  display: inline-block;
+  color: #232323;
+}
+
+.signin_uptitle {
+  padding: 18px 10px 15px;
+}
+
+.fsignupBtn.m-0.bottom-dwn {
+  padding: 15px;
+}
+
+.signin_uptitle h2 {
+  font-size: 30px;
+  font-family: BicycletteLight !important;
+  color: #005fb2;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.modal-body.pt-0.flex.signupBody_popup {
+  margin: 0px 30px 0;
+  align-items: baseline;
+}
+
+.bloomster_Heighlighter {
+  margin-top: 30px;
+}
+
+.AddChildPopup.verifyusereffect .modal-dialog {
+  max-width: 1000px;
+  background: #e8f3ff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #444444cc;
+}
+
+.verifyusereffect #signin {
+  box-shadow: none;
+}
+
+.verifyusereffect .modal-content.w-50 {
+  border-radius: 4px 0 0 4px !important;
+}
+
+.signin_heighlighter img {
+  max-width: 480px;
+}
+
+.SignupPopup .modal-dialog .SignupRegistration label,
+.Sign_in label {
+  font-family: 'Figtree', sans-serif;
+}
+
+.sharepopup.newslatterpopup .modal.fade .modal-dialog {
+  max-width: 600px;
+}
+
+.newslatterpopup h4,
+.newslatterpopup h4 a {
+  font-size: 18px;
+}
+
+.SignupPopup .form-title h3 {
+  font-family: BicycletteLight !important;
+}
+
+.signin_uptitle h2 span {
+  margin-right: 47px;
+}
+
+.Discountcode input::placeholder {
+  opacity: .5;
+}
+
+.Discountcode input {
+  max-width: 160px;
+}
+
+.setyourrewardtarget.rewardPopupcontent .photoUploded span.UserEditForm {
+  top: 45px;
+  right: 0;
+  left: 150px;
+  top: 5px;
+}
+
+.parentloginst a {
+  padding: 0;
+  font-size: 16px;
+}
+
+p.senstivenote strong {
+  color: #D84315;
+}
+
+.serveyPoup.AreyousurePopup.AddChildPopup div#exampleModalLong {
+  z-index: 99999999;
+}
+
+.Share_your_Certificate li {
+  display: inline-block;
+  padding: 10px 25px 20px;
+  text-align: center;
+}
+
+.Share_your_Certificate li svg {
+  font-size: 48px;
+  display: block;
+  margin: auto;
+}
+
+.Share_your_Certificate li a {
+  text-align: center;
+  color: #329fff;
+}
+
+.Share_your_Certificate ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Share_your_Certificate li a:hover svg {
+  color: #006dcc
+}
+
+span.CopyTextbtn {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+
+  background: #E1F5FE;
+  padding: 6px 10px;
+  color: #329fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input.form-control {
+  padding-right: 64px;
+}
+
+span.Curruntpoint {
+  color: #000000;
+}
+
+.settingtable table td.AdRedisabled img.disrewardTooltip:hover~.aboutProgdesc .Courseporogresspopup {
+  display: block;
+  width: 248px;
+  left: 0;
+}
+
+.settingtable table td.AdRedisabled img.disrewardTooltip:hover~.aboutProgdesc .Courseporogresspopup p {
+  color: #fff;
+}
+
+.settingtable table td.AdRedisabled img.disrewardTooltip:hover~.aboutProgdesc .Courseporogresspopup::after {
+  border-bottom: 15px solid #666666;
+  top: -10px;
+  left: 75%;
+}
+
+.pacechangepopuo .paceSteps .ScenecerelateddQuiz .signupType {
+  max-width: 100%;
+}
+
+.LPTimingDivision.mt-3 ul li {
+  width: 100%;
+  margin: 8px 0 !important;
+  background: #f5faff;
+  margin-bottom: 18px;
+  padding: 8px 15px;
+  position: relative;
+  border: 1px solid #f9ca5c;
+  cursor: pointer;
+  border-left: 7px solid #f5b936;
+  border-radius: 0 5px 5px 0;
+}
+
+.pacechangepopuo .modal-dialog.modal-lg {
+  width: 600px;
+}
+
+/* .LPTimingDivision.mt-3 ul li:nth-child(2) {
+    margin-left: 90px;
+}
+
+.LPTimingDivision.mt-3 ul li:nth-child(3) {
+    margin-left: 180px;
+}
+
+.LPTimingDivision.mt-3 ul li:nth-child(4) {
+    margin-left: 270px;
+} */
+.LPTimingDivision.mt-3 ul li::before {
+  content: "";
+  position: absolute;
+  left: 19px;
+  top: 84px;
+  background: url("../images/angleforwrdarow.png");
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  display: none;
+  transform: rotate(90deg);
+}
+
+.LPTimingDivision.mt-3 ul li:nth-child(4)::before {
+  display: none;
+}
+
+.ScenecerelateddQuiz .signupType label .Courseporogresspopup p {
+  padding-left: 0;
+  color: #fff;
+}
+
+.areyousurenewpopup p {
+  font-size: 18px;
+}
+
+.areyousurenewpopup p.skipfornow {
+  font-size: 14px;
+  color: #474747;
+}
+
+.areyousurenewpopup button.btn-blue.btn-login.d-block.mb-5.cancelbutton.w-auto {
+  margin: auto;
+  margin-right: 0;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+}
+
+.areyousurenewpopup .modal-content.courseInformation.schoolcourse {
+  border: 1px solid #000;
+}
+
+.areyousurenewpopup button.btn-blue.btn-login.d-block.mb-5.w-auto {
+  margin-bottom: 0 !important;
+  min-width: 95px;
+}
+
+.areyousurenewpopup.welcome_new_poup button.btn-blue.btn-login.d-block.mb-5.w-auto {
+  margin-bottom: 9px !important;
+  min-width: 208px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.pathwaysCourseCard .GridDetails {
+  padding: 10px;
+}
+
+.pathwaysCourseCard .GridDetails p {
+  font-size: 16px;
+}
+
+#schoolactivity69 .Coursecompprcent {
+  width: 35px;
+}
+
+.sharepopup.welcome_new_poup .modal .modal-dialog {
+  max-width: 550px;
+}
